@@ -1,0 +1,82 @@
+Section,Quantity,v5 value,v6 value,Change
+Cohort,Cohort size (missense variants),"2,769 (said 'all in ClinVar'; 348 were gnomAD-only)","3,904 (ClinVar 3,184 + gnomAD v4-observed only 720); invalid positions dropped: 0",CHANGED
+Cohort,ClinVar MYH7 missense SNVs (any label),"2,421 records with an amino acid position (includes 66 stop-gain variants)","3,184 (E-utils esearch SNV+missense = 3185; ours + 1 stop-loss Ter1936Trp excluded)",CHANGED
+Cohort,Pathogenic / likely pathogenic,511 (143 with 2+ stars),392 (191 with 2+ stars) [ClinVar aggregate rule]; 625 under v5 any-RCV rule,CHANGED
+Cohort,"Benign, ClinVar only",38 (19 with 2+ stars),22 (12 with 2+ stars) [aggregate]; 42 under v5 rule,CHANGED
+Cohort,Benign wider (AF>=1e-5),110 (72 frequency stand-ins),"30 (8 stand-ins; 3 of them in 1e-5..5e-5, 5 >=5e-5) [gnomAD v4]; v2.1.1: 34",CHANGED
+Cohort,Benign tighter (AF>=5e-5),58,27 (5 stand-ins); v2.1.1: 24,CHANGED
+Cohort,VUS (incl. conflicting),"1,872 (63 conflicting)","2,768 (364 conflicting) [aggregate]; 2,149 under v5 rule",CHANGED
+Cohort,"gnomAD-observed, unlabelled",276,712,CHANGED
+Cohort,Absent from gnomAD,"1,916 (69.2%)","1,988 (50.9%)",CHANGED
+Cohort,Pathogenic residues / benign residues,335 / 101 (333/100 valid),"260 / 30 (wider), 27 (tighter)",CHANGED
+Cohort,Variants with invalid amino acid position kept,"76 (75 sentinel -1, 1 stop-loss)","0 kept; dropped 0 (positions parsed from ClinVar Name, gnomAD hgvsp, then dbNSFP)",FIXED
+Cohort,Stand-in variants that full ClinVar calls P or VUS,not checked,"of v5's 72 stand-ins: 58 are ClinVar VUS, 6 ClinVar P, 3 ClinVar B, 5 absent",NEW FINDING
+Cohort,gnomAD version,"'v4' (actually MyVariant v2.1.1, hg19)","v4 (GraphQL gnomad_r4, GRCh38) primary; v2.1.1 sensitivity. v4 missense observed (AC>0): 1916",FIXED
+Cohort,ClinVar release,'August 2026' MyVariant (actually ClinVar 2025-05 snapshot),"variant_summary.txt.gz, server Last-Modified Mon, 05 Oct 2026 13:02:37 GMT, sha256 97a20416f4d4...",FIXED
+Cohort,AlphaFold pLDDT mean / % >70,74.3 / 64.4%,"74.3 / 64.4% (same file, unchanged)",same
+Diagnosis,ClinVar missense found by v5 symbol query,"2,421 records with aapos",2278 of 3184; missed 906 (28.5%),BUG
+Diagnosis,Old set as fraction of full set,n/a,0.727 of all SNV records; 0.715 of missense; 15 old SNV ids absent from new file (14 gone from the whole release),SUBSET (nearly)
+Diagnosis,Missense in residues 763-893 / 1549-1770 (ClinVar),0 / 0,267 / 349,BUG
+Diagnosis,v5 'missense' that are stop-gains,66 (dbNSFP aa present),0,BUG
+Diagnosis,v5 labels vs ClinVar aggregate,any pathogenic RCV => P,219 v5-P and 31 v5-B are Conflicting/VUS in ClinVar's own variant-level aggregate,LABEL RULE
+Coverage,3D-PPS undefined (all cohort),932 (33.7%),1828 (46.8%) [wider-set scores; incl. VUS and unlabelled],
+Coverage,Labelled P: undefined / >=3 neighbours,20.9% / 46.6% (incl. 19 invalid positions),24.2% / 30.9%,CHANGED
+Coverage,Labelled B: undefined / >=3 neighbours,50.9% / 6.4%,76.7% / 3.3%,"persists, stronger"
+Coverage,Coverage flag (>=1 neighbour) AUROC,"0.650 [0.590, 0.707] (no saved script)","0.762 [0.676, 0.841]; tighter 0.749",CHANGED (higher)
+Coverage,Coverage flag (>=3) AUROC,"0.701 [0.660, 0.741] (audit)","0.638 [0.588, 0.681]",
+Coverage,Share of gap to 3D-PPS reachable from coverage,41% (vs eps-tied 0.869),undefined: exact 3D-PPS AUROC 0.481 is not above chance (flag alone exceeds it),CHANGED
+Coverage,"Odds ratio covered(>=3) P vs B, wider","12.8, Fisher p=1.3e-17 (variants as independent)","12.95 naive Fisher p=5.6e-04; cluster-robust logit OR 12.95 [1.71, 97.88] p=0.013; residue-bootstrap OR CI [3.0, 36.71]",persists; far less certain (only 30 benign)
+Coverage,"Odds ratio, tighter","6.3, p=2.0e-7",11.61; cluster p=0.018,
+Coverage,'thirteen times more likely',wording error (rel. likelihood 7.3x),relative likelihood 9.26x; OR 12.95,
+Coverage,Spearman count vs burial / vs pLDDT,0.789 (p=5e-129) / 0.587,0.654 / 0.511; VIF 1.88,CHANGED
+Coverage,Logistic class ~ coverage(count) + burial,"beta 0.70, p=3e-9, burial p=0.82",beta 1.509; cluster p=4.7e-05 (naive 1.3e-05); burial cluster p=0.24,
+Coverage,Logistic class ~ coverage(flag_ge1) + burial,"beta 0.87, p=9e-4; burial p=2.2e-5",beta 2.34; cluster p=0.00013 (naive 8.1e-06); burial cluster p=0.97,
+Coverage,Logistic class ~ coverage(flag_ge3) + burial,"beta 2.18, p=5e-6; burial p=0.11",beta 2.212; cluster p=0.031 (naive 0.042); burial cluster p=0.28,
+AUROC (wider),"3D-PPS (exact, scoreable only)","0.869 [0.835, 0.900] zero-filled+eps (exact: 0.834 zero-fill, 0.842 abstain n=458)","0.481 [0.468 to 0.493] (n=304, B=7)",
+AUROC (wider),1D control,"0.881 [0.835, 0.921]","0.585 [0.474 to 0.709] (n=420, B=28)",
+AUROC (wider),AlphaMissense,"0.921 [0.891, 0.946]","0.897 [0.839 to 0.947] (n=421, B=30)",
+AUROC (wider),REVEL,"0.877 [0.835, 0.915]","0.863 [0.776 to 0.935] (n=421, B=30)",
+AUROC (wider),ESM1b,"0.793 [0.741, 0.841]","0.805 [0.698 to 0.898] (n=421, B=30)",
+AUROC (wider),SIFT,"0.785 [0.732, 0.836]","0.778 [0.668 to 0.877] (n=421, B=30)",
+AUROC (wider),PolyPhen-2,"0.735 [0.667, 0.798]","0.764 [0.641 to 0.870] (n=421, B=30)",
+AUROC (wider),CADD,"0.700 [0.626, 0.772]","0.789 [0.680 to 0.885] (n=421, B=30)",
+AUROC (tighter),3D-PPS,0.850 (0.806 exact),"0.481 [0.468 to 0.493] (n=304, B=7)",
+AUROC (tighter),AlphaMissense,n/r,"0.902 [0.838 to 0.956] (n=418, B=27)",
+3D-PPS,Abstention: scoreable n (P/B),458 (404/54) exact; 602 zero-filled,304 (297/7),CHANGED
+3D-PPS,Mean 3D-PPS P vs B (defined only),0.72 vs -0.14 (zero-filled),0.97 vs 1.00,
+3D-PPS,Mean burial P vs B,16.0 vs 12.5,15.3 vs 12.8,
+3D vs 1D,"Paired 3D-PPS minus 1D (same variants, wider)",never tested (0.881 vs 0.869 unpaired),"+0.063 [-0.084, +0.151], n=304 (B=7); tighter: +0.125",NEW
+Strata (wider),0 neighbours: 3D-PPS / AM / REVEL,"n=163 (107/56) 3D 0.500, AM 0.898, REVEL 0.841",n=118 (95/23) nan / 0.892 / 0.843,
+Strata (wider),1 to 2 neighbours: 3D-PPS / AM / REVEL,n=213 (166/47) 0.875 / 0.880 / 0.857,n=182 (176/6) 0.483 / 0.884 / 0.924,
+Strata (wider),3 to 5 neighbours: 3D-PPS / AM / REVEL,n=155 (149/6) 0.950 / 0.895 / 0.918,n=102 (101/1) 0.49 / 0.99 / 1.0,
+Strata (wider),6 to 10 neighbours: 3D-PPS / AM / REVEL,n=88 (87/1) 0.931 / 1.000 / 1.000,n=20 (20/0) nan / nan / nan,
+Head to head,3D-PPS minus AlphaMissense on covered (>=3) variants,"+0.038 [-0.060, 0.185] n=243 (was TIGHTER set mislabelled wider); wider +0.031 [-0.076, 0.177] n=245","wider -0.504 [-0.535, -0.471] n=122 (B=1); tighter -0.504 n=122 (B=1)",CHANGED: no longer testable (1 benign)
+Head to head,3D-PPS minus AlphaMissense on scoreable variants (wider),n/a,"-0.431 [-0.518, -0.275], TOST p=0.999, n=304",AM clearly better
+Permutation,Observed AUROC (single score),0.842 (perm) vs 0.869 (headline): two scores,"0.4815 (identical in permutation, tables, CV; n=304, B=7)",FIXED
+Permutation,"Null 1 (unconditional) mean/SD/max, p","0.497 / 0.044 / 0.675, p=1e-4 (0 of 10,000)","0.4955 / 0.0643 / 0.7483; 5665 of 10,000 >= observed; p=0.5665",CONCLUSION CHANGED
+Permutation,Null 2 (within coverage x burial strata) p,not done,"mean 0.4931, max 0.8456; p=0.1811 (11 strata)",NEW
+Permutation,Sensitivity: full data + v5 label rule + gnomAD v4,-,"observed 0.7123 (n=545, B=35); null1 p=0.0001; null2 p=0.0001",
+Permutation,Sensitivity: full data + aggregate rule + gnomAD v2.1.1,-,"observed 0.6029 (n=316, B=15); null1 p=0.0470; null2 p=0.0339",
+Permutation,Sensitivity: full data + v5 label rule + v2.1.1 (closest to v5),-,"observed 0.7051 (n=549, B=40); null1 p=0.0001; null2 p=0.0001",
+Models (tighter),Sequence panel only,0.935 / AUPRC 0.988,"0.932 [0.851 to 0.989], AUPRC 0.992 (prevalence 0.936)",
+Models (tighter),Panel + 3D-PPS,0.952 / 0.994,"0.966 [0.916 to 0.994], AUPRC 0.997 (prevalence 0.936)",
+Models (tighter),Panel + coverage count only (no score value),not done,"0.955 [0.899 to 0.991], AUPRC 0.996 (prevalence 0.936)",NEW
+Models (tighter),ClinVar-free panel + 3D-PPS,0.928 / 0.987,"0.893 [0.806 to 0.959], AUPRC 0.988 (prevalence 0.936)",
+Models (wider),Panel / +3D / +coverage count,0.929 / 0.940 / not done (A_only/A_3d),"0.904 [0.806 to 0.978], AUPRC 0.983 (prevalence 0.929) | 0.945 [0.894 to 0.984], AUPRC 0.995 (prevalence 0.929) | 0.944 [0.887 to 0.985], AUPRC 0.994 (prevalence 0.929)",
+Models,"Adding 3D-PPS to panel, paired (wider; tighter)","+0.011 [0.000, 0.024]","+0.042 [-0.006, +0.099], TOST p=0.354; +0.034 [+0.002, +0.076], TOST p=0.196",
+Models,3D-PPS beyond coverage count (A_3d - A_cov),not done,"wider +0.001 [-0.020, +0.018], TOST p=0.000; tighter +0.010 [-0.002, +0.026], TOST p=0.000",NEW
+Models,Dropping ClinVar-trained predictors (with 3D),'barely changed' (actual -0.024 tighter),"wider -0.071 [-0.133, -0.019], TOST p=0.751; tighter -0.072 [-0.148, -0.021], TOST p=0.715",
+Models,Gradient boosting A_only / A_3d (wider),"claimed, no output","0.908 [0.838 to 0.964], AUPRC 0.990 (prevalence 0.929) | 0.939 [0.887 to 0.977], AUPRC 0.994 (prevalence 0.929)",NOW RUN
+Models,Leakage inflation (global vs fold-wise 3D-PPS),"0.945 vs 0.940, +0.004",wider naive 0.945 vs fold-wise 0.945 (diff 0.0); tighter 0.969 vs 0.966 (diff 0.003),
+Calibration,Brier / slope,Brier 0.081 'reasonably well calibrated' (const. 0.146),"balanced: Brier 0.046, slope 0.543 [0.392, 0.694], mean pred 0.873 vs prevalence 0.929; unweighted: Brier 0.031, slope 0.77; constant-guess Brier 0.066","slope<1: over-confident, not 'well calibrated'"
+Discordance,n evaluable VUS; loose/usual/ClinGen/strict %,"1,761; 46.1 / 47.2 / 50.5 / 62.1",2768; 45.7 / 46.9 / 49.9 / 62.4,
+ACMG,VUS -> Likely pathogenic; towards benign,113; 44,164; 60 (no floor),
+ACMG,LP calls resting on <3 labelled neighbours,34 of 113 (audit),74 of 164; with support floor on PM1: LP = 90,NEW
+Hotspots,Candidates: no floor -> floor (>=3 pathogenic neighbours),"22 -> 3 (L120F, F121L, V123A; residues 120-123)","6 -> 5 (['p.Phe121Leu', 'p.Leu120Phe', 'p.Met92Val', 'p.Met90Arg', 'p.Met90Val']; residues [90, 92, 120, 121]); single-neighbour: 1",CHANGED
+Hotspots,VUS 3D-PPS abstained,'1/3 of variants',1316 of 2768 VUS (47.5%),
+"Spatial block CV (100 aa blocks, wider)",3D-PPS (scoreable only),new in v6,"AUROC 0.489 [0.474, 0.5], n=139, B=3",NEW
+"Spatial block CV (100 aa blocks, wider)",AlphaMissense,new in v6,"AUROC 0.897 [0.839, 0.947], n=421, B=30",NEW
+"Spatial block CV (100 aa blocks, wider)",REVEL,new in v6,"AUROC 0.863 [0.776, 0.935], n=421, B=30",NEW
+"Spatial block CV (100 aa blocks, wider)",model A_only,new in v6,"AUROC 0.901 [0.798, 0.979], n=422, B=30",NEW
+"Spatial block CV (100 aa blocks, wider)",model A_cov,new in v6,"AUROC 0.927 [0.856, 0.98], n=422, B=30",NEW
+"Spatial block CV (100 aa blocks, wider)",model A_3d,new in v6,"AUROC 0.932 [0.864, 0.982], n=422, B=30",NEW

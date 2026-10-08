@@ -1,0 +1,33 @@
+cohort,af_source,label_rule,set,predictor,n,n_P,n_B,auroc,ci_low,ci_high
+"full ClinVar aggregate, gnomAD v4 (primary)",v4,aggregate,wider,3D-PPS,304,297,7,0.481,0.468,0.493
+"full ClinVar aggregate, gnomAD v4 (primary)",v4,aggregate,wider,1D control,420,392,28,0.585,0.474,0.709
+"full ClinVar aggregate, gnomAD v4 (primary)",v4,aggregate,wider,AlphaMissense,421,391,30,0.897,0.839,0.947
+"full ClinVar aggregate, gnomAD v4 (primary)",v4,aggregate,wider,REVEL,421,391,30,0.863,0.776,0.935
+"full ClinVar aggregate, gnomAD v4 (primary)",v4,aggregate,tighter,3D-PPS,304,297,7,0.481,0.468,0.493
+"full ClinVar aggregate, gnomAD v4 (primary)",v4,aggregate,tighter,1D control,416,392,24,0.509,0.395,0.632
+"full ClinVar aggregate, gnomAD v4 (primary)",v4,aggregate,tighter,AlphaMissense,418,391,27,0.902,0.838,0.956
+"full ClinVar aggregate, gnomAD v4 (primary)",v4,aggregate,tighter,REVEL,418,391,27,0.878,0.784,0.952
+"full data, v5 label rule, gnomAD v4",v4,v5rcv,wider,3D-PPS,545,510,35,0.712,0.625,0.801
+"full data, v5 label rule, gnomAD v4",v4,v5rcv,wider,1D control,680,625,55,0.71,0.626,0.793
+"full data, v5 label rule, gnomAD v4",v4,v5rcv,wider,AlphaMissense,679,624,55,0.913,0.872,0.948
+"full data, v5 label rule, gnomAD v4",v4,v5rcv,wider,REVEL,679,624,55,0.899,0.849,0.938
+"full data, v5 label rule, gnomAD v4",v4,v5rcv,tighter,3D-PPS,538,508,30,0.723,0.628,0.82
+"full data, v5 label rule, gnomAD v4",v4,v5rcv,tighter,1D control,670,624,46,0.719,0.621,0.811
+"full data, v5 label rule, gnomAD v4",v4,v5rcv,tighter,AlphaMissense,671,624,47,0.918,0.873,0.956
+"full data, v5 label rule, gnomAD v4",v4,v5rcv,tighter,REVEL,671,624,47,0.906,0.856,0.948
+"full ClinVar aggregate, gnomAD v2.1.1",v2,aggregate,wider,3D-PPS,316,301,15,0.603,0.494,0.73
+"full ClinVar aggregate, gnomAD v2.1.1",v2,aggregate,wider,1D control,422,392,30,0.628,0.518,0.741
+"full ClinVar aggregate, gnomAD v2.1.1",v2,aggregate,wider,AlphaMissense,425,391,34,0.906,0.855,0.949
+"full ClinVar aggregate, gnomAD v2.1.1",v2,aggregate,wider,REVEL,425,391,34,0.862,0.77,0.935
+"full ClinVar aggregate, gnomAD v2.1.1",v2,aggregate,tighter,3D-PPS,306,297,9,0.596,0.476,0.77
+"full ClinVar aggregate, gnomAD v2.1.1",v2,aggregate,tighter,1D control,412,392,20,0.536,0.418,0.667
+"full ClinVar aggregate, gnomAD v2.1.1",v2,aggregate,tighter,AlphaMissense,415,391,24,0.913,0.85,0.968
+"full ClinVar aggregate, gnomAD v2.1.1",v2,aggregate,tighter,REVEL,415,391,24,0.88,0.766,0.97
+"full data, v5 label rule, gnomAD v2.1.1",v2,v5rcv,wider,3D-PPS,549,509,40,0.705,0.625,0.79
+"full data, v5 label rule, gnomAD v2.1.1",v2,v5rcv,wider,1D control,684,626,58,0.714,0.629,0.795
+"full data, v5 label rule, gnomAD v2.1.1",v2,v5rcv,wider,AlphaMissense,682,624,58,0.914,0.876,0.947
+"full data, v5 label rule, gnomAD v2.1.1",v2,v5rcv,wider,REVEL,682,624,58,0.892,0.839,0.937
+"full data, v5 label rule, gnomAD v2.1.1",v2,v5rcv,tighter,3D-PPS,535,506,29,0.733,0.638,0.83
+"full data, v5 label rule, gnomAD v2.1.1",v2,v5rcv,tighter,1D control,671,626,45,0.719,0.619,0.819
+"full data, v5 label rule, gnomAD v2.1.1",v2,v5rcv,tighter,AlphaMissense,669,624,45,0.929,0.886,0.964
+"full data, v5 label rule, gnomAD v2.1.1",v2,v5rcv,tighter,REVEL,669,624,45,0.913,0.856,0.958

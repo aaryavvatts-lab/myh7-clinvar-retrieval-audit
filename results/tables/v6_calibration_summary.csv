@@ -1,0 +1,5 @@
+set,weights,cal_slope,cal_slope_ci_low,cal_slope_ci_high,cal_intercept_free,cal_in_the_large,brier,brier_constant_prevalence,mean_pred,observed_prevalence
+wider,balanced,0.543,0.392,0.694,1.855,2.011,0.046,0.066,0.873,0.929
+wider,unweighted,0.77,0.561,0.98,0.286,-0.159,0.031,0.066,0.933,0.929
+tighter,balanced,0.621,0.442,0.8,1.895,2.043,0.032,0.06,0.889,0.936
+tighter,unweighted,0.809,0.585,1.034,0.214,-0.163,0.025,0.06,0.938,0.936

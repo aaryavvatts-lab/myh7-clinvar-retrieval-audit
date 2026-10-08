@@ -1,0 +1,8 @@
+tier,n_P,n_B,B_residues,P_residues,n_scoreable_S0,n_B_scoreable_S0,n_P_scoreable_S0,B_no_labelled_neighbour_pct,P_no_labelled_neighbour_pct
+T1,379,12,12,260,291,4,287,66.7,24.3
+T2,379,20,20,260,294,7,287,65.0,24.3
+T3,379,22,22,260,294,7,287,68.2,24.3
+T3legacy_wide,379,27,27,260,294,7,287,74.1,24.3
+T3legacy_tight,379,24,24,260,294,7,287,70.8,24.3
+T1both,184,12,12,139,112,3,109,75.0,40.8
+T3_BA1,379,20,20,260,294,7,287,65.0,24.3

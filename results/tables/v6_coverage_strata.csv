@@ -1,0 +1,11 @@
+set,neighbours,n,n_P,n_B,pps3d_norm,pps3d_norm_n,pps1d_norm,pps1d_norm_n,alphamissense,alphamissense_n,revel,revel_n,note
+wider,0,118,95,23,,0,0.621,116,0.892,117,0.843,117,
+wider,1 to 2,182,176,6,0.483,182,0.443,182,0.884,182,0.924,182,too few benign (<10)
+wider,3 to 5,102,101,1,0.49,102,0.356,102,0.99,102,1.0,102,too few benign (<10)
+wider,6 to 10,20,20,0,,20,,20,,20,,20,too few benign (<10)
+wider,over 10,0,0,0,,0,,0,,0,,0,too few benign (<10)
+tighter,0,115,95,20,,0,0.554,112,0.897,114,0.86,114,
+tighter,1 to 2,182,176,6,0.483,182,0.372,182,0.884,182,0.924,182,too few benign (<10)
+tighter,3 to 5,102,101,1,0.49,102,0.356,102,0.99,102,1.0,102,too few benign (<10)
+tighter,6 to 10,20,20,0,,20,,20,,20,,20,too few benign (<10)
+tighter,over 10,0,0,0,,0,,0,,0,,0,too few benign (<10)

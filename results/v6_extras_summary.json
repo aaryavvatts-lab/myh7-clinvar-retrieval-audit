@@ -1,0 +1,31 @@
+{
+ "benign_total": 30,
+ "benign_in_previously_missing_regions": 5,
+ "benign_clinvar": 22,
+ "benign_standin": 8,
+ "benign_motor_domain": 10,
+ "benign_scoreable": 7,
+ "benign_residues_distinct": 30,
+ "benign_with_gnomad_af": 23,
+ "benign_standin_af_min": 1.0946113650761507e-05,
+ "benign_standin_af_max": 0.0005402485143165856,
+ "previously_missing_labelled_P": 87,
+ "previously_missing_labelled_B": 5,
+ "previously_missing_VUS": 524,
+ "friedman_distinct_substitutions": 75,
+ "friedman_residues": [
+  848,
+  850,
+  852,
+  865,
+  866
+ ],
+ "friedman_in_v6_cohort": 12,
+ "friedman_in_v6_labelled_P": 5,
+ "friedman_in_v6_labelled_B": 0,
+ "friedman_in_v6_VUS": 7,
+ "v6_variants_at_those_5_residues": 16,
+ "v6_labelled_P_or_B_at_those_5_residues": 6,
+ "power_min_detectable_n_B_7": 0.76,
+ "power_min_detectable_n_B_30": 0.64
+}

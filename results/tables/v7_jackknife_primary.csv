@@ -1,0 +1,10 @@
+tier,quantity,estimate,jackknife_se,df,ci_low_t,ci_high_t,n_benign_clusters
+T1,AUROC S1,0.783,0.0407,11,0.694,0.873,12
+T1,S1 minus n_nb,-0.015,0.0139,11,-0.045,0.016,12
+T1,S1 minus AlphaMissense,-0.08,0.0733,11,-0.242,0.081,12
+T2,AUROC S1,0.76,0.0412,19,0.673,0.846,20
+T2,S1 minus n_nb,-0.016,0.0112,19,-0.039,0.008,20
+T2,S1 minus AlphaMissense,-0.154,0.057,19,-0.273,-0.035,20
+T3,AUROC S1,0.77,0.0379,21,0.691,0.849,22
+T3,S1 minus n_nb,-0.015,0.0101,21,-0.036,0.006,22
+T3,S1 minus AlphaMissense,-0.14,0.053,21,-0.25,-0.03,22

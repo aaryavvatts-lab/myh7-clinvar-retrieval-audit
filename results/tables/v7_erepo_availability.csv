@@ -1,0 +1,7 @@
+HGNC Gene Symbol,n_rows,panels,in_candidate_panel
+BRCA1,20,ENIGMA BRCA1 and BRCA2 VCEP,True
+FBN1,69,FBN1 VCEP,True
+LDLR,342,Familial Hypercholesterolemia VCEP,True
+MYH7,171,Cardiomyopathy VCEP,True
+PTEN,180,PTEN VCEP,True
+TP53,118,TP53 VCEP,True

@@ -1,0 +1,41 @@
+included genes: ['MYH7', 'LDLR', 'MLH1', 'MSH2', 'BRCA1', 'TP53', 'TSC2', 'SCN1A', 'CACNA1A', 'ABCA4']
+[gene] MYH7 T2 n_B=20 S1=0.76 AM=0.914 count=0.775 (48s)
+[gene] MYH7 T1 n_B=12 S1=0.783 AM=0.864 count=0.798 (63s)
+[gene] LDLR T2 n_B=37 S1=0.884 AM=0.976 count=0.856 (135s)
+[gene] LDLR T1 n_B=13 S1=0.924 AM=0.978 count=0.92 (161s)
+[gene] MLH1 T2 n_B=35 S1=0.813 AM=0.925 count=0.858 (219s)
+[gene] MLH1 T1 n_B=30 S1=0.795 AM=0.914 count=0.84 (257s)
+[gene] MSH2 T2 n_B=265 S1=0.78 AM=0.93 count=0.79 (321s)
+[gene] MSH2 T1 n_B=52 S1=0.873 AM=0.923 count=0.875 (361s)
+[gene] BRCA1 T2 n_B=424 S1=0.771 AM=0.945 count=0.889 (438s)
+[gene] BRCA1 T1 n_B=178 S1=0.882 AM=0.953 count=0.892 (469s)
+[gene] TP53 T2 n_B=144 S1=0.876 AM=0.98 count=0.925 (526s)
+[gene] TP53 T1 n_B=72 S1=0.869 AM=0.977 count=0.926 (559s)
+[gene] TSC2 T2 n_B=177 S1=0.706 AM=0.943 count=0.805 (613s)
+[gene] TSC2 T1 n_B=98 S1=0.81 AM=0.965 count=0.825 (640s)
+[gene] SCN1A T2 n_B=59 S1=0.916 AM=0.968 count=0.923 (753s)
+[gene] SCN1A T1 n_B=23 S1=0.912 AM=0.966 count=0.905 (780s)
+[gene] CACNA1A T2 n_B=102 S1=0.854 AM=0.968 count=0.891 (829s)
+[gene] CACNA1A T1 n_B=33 S1=0.92 AM=0.986 count=0.92 (847s)
+[gene] ABCA4 T2 n_B=26 S1=0.721 AM=0.966 count=0.774 (936s)
+[gene] ABCA4 T1 n_B=16 S1=0.75 AM=0.973 count=0.791 (973s)
+                            set           A                B   k    pooled  ci_low_hk  ci_high_hk       tau     I2_pct
+0                  amended_pool          S1  o_alphamissense  10 -0.134097  -0.180228   -0.087966  0.058808  81.486515
+1                  amended_pool          S1             n_nb  10 -0.032114  -0.059456   -0.004772  0.024495  66.615586
+2                  amended_pool          S2  o_alphamissense  10 -0.140983  -0.185170   -0.096795  0.045152  71.817323
+3                  amended_pool          S2             n_nb  10 -0.048411  -0.072513   -0.024308  0.020146  46.646775
+4                  amended_pool          S1            S1_1d  10  0.022171  -0.038389    0.082731  0.065785  76.015037
+5                  amended_pool  S0_neutral             n_nb  10 -0.107109  -0.145709   -0.068509  0.040365  58.105488
+6       prelisted_panel_passing          S1  o_alphamissense   6 -0.113855  -0.146756   -0.080954  0.000000   0.000000
+7       prelisted_panel_passing          S1             n_nb   6 -0.029651  -0.076840    0.017538  0.030764  64.335739
+8       prelisted_panel_passing          S2  o_alphamissense   6 -0.119691  -0.160553   -0.078828  0.022986  35.812426
+9       prelisted_panel_passing          S2             n_nb   6 -0.036101  -0.074262    0.002061  0.020258  41.348850
+10      prelisted_panel_passing          S1            S1_1d   6  0.022381  -0.079873    0.124635  0.083129  80.865502
+11      prelisted_panel_passing  S0_neutral             n_nb   6 -0.093499  -0.137649   -0.049349  0.017741  18.647964
+12  amended_pool_excluding_MYH7          S1  o_alphamissense   9 -0.132810  -0.184265   -0.081355  0.059776  83.221691
+13  amended_pool_excluding_MYH7          S1             n_nb   9 -0.036809  -0.069095   -0.004524  0.030450  70.313169
+14  amended_pool_excluding_MYH7          S2  o_alphamissense   9 -0.139350  -0.188204   -0.090496  0.046120  74.385702
+15  amended_pool_excluding_MYH7          S2             n_nb   9 -0.051002  -0.079222   -0.022781  0.022675  49.012555
+16  amended_pool_excluding_MYH7          S1            S1_1d   9  0.028666  -0.038572    0.095905  0.068408  77.819070
+17  amended_pool_excluding_MYH7  S0_neutral             n_nb   9 -0.110879  -0.154538   -0.067220  0.044443  62.053209
+a4 done 973s

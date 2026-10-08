@@ -1,0 +1,38 @@
+{
+  "all_records": 6322,
+  "cohort_before_position_filter": 3348,
+  "clinvar_missense_before_filter": 3211,
+  "gnomad_only_before_filter": 137,
+  "dropped_invalid_aapos": 12,
+  "dropped_by_label": {
+    "VUS": 11,
+    "P": 1
+  },
+  "af_source": "v2",
+  "label_rule": "aggregate",
+  "cohort_final": 3336,
+  "P": 392,
+  "P_by_source": {
+    "clinvar": 392
+  },
+  "B_wide": 34,
+  "B_tight": 24,
+  "B_clinvar": 22,
+  "B_standins_wide": 12,
+  "B_standins_tight": 2,
+  "standins_wide_AF_1e-5_to_5e-5": 10,
+  "standins_wide_AF_ge_5e-5": 2,
+  "clinvar_B_with_gnomad_AF": 14,
+  "benign_wide_AF_1e-5_to_5e-5_all": 10,
+  "VUS": 2783,
+  "VUS_conflicting": 366,
+  "unlabelled_total": 127,
+  "unlabelled_gnomad_only": 125,
+  "unlabelled_clinvar_other": 2,
+  "P_2plus_stars": 191,
+  "B_clinvar_2plus_stars": 12,
+  "P_residues": 260,
+  "B_residues_wide": 34,
+  "B_residues_tight": 24,
+  "absent_from_gnomad": 2534
+}

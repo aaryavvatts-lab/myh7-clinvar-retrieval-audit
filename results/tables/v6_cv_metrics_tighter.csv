@@ -1,0 +1,12 @@
+set,model,feature_set,auroc,ci_low,ci_high,auprc,auprc_baseline_prevalence,brier,brier_constant_prevalence
+tighter,logistic,A_only,0.932,0.851,0.989,0.992,0.936,0.043,0.06
+tighter,logistic,A_cov,0.955,0.899,0.991,0.996,0.936,0.036,0.06
+tighter,logistic,A_1d,0.876,0.767,0.966,0.979,0.936,0.045,0.06
+tighter,logistic,A_3d,0.966,0.916,0.994,0.997,0.936,0.032,0.06
+tighter,logistic,pop_only,0.874,0.786,0.945,0.987,0.936,0.11,0.06
+tighter,logistic,pop_3d,0.893,0.806,0.959,0.988,0.936,0.089,0.06
+tighter,logistic,threeD_only,0.738,0.643,0.819,0.974,0.936,0.188,0.06
+tighter,logistic,cov_only,0.744,0.659,0.818,0.977,0.936,0.193,0.06
+tighter,gradient_boosting,A_only,0.947,0.891,0.984,0.995,0.936,0.033,0.06
+tighter,gradient_boosting,A_cov,0.959,0.917,0.987,0.997,0.936,0.031,0.06
+tighter,gradient_boosting,A_3d,0.96,0.92,0.988,0.997,0.936,0.031,0.06

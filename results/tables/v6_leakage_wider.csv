@@ -1,0 +1,4 @@
+set,eval,auroc
+wider,naive global 3D-PPS,0.945
+wider,fold-wise 3D-PPS,0.945
+wider,inflation,0.0

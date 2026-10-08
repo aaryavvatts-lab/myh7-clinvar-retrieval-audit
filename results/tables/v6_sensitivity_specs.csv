@@ -1,0 +1,9 @@
+cohort,set,n_P,n_B,n_VUS,n_scoreable,abstain_P_pct,abstain_B_pct,auroc_3d_scoreable,auroc_alphamissense_all,auroc_alphamissense_on_3d_scoreable,flag_ge1_auroc,flag_ge3_auroc,covered_ge3_P_pct,covered_ge3_B_pct,or_covered_fisher_naive
+"PRIMARY: full ClinVar aggregate labels, gnomAD v4",wider,392,30,2768,304,24.2,76.7,0.481,0.897,0.913,0.762,0.638,30.9,3.3,12.95
+"PRIMARY: full ClinVar aggregate labels, gnomAD v4",tighter,392,27,2768,304,24.2,74.1,0.481,0.902,0.913,0.749,0.636,30.9,3.7,11.61
+"full data, v5 any-RCV label rule, gnomAD v4",wider,625,55,2149,545,18.4,36.4,0.712,0.913,0.911,0.59,0.642,41.1,12.7,4.79
+"full data, v5 any-RCV label rule, gnomAD v4",tighter,625,47,2149,538,18.7,36.2,0.723,0.918,0.905,0.587,0.63,41.0,14.9,3.96
+"full ClinVar aggregate labels, gnomAD v2.1.1",wider,392,34,2783,316,23.2,55.9,0.603,0.906,0.898,0.663,0.627,31.4,5.9,7.32
+"full ClinVar aggregate labels, gnomAD v2.1.1",tighter,392,24,2783,306,24.2,62.5,0.596,0.913,0.889,0.691,0.634,30.9,4.2,10.27
+"full data, v5 label rule + v2.1.1 (closest to v5)",wider,626,58,2163,549,18.7,31.0,0.705,0.914,0.898,0.562,0.621,41.5,17.2,3.41
+"full data, v5 label rule + v2.1.1 (closest to v5)",tighter,626,45,2163,535,19.2,35.6,0.733,0.929,0.912,0.582,0.605,41.1,20.0,2.79

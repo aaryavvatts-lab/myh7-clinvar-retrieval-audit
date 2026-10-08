@@ -1,0 +1,19 @@
+set,subset,comparison,n,n_P,n_B,delta,ci_low,ci_high,ci90_low,ci90_high,p_tost,equivalent_tost_0p05,ci_inside_margin
+wider,all labelled (pairwise complete),pps3d_norm - alphamissense,304,297,7,-0.431,-0.518,-0.275,-0.515,-0.298,0.999,False,False
+wider,all labelled (pairwise complete),pps3d_norm - revel,304,297,7,-0.465,-0.51,-0.406,-0.505,-0.418,1.0,False,False
+wider,all labelled (pairwise complete),pps3d_norm - pps1d_norm,304,297,7,0.063,-0.084,0.151,-0.054,0.144,0.616,False,False
+wider,3D-PPS scoreable,pps3d_norm - alphamissense,304,297,7,-0.431,-0.518,-0.275,-0.515,-0.298,0.999,False,False
+wider,3D-PPS scoreable,pps3d_norm - revel,304,297,7,-0.465,-0.51,-0.406,-0.505,-0.418,1.0,False,False
+wider,3D-PPS scoreable,pps3d_norm - pps1d_norm,304,297,7,0.063,-0.084,0.151,-0.054,0.144,0.616,False,False
+wider,covered (>=3 labelled neighbours),pps3d_norm - alphamissense,122,121,1,-0.504,-0.535,-0.471,-0.53,-0.478,1.0,False,False
+wider,covered (>=3 labelled neighbours),pps3d_norm - revel,122,121,1,-0.512,-0.536,-0.492,-0.533,-0.496,1.0,False,False
+wider,covered (>=3 labelled neighbours),pps3d_norm - pps1d_norm,122,121,1,0.145,0.091,0.208,0.099,0.196,1.0,False,False
+tighter,all labelled (pairwise complete),pps3d_norm - alphamissense,304,297,7,-0.431,-0.518,-0.275,-0.515,-0.298,0.999,False,False
+tighter,all labelled (pairwise complete),pps3d_norm - revel,304,297,7,-0.465,-0.51,-0.406,-0.505,-0.418,1.0,False,False
+tighter,all labelled (pairwise complete),pps3d_norm - pps1d_norm,304,297,7,0.125,0.091,0.16,0.097,0.154,1.0,False,False
+tighter,3D-PPS scoreable,pps3d_norm - alphamissense,304,297,7,-0.431,-0.518,-0.275,-0.515,-0.298,0.999,False,False
+tighter,3D-PPS scoreable,pps3d_norm - revel,304,297,7,-0.465,-0.51,-0.406,-0.505,-0.418,1.0,False,False
+tighter,3D-PPS scoreable,pps3d_norm - pps1d_norm,304,297,7,0.125,0.091,0.16,0.097,0.154,1.0,False,False
+tighter,covered (>=3 labelled neighbours),pps3d_norm - alphamissense,122,121,1,-0.504,-0.535,-0.471,-0.53,-0.478,1.0,False,False
+tighter,covered (>=3 labelled neighbours),pps3d_norm - revel,122,121,1,-0.512,-0.536,-0.492,-0.533,-0.496,1.0,False,False
+tighter,covered (>=3 labelled neighbours),pps3d_norm - pps1d_norm,122,121,1,0.145,0.091,0.208,0.099,0.196,1.0,False,False

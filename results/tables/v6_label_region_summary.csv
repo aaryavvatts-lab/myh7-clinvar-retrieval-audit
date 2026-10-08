@@ -1,0 +1,5 @@
+region,residues,n_P,n_B,n_VUS,P_pct_no_labelled_neighbour,B_pct_no_labelled_neighbour
+motor domain 1-780,780,237,10,1088,15.2,70.0
+lever arm 781-843,63,21,1,103,42.9,0.0
+S2 844-1200,357,80,7,536,13.8,100.0
+light meromyosin 1201-1935,735,54,12,1041,72.2,75.0

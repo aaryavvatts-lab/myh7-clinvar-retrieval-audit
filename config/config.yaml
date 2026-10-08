@@ -1,0 +1,51 @@
+# Project configuration — MYH7 VUS reclassification (Tri-Axis 3D framework)
+# All settings live here so the pipeline is reproducible and the gene is swappable.
+
+project:
+  name: myh7-triaxis-vus
+  random_seed: 42
+
+gene:
+  symbol: MYH7
+  uniprot: P12883          # verified: AlphaFold model v6, 1935 aa
+  ensembl_gene: ENSG00000092054
+  mane_transcript: null     # resolve in Phase 1 (canonical MANE Select)
+  reference_genome: GRCh38
+
+backups:                    # framework is gene-agnostic; pivot targets
+  - symbol: LDLR
+    uniprot: P01130
+  - symbol: FBN1
+    uniprot: null
+
+data_sources:
+  clinvar_eutils: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  myvariant: https://myvariant.info/v1/
+  gnomad_graphql: https://gnomad.broadinstitute.org/api
+  alphafold_api: https://alphafold.ebi.ac.uk/api/prediction/
+  ensembl_rest: https://rest.ensembl.org
+  uniprot_rest: https://rest.uniprot.org
+
+filters:
+  clinvar_min_review_stars: 1        # training labels; sensitivity at 2
+  variant_class: missense            # core analysis
+  gnomad_version: v4
+
+structure:                            # Axis B / 3D-PPS params (swept on labeled set only)
+  radius_angstrom: [6, 8, 10, 12, 15]
+  kernel: gaussian
+  exclude_linear_window: 4            # exclude +/-4 sequence neighbors -> non-local only
+  min_plddt: 50                       # gate low-confidence residues
+  lambda_benign: 1.0                  # 3D-PPS = pathogenic_density - lambda*benign_density
+
+model:
+  primary: penalized_logistic_regression
+  sensitivity: gradient_boosting
+  cv_folds: 5
+  metrics: [auroc, auprc, precision_at_k, calibration]
+  ablations: [without_3dpps, clinvar_free_predictors_only]
+
+acmg:
+  framework: tavtigian_2018_bayesian_points
+  codes_used: [PM1, PM2, PP3, BP4, BS1, BA1]
+  disclaimer: "Provisional, in-silico, hypothesis-generating; NOT a clinical diagnosis."

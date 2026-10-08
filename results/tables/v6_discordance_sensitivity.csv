@@ -1,0 +1,5 @@
+thresholds,REVEL_cut,CADD_cut,PolyPhen2_cut,SIFT_cut,AlphaMissense,n_evaluable,pct_discordant
+nominal,0.5,20,0.5,0.05,class P,2768,46.9
+ClinGen PP3 supporting,0.644,20,0.5,0.05,class P,2768,49.9
+stringent,0.773,25,0.85,0.05,class P,2768,62.4
+lenient,0.29,15,0.15,0.05,class P,2768,45.7

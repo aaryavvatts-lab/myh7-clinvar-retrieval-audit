@@ -1,0 +1,15 @@
+quantity,value
+scoreable P,297.0
+scoreable B,7.0
+P(pathogenic score > benign score),0.0
+P(tie),0.963
+P(pathogenic score < benign score),0.037
+AUROC = P(>) + 0.5 P(tie),0.4815
+benign with score exactly 1.0,7.0
+pathogenic with score exactly 1.0,286.0
+pathogenic with score < 1.0,11.0
+mean score pathogenic,0.969
+mean score benign,1.0
+median score pathogenic,1.0
+bootstrap replicates used (of 3000),2997.0
+bootstrap SD of AUROC,0.0064

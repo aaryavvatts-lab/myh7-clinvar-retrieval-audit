@@ -1,0 +1,9 @@
+cohort,set,residues_labelled_both_P_and_B,variants_n_nb_changes,labelled_variants_n_nb_changes,labelled_variants_ge3_flag_changes,labelled_variants_zero_vs_nonzero_flips
+primary,wider,1,11,0,0,0
+primary,tighter,1,11,0,0,0
+"any-record, v4",wider,3,52,4,1,0
+"any-record, v4",tighter,3,52,4,1,0
+"aggregate, v2.1.1",wider,0,0,0,0,0
+"aggregate, v2.1.1",tighter,0,0,0,0,0
+"any-record, v2.1.1",wider,3,59,12,2,0
+"any-record, v2.1.1",tighter,2,34,5,2,0

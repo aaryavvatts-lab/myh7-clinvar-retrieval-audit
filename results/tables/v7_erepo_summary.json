@@ -1,0 +1,18 @@
+{
+ "erepo_total_rows_all_genes": 6343,
+ "erepo_myh7_rows_all_variant_types": 171,
+ "erepo_myh7_missense_rows": 120,
+ "erepo_myh7_missense_by_class": {
+  "VUS": 56,
+  "P": 52,
+  "B": 12
+ },
+ "erepo_myh7_B_in_cohort_as_clinvar_B": 12,
+ "erepo_myh7_B_in_T1": 12,
+ "erepo_myh7_B_clinvar_other_label": {},
+ "erepo_myh7_P_in_cohort_as_clinvar_P": 51,
+ "erepo_myh7_P_clinvar_other_label": {
+  "VUS": 1
+ },
+ "access": "GET https://erepo.clinicalgenome.org/evrepo/api/classifications/all (TSV, public, no authentication); the matchType/matchValue filter parameters are ignored by this endpoint, so the whole table is downloaded and filtered locally."
+}

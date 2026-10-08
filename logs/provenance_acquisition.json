@@ -1,0 +1,42 @@
+{
+  "run_started_utc": "2026-10-07T02:20:05.674986Z",
+  "clinvar_variant_summary": {
+    "server_last_modified": "Mon, 05 Oct 2026 13:02:37 GMT",
+    "content_length_server": "455128718",
+    "retrieved_utc": "2026-10-07T01:56:47.861657Z",
+    "sha256": "97a20416f4d49c197a16546c8cae978794a5672306aa7130cbbd143063d80d5b",
+    "bytes": 455128718
+  },
+  "clinvar_n_snv_grch37": 5552,
+  "clinvar_n_missense_by_name": 3184,
+  "eutils": {
+    "missense_any_type": 3213,
+    "missense_any_type_term": "MYH7[gene] AND \"missense variant\"[molecular consequence]",
+    "missense_snv": 3185,
+    "missense_snv_term": "MYH7[gene] AND \"single nucleotide variant\"[Type of variation] AND \"missense variant\"[molecular consequence]",
+    "all_myh7_records": 6011,
+    "all_myh7_records_term": "MYH7[gene]"
+  },
+  "hg19_minus_hg38_offset": 469209,
+  "gnomad_v4": {
+    "dataset": "gnomad_r4",
+    "reference_genome": "GRCh38",
+    "n_variants_all": 8212,
+    "n_missense": 1987,
+    "n_missense_observed_ac_gt0": 1916,
+    "retrieved_utc": "2026-10-07T02:20:09.310194Z"
+  },
+  "myvariant": {
+    "retrieved_utc": "2026-10-07T02:22:05.311277Z",
+    "n_ids_posted": 6322,
+    "n_found": 6268,
+    "build_date": "2025-06-24T16:27:25.889841-07:00",
+    "source_versions": {
+      "clinvar": "2025-05",
+      "dbnsfp": "4.8a",
+      "gnomad": "2.1.1",
+      "cadd": null
+    },
+    "clinvar_missense_not_found_by_symbol_query": null
+  }
+}

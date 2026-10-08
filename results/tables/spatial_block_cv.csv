@@ -1,0 +1,129 @@
+cohort,scheme,set,subset,method,n,n_P,n_B,pct_of_heldout_scored,auroc,ci_low,ci_high,caveat
+primary,blocks100,wider,all held-out variants,3D-PPS (scoreable only),139,136,3,32.9,0.489,0.474,0.5,fewer than 10 benign: CI not reliable
+primary,blocks100,wider,all held-out variants,1D-PPS (scoreable only),205,197,8,48.6,0.716,0.52,0.909,fewer than 10 benign: CI not reliable
+primary,blocks100,wider,all held-out variants,coverage flag (>=1 training neighbour),422,392,30,100.0,0.623,0.552,0.684,
+primary,blocks100,wider,all held-out variants,AlphaMissense,421,391,30,99.8,0.897,0.839,0.947,
+primary,blocks100,wider,all held-out variants,REVEL,421,391,30,99.8,0.863,0.776,0.935,
+primary,blocks100,wider,all held-out variants,model A_only,422,392,30,100.0,0.901,0.798,0.979,
+primary,blocks100,wider,all held-out variants,model A_cov,422,392,30,100.0,0.927,0.856,0.98,
+primary,blocks100,wider,all held-out variants,model A_3d,422,392,30,100.0,0.932,0.864,0.982,
+primary,blocks100,wider,3D-PPS scoreable subset,3D-PPS (scoreable only),139,136,3,32.9,0.489,0.474,0.5,fewer than 10 benign: CI not reliable
+primary,blocks100,wider,3D-PPS scoreable subset,1D-PPS (scoreable only),71,70,1,16.8,0.914,0.788,1.0,fewer than 10 benign: CI not reliable
+primary,blocks100,wider,3D-PPS scoreable subset,coverage flag (>=1 training neighbour),139,136,3,32.9,0.5,0.5,0.5,fewer than 10 benign: CI not reliable
+primary,blocks100,wider,3D-PPS scoreable subset,AlphaMissense,139,136,3,32.9,0.995,0.977,1.0,fewer than 10 benign: CI not reliable
+primary,blocks100,wider,3D-PPS scoreable subset,REVEL,139,136,3,32.9,0.98,0.937,1.0,fewer than 10 benign: CI not reliable
+primary,blocks100,wider,3D-PPS scoreable subset,model A_only,139,136,3,32.9,0.995,0.979,1.0,fewer than 10 benign: CI not reliable
+primary,blocks100,wider,3D-PPS scoreable subset,model A_cov,139,136,3,32.9,1.0,1.0,1.0,fewer than 10 benign: CI not reliable
+primary,blocks100,wider,3D-PPS scoreable subset,model A_3d,139,136,3,32.9,0.998,0.986,1.0,fewer than 10 benign: CI not reliable
+primary,domains,wider,all held-out variants,3D-PPS (scoreable only),17,16,1,4.0,0.469,0.375,0.5,fewer than 10 benign: CI not reliable
+primary,domains,wider,all held-out variants,1D-PPS (scoreable only),64,61,3,15.2,0.697,0.327,1.0,fewer than 10 benign: CI not reliable
+primary,domains,wider,all held-out variants,coverage flag (>=1 training neighbour),422,392,30,100.0,0.504,0.463,0.534,
+primary,domains,wider,all held-out variants,AlphaMissense,421,391,30,99.8,0.897,0.839,0.947,
+primary,domains,wider,all held-out variants,REVEL,421,391,30,99.8,0.863,0.776,0.935,
+primary,domains,wider,all held-out variants,model A_only,422,392,30,100.0,0.869,0.774,0.945,
+primary,domains,wider,all held-out variants,model A_cov,422,392,30,100.0,0.88,0.8,0.946,
+primary,domains,wider,all held-out variants,model A_3d,422,392,30,100.0,0.888,0.814,0.949,
+primary,domains,wider,3D-PPS scoreable subset,3D-PPS (scoreable only),17,16,1,4.0,0.469,0.375,0.5,fewer than 10 benign: CI not reliable
+primary,domains,wider,3D-PPS scoreable subset,1D-PPS (scoreable only),17,16,1,4.0,0.562,0.19,1.0,fewer than 10 benign: CI not reliable
+primary,domains,wider,3D-PPS scoreable subset,coverage flag (>=1 training neighbour),17,16,1,4.0,0.5,0.5,0.5,fewer than 10 benign: CI not reliable
+primary,domains,wider,3D-PPS scoreable subset,AlphaMissense,17,16,1,4.0,1.0,1.0,1.0,fewer than 10 benign: CI not reliable
+primary,domains,wider,3D-PPS scoreable subset,REVEL,17,16,1,4.0,1.0,1.0,1.0,fewer than 10 benign: CI not reliable
+primary,domains,wider,3D-PPS scoreable subset,model A_only,17,16,1,4.0,1.0,1.0,1.0,fewer than 10 benign: CI not reliable
+primary,domains,wider,3D-PPS scoreable subset,model A_cov,17,16,1,4.0,1.0,1.0,1.0,fewer than 10 benign: CI not reliable
+primary,domains,wider,3D-PPS scoreable subset,model A_3d,17,16,1,4.0,1.0,1.0,1.0,fewer than 10 benign: CI not reliable
+primary,blocks100,tighter,all held-out variants,3D-PPS (scoreable only),139,136,3,33.2,0.489,0.474,0.5,fewer than 10 benign: CI not reliable
+primary,blocks100,tighter,all held-out variants,1D-PPS (scoreable only),204,197,7,48.7,0.614,0.448,0.821,fewer than 10 benign: CI not reliable
+primary,blocks100,tighter,all held-out variants,coverage flag (>=1 training neighbour),419,392,27,100.0,0.618,0.542,0.682,
+primary,blocks100,tighter,all held-out variants,AlphaMissense,418,391,27,99.8,0.902,0.838,0.956,
+primary,blocks100,tighter,all held-out variants,REVEL,418,391,27,99.8,0.878,0.784,0.952,
+primary,blocks100,tighter,all held-out variants,model A_only,419,392,27,100.0,0.928,0.841,0.99,
+primary,blocks100,tighter,all held-out variants,model A_cov,419,392,27,100.0,0.933,0.858,0.99,
+primary,blocks100,tighter,all held-out variants,model A_3d,419,392,27,100.0,0.94,0.87,0.992,
+primary,blocks100,tighter,3D-PPS scoreable subset,3D-PPS (scoreable only),139,136,3,33.2,0.489,0.474,0.5,fewer than 10 benign: CI not reliable
+primary,blocks100,tighter,3D-PPS scoreable subset,1D-PPS (scoreable only),71,70,1,16.9,0.457,0.394,0.5,fewer than 10 benign: CI not reliable
+primary,blocks100,tighter,3D-PPS scoreable subset,coverage flag (>=1 training neighbour),139,136,3,33.2,0.5,0.5,0.5,fewer than 10 benign: CI not reliable
+primary,blocks100,tighter,3D-PPS scoreable subset,AlphaMissense,139,136,3,33.2,0.995,0.977,1.0,fewer than 10 benign: CI not reliable
+primary,blocks100,tighter,3D-PPS scoreable subset,REVEL,139,136,3,33.2,0.98,0.937,1.0,fewer than 10 benign: CI not reliable
+primary,blocks100,tighter,3D-PPS scoreable subset,model A_only,139,136,3,33.2,0.995,0.979,1.0,fewer than 10 benign: CI not reliable
+primary,blocks100,tighter,3D-PPS scoreable subset,model A_cov,139,136,3,33.2,0.995,0.977,1.0,fewer than 10 benign: CI not reliable
+primary,blocks100,tighter,3D-PPS scoreable subset,model A_3d,139,136,3,33.2,0.99,0.968,1.0,fewer than 10 benign: CI not reliable
+primary,domains,tighter,all held-out variants,3D-PPS (scoreable only),17,16,1,4.1,0.469,0.375,0.5,fewer than 10 benign: CI not reliable
+primary,domains,tighter,all held-out variants,1D-PPS (scoreable only),63,61,2,15.0,0.369,0.277,0.455,fewer than 10 benign: CI not reliable
+primary,domains,tighter,all held-out variants,coverage flag (>=1 training neighbour),419,392,27,100.0,0.502,0.456,0.534,
+primary,domains,tighter,all held-out variants,AlphaMissense,418,391,27,99.8,0.902,0.838,0.956,
+primary,domains,tighter,all held-out variants,REVEL,418,391,27,99.8,0.878,0.784,0.952,
+primary,domains,tighter,all held-out variants,model A_only,419,392,27,100.0,0.908,0.831,0.971,
+primary,domains,tighter,all held-out variants,model A_cov,419,392,27,100.0,0.92,0.844,0.981,
+primary,domains,tighter,all held-out variants,model A_3d,419,392,27,100.0,0.921,0.843,0.981,
+primary,domains,tighter,3D-PPS scoreable subset,3D-PPS (scoreable only),17,16,1,4.1,0.469,0.375,0.5,fewer than 10 benign: CI not reliable
+primary,domains,tighter,3D-PPS scoreable subset,1D-PPS (scoreable only),17,16,1,4.1,0.281,0.095,0.5,fewer than 10 benign: CI not reliable
+primary,domains,tighter,3D-PPS scoreable subset,coverage flag (>=1 training neighbour),17,16,1,4.1,0.5,0.5,0.5,fewer than 10 benign: CI not reliable
+primary,domains,tighter,3D-PPS scoreable subset,AlphaMissense,17,16,1,4.1,1.0,1.0,1.0,fewer than 10 benign: CI not reliable
+primary,domains,tighter,3D-PPS scoreable subset,REVEL,17,16,1,4.1,1.0,1.0,1.0,fewer than 10 benign: CI not reliable
+primary,domains,tighter,3D-PPS scoreable subset,model A_only,17,16,1,4.1,1.0,1.0,1.0,fewer than 10 benign: CI not reliable
+primary,domains,tighter,3D-PPS scoreable subset,model A_cov,17,16,1,4.1,1.0,1.0,1.0,fewer than 10 benign: CI not reliable
+primary,domains,tighter,3D-PPS scoreable subset,model A_3d,17,16,1,4.1,1.0,1.0,1.0,fewer than 10 benign: CI not reliable
+v5rcv_v4,blocks100,wider,all held-out variants,3D-PPS (scoreable only),239,230,9,35.1,0.925,0.798,0.993,fewer than 10 benign: CI not reliable
+v5rcv_v4,blocks100,wider,all held-out variants,1D-PPS (scoreable only),353,330,23,51.9,0.541,0.435,0.656,
+v5rcv_v4,blocks100,wider,all held-out variants,coverage flag (>=1 training neighbour),680,625,55,100.0,0.603,0.545,0.656,
+v5rcv_v4,blocks100,wider,all held-out variants,AlphaMissense,679,624,55,99.9,0.913,0.872,0.948,
+v5rcv_v4,blocks100,wider,all held-out variants,REVEL,679,624,55,99.9,0.899,0.849,0.938,
+v5rcv_v4,blocks100,wider,all held-out variants,model A_only,680,625,55,100.0,0.92,0.859,0.965,
+v5rcv_v4,blocks100,wider,all held-out variants,model A_cov,680,625,55,100.0,0.923,0.87,0.963,
+v5rcv_v4,blocks100,wider,all held-out variants,model A_3d,680,625,55,100.0,0.924,0.868,0.967,
+v5rcv_v4,blocks100,wider,3D-PPS scoreable subset,3D-PPS (scoreable only),239,230,9,35.1,0.925,0.798,0.993,fewer than 10 benign: CI not reliable
+v5rcv_v4,blocks100,wider,3D-PPS scoreable subset,1D-PPS (scoreable only),138,133,5,20.3,0.417,0.369,0.461,fewer than 10 benign: CI not reliable
+v5rcv_v4,blocks100,wider,3D-PPS scoreable subset,coverage flag (>=1 training neighbour),239,230,9,35.1,0.5,0.5,0.5,fewer than 10 benign: CI not reliable
+v5rcv_v4,blocks100,wider,3D-PPS scoreable subset,AlphaMissense,239,230,9,35.1,0.878,0.726,0.988,fewer than 10 benign: CI not reliable
+v5rcv_v4,blocks100,wider,3D-PPS scoreable subset,REVEL,239,230,9,35.1,0.891,0.733,0.996,fewer than 10 benign: CI not reliable
+v5rcv_v4,blocks100,wider,3D-PPS scoreable subset,model A_only,239,230,9,35.1,0.801,0.527,0.992,fewer than 10 benign: CI not reliable
+v5rcv_v4,blocks100,wider,3D-PPS scoreable subset,model A_cov,239,230,9,35.1,0.845,0.618,0.992,fewer than 10 benign: CI not reliable
+v5rcv_v4,blocks100,wider,3D-PPS scoreable subset,model A_3d,239,230,9,35.1,0.882,0.699,0.997,fewer than 10 benign: CI not reliable
+v5rcv_v4,domains,wider,all held-out variants,3D-PPS (scoreable only),23,23,0,3.4,,,,fewer than 10 benign: CI not reliable
+v5rcv_v4,domains,wider,all held-out variants,1D-PPS (scoreable only),103,97,6,15.1,0.486,0.33,0.731,fewer than 10 benign: CI not reliable
+v5rcv_v4,domains,wider,all held-out variants,coverage flag (>=1 training neighbour),680,625,55,100.0,0.518,0.507,0.533,
+v5rcv_v4,domains,wider,all held-out variants,AlphaMissense,679,624,55,99.9,0.913,0.872,0.948,
+v5rcv_v4,domains,wider,all held-out variants,REVEL,679,624,55,99.9,0.899,0.849,0.938,
+v5rcv_v4,domains,wider,all held-out variants,model A_only,680,625,55,100.0,0.923,0.872,0.962,
+v5rcv_v4,domains,wider,all held-out variants,model A_cov,680,625,55,100.0,0.925,0.874,0.964,
+v5rcv_v4,domains,wider,all held-out variants,model A_3d,680,625,55,100.0,0.931,0.88,0.969,
+v5rcv_v4,domains,wider,3D-PPS scoreable subset,3D-PPS (scoreable only),23,23,0,3.4,,,,fewer than 10 benign: CI not reliable
+v5rcv_v4,domains,wider,3D-PPS scoreable subset,1D-PPS (scoreable only),17,17,0,2.5,,,,fewer than 10 benign: CI not reliable
+v5rcv_v4,domains,wider,3D-PPS scoreable subset,coverage flag (>=1 training neighbour),23,23,0,3.4,,,,fewer than 10 benign: CI not reliable
+v5rcv_v4,domains,wider,3D-PPS scoreable subset,AlphaMissense,23,23,0,3.4,,,,fewer than 10 benign: CI not reliable
+v5rcv_v4,domains,wider,3D-PPS scoreable subset,REVEL,23,23,0,3.4,,,,fewer than 10 benign: CI not reliable
+v5rcv_v4,domains,wider,3D-PPS scoreable subset,model A_only,23,23,0,3.4,,,,fewer than 10 benign: CI not reliable
+v5rcv_v4,domains,wider,3D-PPS scoreable subset,model A_cov,23,23,0,3.4,,,,fewer than 10 benign: CI not reliable
+v5rcv_v4,domains,wider,3D-PPS scoreable subset,model A_3d,23,23,0,3.4,,,,fewer than 10 benign: CI not reliable
+v5rcv_v2,blocks100,wider,all held-out variants,3D-PPS (scoreable only),242,230,12,35.4,0.935,0.838,0.99,
+v5rcv_v2,blocks100,wider,all held-out variants,1D-PPS (scoreable only),352,328,24,51.5,0.633,0.511,0.754,
+v5rcv_v2,blocks100,wider,all held-out variants,coverage flag (>=1 training neighbour),684,626,58,100.0,0.581,0.516,0.637,
+v5rcv_v2,blocks100,wider,all held-out variants,AlphaMissense,682,624,58,99.7,0.914,0.876,0.947,
+v5rcv_v2,blocks100,wider,all held-out variants,REVEL,682,624,58,99.7,0.892,0.839,0.937,
+v5rcv_v2,blocks100,wider,all held-out variants,model A_only,684,626,58,100.0,0.939,0.892,0.973,
+v5rcv_v2,blocks100,wider,all held-out variants,model A_cov,684,626,58,100.0,0.939,0.897,0.972,
+v5rcv_v2,blocks100,wider,all held-out variants,model A_3d,684,626,58,100.0,0.947,0.915,0.973,
+v5rcv_v2,blocks100,wider,3D-PPS scoreable subset,3D-PPS (scoreable only),242,230,12,35.4,0.935,0.838,0.99,
+v5rcv_v2,blocks100,wider,3D-PPS scoreable subset,1D-PPS (scoreable only),138,133,5,20.2,0.402,0.351,0.448,fewer than 10 benign: CI not reliable
+v5rcv_v2,blocks100,wider,3D-PPS scoreable subset,coverage flag (>=1 training neighbour),242,230,12,35.4,0.5,0.5,0.5,
+v5rcv_v2,blocks100,wider,3D-PPS scoreable subset,AlphaMissense,242,230,12,35.4,0.891,0.782,0.979,
+v5rcv_v2,blocks100,wider,3D-PPS scoreable subset,REVEL,242,230,12,35.4,0.847,0.682,0.98,
+v5rcv_v2,blocks100,wider,3D-PPS scoreable subset,model A_only,242,230,12,35.4,0.841,0.648,0.991,
+v5rcv_v2,blocks100,wider,3D-PPS scoreable subset,model A_cov,242,230,12,35.4,0.86,0.709,0.992,
+v5rcv_v2,blocks100,wider,3D-PPS scoreable subset,model A_3d,242,230,12,35.4,0.904,0.787,0.992,
+v5rcv_v2,domains,wider,all held-out variants,3D-PPS (scoreable only),24,23,1,3.5,0.5,0.5,0.5,fewer than 10 benign: CI not reliable
+v5rcv_v2,domains,wider,all held-out variants,1D-PPS (scoreable only),102,97,5,14.9,0.515,0.333,0.811,fewer than 10 benign: CI not reliable
+v5rcv_v2,domains,wider,all held-out variants,coverage flag (>=1 training neighbour),684,626,58,100.0,0.511,0.488,0.53,
+v5rcv_v2,domains,wider,all held-out variants,AlphaMissense,682,624,58,99.7,0.914,0.876,0.947,
+v5rcv_v2,domains,wider,all held-out variants,REVEL,682,624,58,99.7,0.892,0.839,0.937,
+v5rcv_v2,domains,wider,all held-out variants,model A_only,684,626,58,100.0,0.942,0.908,0.969,
+v5rcv_v2,domains,wider,all held-out variants,model A_cov,684,626,58,100.0,0.933,0.899,0.961,
+v5rcv_v2,domains,wider,all held-out variants,model A_3d,684,626,58,100.0,0.949,0.916,0.975,
+v5rcv_v2,domains,wider,3D-PPS scoreable subset,3D-PPS (scoreable only),24,23,1,3.5,0.5,0.5,0.5,fewer than 10 benign: CI not reliable
+v5rcv_v2,domains,wider,3D-PPS scoreable subset,1D-PPS (scoreable only),17,17,0,2.5,,,,fewer than 10 benign: CI not reliable
+v5rcv_v2,domains,wider,3D-PPS scoreable subset,coverage flag (>=1 training neighbour),24,23,1,3.5,0.5,0.5,0.5,fewer than 10 benign: CI not reliable
+v5rcv_v2,domains,wider,3D-PPS scoreable subset,AlphaMissense,24,23,1,3.5,1.0,1.0,1.0,fewer than 10 benign: CI not reliable
+v5rcv_v2,domains,wider,3D-PPS scoreable subset,REVEL,24,23,1,3.5,1.0,1.0,1.0,fewer than 10 benign: CI not reliable
+v5rcv_v2,domains,wider,3D-PPS scoreable subset,model A_only,24,23,1,3.5,1.0,1.0,1.0,fewer than 10 benign: CI not reliable
+v5rcv_v2,domains,wider,3D-PPS scoreable subset,model A_cov,24,23,1,3.5,1.0,1.0,1.0,fewer than 10 benign: CI not reliable
+v5rcv_v2,domains,wider,3D-PPS scoreable subset,model A_3d,24,23,1,3.5,1.0,1.0,1.0,fewer than 10 benign: CI not reliable

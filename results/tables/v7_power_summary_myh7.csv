@@ -1,0 +1,7 @@
+tier,score,n_P,n_B_observed,n_distinct_scores,min_detectable_true_auroc_80pct,benign_n_needed_for_80pct_power_at_auroc_0.7,benign_n_needed_for_80pct_power_at_auroc_0.8,caveat
+T1,S0_scoreable,287,4,4,0.744,7,7,unconditional score-level permutation test; null 2 conditions on coverage so its power is lower
+T1,S1,379,12,196,0.718,20,7,unconditional score-level permutation test; null 2 conditions on coverage so its power is lower
+T2,S0_scoreable,287,7,9,0.676,7,7,unconditional score-level permutation test; null 2 conditions on coverage so its power is lower
+T2,S1,379,20,199,0.674,20,7,unconditional score-level permutation test; null 2 conditions on coverage so its power is lower
+T3,S0_scoreable,287,7,9,0.676,7,7,unconditional score-level permutation test; null 2 conditions on coverage so its power is lower
+T3,S1,379,22,199,0.664,20,7,unconditional score-level permutation test; null 2 conditions on coverage so its power is lower

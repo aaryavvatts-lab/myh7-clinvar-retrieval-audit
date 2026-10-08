@@ -1,0 +1,7 @@
+,value
+orphans_no_floor,6
+orphans_with_floor_ge3,5
+orphans_no_floor_resting_on_single_neighbour,1
+orphans_floor_residues,"[90, 92, 120, 121]"
+orphans_floor_AM_calls,{'P': 5}
+orphans_floor_variants,"['p.Phe121Leu', 'p.Leu120Phe', 'p.Met92Val', 'p.Met90Arg', 'p.Met90Val']"

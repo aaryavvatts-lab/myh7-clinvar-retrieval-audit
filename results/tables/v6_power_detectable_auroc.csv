@@ -1,0 +1,6 @@
+setting,n_P,n_B,min_detectable_auroc_80pct_power,power_at_auroc_0p6,power_at_auroc_0p7,power_at_auroc_0p8,hanley_mcneil_se_at_0p5,hanley_mcneil_95ci_halfwidth_at_0p9,hanley_mcneil_95ci_halfwidth_at_0p5
+primary 3D-PPS scoreable (wider),297,7,0.76,0.24,0.6,0.9,0.111,0.072,0.217
+"primary, tighter AM/REVEL",391,27,0.64,0.56,0.98,1.0,0.058,0.04,0.113
+"primary, wider AM/REVEL",391,30,0.64,0.58,0.98,1.0,0.055,0.038,0.107
+"v5 label rule + gnomAD v4, 3D-PPS scoreable",510,35,0.64,0.65,1.0,1.0,0.05,0.035,0.099
+"v5 label rule + gnomAD v4, all labelled",625,55,0.62,0.79,1.0,1.0,0.041,0.029,0.08

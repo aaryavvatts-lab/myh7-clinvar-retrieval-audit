@@ -1,0 +1,247 @@
+hgvs_g,clinvar_variant_id,hgvs_p,aapos,clinsig,y
+chr14:g.23890268del,3069628,,,Likely benign,B
+chr14:g.23883313_23883314dup,237441,,,Benign,B
+chr14:g.23896879_23896880dup,162028,NP_000248.2:p.Asn602fs,,Uncertain significance,VUS
+chr14:g.23891842_23891844del,1212917,,,Likely benign,B
+chr14:g.23892761del,3073970,LRG_384p1:p.Asp1032Metfs,,Uncertain significance,VUS
+chr14:g.23887586del,2773899,LRG_384p1:p.Gln1334Hisfs,,Uncertain significance,VUS
+chr14:g.23891459del,1728482,LRG_384p1:p.Leu1059Terfs,,Uncertain significance,VUS
+chr14:g.23897804_23897805dup,1465335,NP_000248.2:p.Val495fs,,Uncertain significance,VUS
+chr14:g.23899801_23899802dup,2697919,LRG_384p1:p.Ser322_Ile323insSer,,Uncertain significance,VUS
+chr14:g.23889447_23889448insA,1171914,,,Likely benign,B
+chr14:g.23889448del,1291391,,,Benign,B
+chr14:g.23899014del,2815876,LRG_384p1:p.Glu370Argfs,,Uncertain significance,VUS
+chr14:g.23901078_23901081del,43060,p.?,,Uncertain significance,VUS
+chr14:g.23901089_23901090del,3000923,,,Uncertain significance,VUS
+chr14:g.23896898_23896899delinsCT,1696841,NP_000248.2:p.Gln595Arg,,Uncertain significance,VUS
+chr14:g.23891842del,1259842,,,Benign,B
+chr14:g.23887557_23887566del,1677474,NP_000248.2:p.Asp1341fs,,Uncertain significance,VUS
+chr14:g.23901070_23901071dup,3074311,LRG_384p1:p.Ser180_Gly514delinsTer,,Uncertain significance,VUS
+chr14:g.23900692del,2130217,,,Uncertain significance,VUS
+chr14:g.23894969_23894970delinsAA,2089202,LRG_384p1:p.Lys740_Gly741delinsAsnTrp,,Uncertain significance,VUS
+chr14:g.23895272del,454349,NP_000248.2:p.Leu688fs,,Conflicting,VUS
+chr14:g.23899805_23899806dup,1767538,LRG_384p1:p.Ala321_Ser322insAla,,Uncertain significance,VUS
+chr14:g.23899875_23899876dup,3727484,,,Benign,B
+chr14:g.23900194_23900195dup,1507659,NP_000248.2:p.Ser271fs,,Uncertain significance,VUS
+chr14:g.23900212del,919792,,,Likely benign,B
+chr14:g.23898289_23898296del,854804,,,Uncertain significance,VUS
+chr14:g.23896008_23896009del,2773953,LRG_384p1:p.Ile674Thrfs,,Uncertain significance,VUS
+chr14:g.23902389del,3387365,LRG_384p1:p.Lys83Asnfs,,Uncertain significance,VUS
+chr14:g.23884296_23884308del,3253182,,,Uncertain significance,VUS
+chr14:g.23897771_23897782del,179379,NP_000248.2:p.Lys502_Gly505del,,Uncertain significance,VUS
+chr14:g.23901929_23901940del,3725305,LRG_384p1:p.Glu137_Ala140del,,Uncertain significance,VUS
+chr14:g.23897709_23897710dup,3075202,LRG_384p1:p.Pro527Alafs,,Uncertain significance,VUS
+chr14:g.23889447_23889448insC,224693,,,Uncertain significance,VUS
+chr14:g.23890161_23890163del,1730354,,,Uncertain significance,VUS
+chr14:g.23900793del,43102,,,Pathogenic,P
+chr14:g.23882081_23882082delinsA,968602,,,Uncertain significance,VUS
+chr14:g.23882966del,2702266,,,Pathogenic,P
+chr14:g.23882989del,960135,,,Pathogenic,P
+chr14:g.23884362del,1045981,NP_000248.2:p.Glu1801fs,,Uncertain significance,VUS
+chr14:g.23884292_23884294delinsCAT,403209,,,Uncertain significance,VUS
+chr14:g.23895047_23895049del,2905168,,,Likely benign,B
+chr14:g.23884292_23884293delinsCC,653905,NP_000248.2:p.Asn1824Gly,,Uncertain significance,VUS
+chr14:g.23884343del,2443032,LRG_384p1:p.Gly1807Alafs,,Uncertain significance,VUS
+chr14:g.23889225_23889226insCAAGAAGCA,2773916,LRG_384p1:p.His1185_Glu1186insAlaSerCys,,Uncertain significance,VUS
+chr14:g.23901875C>G,180431,NP_000248.2:p.Asp159His,159.0,Uncertain significance,VUS
+chr14:g.23896798_23896798delinsGT,636662,,,Uncertain significance,VUS
+chr14:g.23886833del,1677497,NP_000248.2:p.Cys1411fs,,Uncertain significance,VUS
+chr14:g.23886443_23886444dup,3384324,LRG_384p1:p.Thr1479_Glu1480insLeuSerThr,,Uncertain significance,VUS
+chr14:g.23898209_23898210dup,2773960,LRG_384p1:p.Tyr455Valfs,,Uncertain significance,VUS
+chr14:g.23890248_23890249del,3075214,LRG_384p1:p.Phe1085Terfs,,Uncertain significance,VUS
+chr14:g.23903441C>A,312921,,,Uncertain significance,VUS
+chr14:g.23889308_23889309dup,3020650,LRG_384p1:p.Ser1158Valfs,,Uncertain significance,VUS
+chr14:g.23896500_23896501dup,1510268,NP_000248.2:p.634GK[3],,Uncertain significance,VUS
+chr14:g.23886534del,3626785,,,Benign,B
+chr14:g.23901073T>G,222720,NP_000248.2:p.Glu179Ala,179.0,Uncertain significance,VUS
+chr14:g.23886780T>A,636854,NP_000248.2:p.Met1429Leu,1429.0,Uncertain significance,VUS
+chr14:g.23889188del,2689496,NP_000248.2:p.Asp1198fs,,Uncertain significance,VUS
+chr14:g.23889230_23889231insA,2773918,LRG_384p1:p.Gln1184Serfs,,Uncertain significance,VUS
+chr14:g.23893283del,3073632,LRG_384p1:p.Val919Terfs,,Uncertain significance,VUS
+chr14:g.23894989_23894990dup,181360,,,Uncertain significance,VUS
+chr14:g.23886075del,1234154,,,Benign,B
+chr14:g.23893292_23893293dup,454362,NP_000248.2:p.Ile909_Leu915dup,,Uncertain significance,VUS
+chr14:g.23883023del,1316570,,,Uncertain significance,VUS
+chr14:g.23886694del,1600269,,,Benign,B
+chr14:g.23897921del,36635,,,Likely benign,B
+chr14:g.23902362_23902367del,915803,,,Uncertain significance,VUS
+chr14:g.23891437del,1477656,NP_000248.2:p.Ile1066fs,,Uncertain significance,VUS
+chr14:g.23891785_23891794del,1188183,,,Likely benign,B
+chr14:g.23893140_23893142del,1022918,NP_000248.2:p.Lys966del,,Uncertain significance,VUS
+chr14:g.23883278_23883283del,2814438,LRG_384p1:p.Arg1863_Leu1864del,,Uncertain significance,VUS
+chr14:g.23896862C>T,222723,NP_000248.2:p.Gly607Asp,607.0,Uncertain significance,VUS
+chr14:g.23898240T>G,180435,NP_000248.2:p.Asn444Thr,444.0,Likely pathogenic,P
+chr14:g.23899846del,3726279,LRG_384p1:p.Tyr308Thrfs,,Uncertain significance,VUS
+chr14:g.23902014_23902019del,926942,,,Uncertain significance,VUS
+chr14:g.23886740_23886741dup,1694093,NP_000248.2:p.Ala1441_Leu1442insPro,,Uncertain significance,VUS
+chr14:g.23886777_23886778dup,985543,,,Uncertain significance,VUS
+chr14:g.23887627_23887628dup,2962108,,,Likely benign,B
+chr14:g.23898315_23898316delinsAT,520365,,,Uncertain significance,VUS
+chr14:g.23903475del,513299,,,Likely benign,B
+chr14:g.23884409del,3375815,,,Uncertain significance,VUS
+chr14:g.23901858_23901859dup,850795,NP_000248.2:p.Tyr164Ter,,Uncertain significance,VUS
+chr14:g.23891439del,2738186,LRG_384p1:p.Ser1065Argfs,,Uncertain significance,VUS
+chr14:g.23882776_23882778del,1229083,,,Benign,B
+NM_000257.4:c.1368C>A,3361186,LRG_384p1:p.Phe456Leu,,Uncertain significance,VUS
+chr14:g.23897691_23897692dup,3677430,,,Likely benign,B
+chr14:g.23887552_23887553delinsTT,1427069,NP_000248.2:p.Gln1346Lys,,Uncertain significance,VUS
+chr14:g.23901901G>C,312918,NP_000248.2:p.Ala150Gly,150.0,Uncertain significance,VUS
+chr14:g.23882775_23882776dup,1192164,,,Likely benign,B
+chr14:g.23897769_23900067del,854961,,,Uncertain significance,VUS
+chr14:g.23888442_23888443delinsTT,188247,NP_000248.2:p.Leu1306Ile,,Uncertain significance,VUS
+chr14:g.23888722_23888733del,503741,NP_000248.2:p.Asn1271_Thr1274del,,Likely pathogenic,P
+chr14:g.23887489del,2890722,LRG_384p1:p.Glu1367Argfs,,Uncertain significance,VUS
+chr14:g.23883226_23883227del,3071151,LRG_384p1:p.Ala1882Argfs,,Uncertain significance,VUS
+chr14:g.23893288_23893289delinsAT,569619,NP_000248.2:p.Ala917Ile,,Uncertain significance,VUS
+chr14:g.23898885del,1241202,,,Benign,B
+chr14:g.23900132_23900135del,1378021,NP_000248.2:p.Ser291fs,,Uncertain significance,VUS
+chr14:g.23887616_23887617dup,3387307,,,Uncertain significance,VUS
+chr14:g.23887622_23887623dup,1329410,,,Benign,B
+chr14:g.23902715_23902748delinsAGTC,1783045,,,Uncertain significance,VUS
+chr14:g.23889120_23889122del,42968,NP_000248.2:p.Glu1220del,,Likely pathogenic,P
+chr14:g.23889204del,2773910,LRG_384p1:p.Arg1193Alafs,,Uncertain significance,VUS
+chr14:g.23900832_23900833dup,2064936,LRG_384p1:p.Gly231_Asn232insGluAlaPheGly,,Uncertain significance,VUS
+chr14:g.23882079del,1749672,,,Uncertain significance,VUS
+chr14:g.23886778_23886780del,976028,NP_000248.2:p.Met1429del,,Uncertain significance,VUS
+chr14:g.23893251_23893252dup,1171163,NP_000248.2:p.Glu930fs,,Uncertain significance,VUS
+chr14:g.23892748_23892750del,1517067,,,Uncertain significance,VUS
+chr14:g.23886203del,1393211,,,Likely pathogenic,P
+chr14:g.23888455_23888457del,181413,NP_000248.2:p.Leu1301del,,Likely pathogenic,P
+chr14:g.23900634_23900635del,2773967,LRG_384p1:p.Ile263Argfs,,Uncertain significance,VUS
+chr14:g.23883253_23883279del,1500843,NP_000248.2:p.Gln1865_Leu1873del,,Uncertain significance,VUS
+chr14:g.23891518_23891529del,934193,NP_000248.2:p.Gly1036_Glu1039del,,Uncertain significance,VUS
+chr14:g.23901893del,43028,NP_000248.2:p.His153fs,,Likely pathogenic,P
+chr14:g.23886371T>A,222728,NP_000248.2:p.Asn1504Tyr,1504.0,Uncertain significance,VUS
+chr14:g.23898494del,1487104,NP_000248.2:p.His401fs,,Uncertain significance,VUS
+chr14:g.23898979del,2131938,,,Uncertain significance,VUS
+chr14:g.23892887_23892888delinsGG,2757321,LRG_384p1:p.Ala990Pro,,Uncertain significance,VUS
+chr14:g.23883014_23883017delinsA,222734,NP_000248.2:p.Glu1914_Ser1915delinsVal,,Likely pathogenic,P
+chr14:g.23887456del,3233552,LRG_384p1:p.Asp1378Thrfs,,Uncertain significance,VUS
+chr14:g.23889178_23889179dup,2773907,LRG_384p1:p.Ala1201Glyfs,,Uncertain significance,VUS
+chr14:g.23891841_23891842dup,1212527,,,Likely benign,B
+chr14:g.23882776_23882777del,1271877,,,Benign,B
+chr14:g.23886465_23886467del,521622,NP_000248.2:p.Lys1472del,,Uncertain significance,VUS
+chr14:g.23893275_23893277del,807094,NP_000248.2:p.Glu921del,,Likely pathogenic,P
+chr14:g.23901923del,921314,NP_000248.2:p.Arg143fs,,Uncertain significance,VUS
+chr14:g.23902768_23902769insCC,3069354,LRG_384p1:p.Val59Glufs,,Uncertain significance,VUS
+chr14:g.23899060_23899062delinsACG,1780076,LRG_384p1:p.Gly354Arg,,Uncertain significance,VUS
+chr14:g.23898197_23898198dup,1398181,NP_000248.2:p.Val459fs,,Uncertain significance,VUS
+chr14:g.23891457_23891489del,2065922,LRG_384p1:p.Glu1049_Leu1059del,,Uncertain significance,VUS
+chr14:g.23893263C>A,3775760,LRG_384p1:p.Arg925Ser,925.0,Likely pathogenic,P
+chr14:g.23902813del,644811,NP_000248.2:p.Lys43fs,,Uncertain significance,VUS
+chr14:g.23903433G>T,312920,,,Uncertain significance,VUS
+chr14:g.23888429T>G,222727,NP_000248.2:p.Gln1310Pro,1310.0,Uncertain significance,VUS
+chr14:g.23897809_23897810del,177817,,,Likely pathogenic,P
+chr14:g.23888704_23888705delinsTT,3668470,LRG_384p1:p.Gln1281Lys,,Uncertain significance,VUS
+chr14:g.23886375del,1501597,NP_000248.2:p.Asn1502fs,,Uncertain significance,VUS
+chr14:g.23902379del,954176,NP_000248.2:p.Ile87fs,,Uncertain significance,VUS
+chr14:g.23889011del,1291392,,,Benign,B
+chr14:g.23889085_23889089del,2701760,LRG_384p1:p.Val1231Leufs,,Uncertain significance,VUS
+chr14:g.23889187del,2773908,LRG_384p1:p.Asp1198Alafs,,Uncertain significance,VUS
+chr14:g.23893259_23893261del,2030547,LRG_384p1:p.Leu926_Glu927delinsGln,,Uncertain significance,VUS
+chr14:g.23884445_23884446dup,2448061,LRG_384p1:p.Gln1773Profs,,Uncertain significance,VUS
+chr14:g.23901086_23901091del,2012938,,,Uncertain significance,VUS
+chr14:g.23901876del,2088941,LRG_384p1:p.Asp159Thrfs,,Uncertain significance,VUS
+chr14:g.23889126_23889128del,3772541,LRG_384p1:p.Glu1218del,,Uncertain significance,VUS
+chr14:g.23886683_23886692del,2044159,,,Likely benign,B
+chr14:g.23894988_23894989dup,659211,NP_000248.2:p.Phe735fs,,Uncertain significance,VUS
+chr14:g.23888797del,3071033,LRG_384p1:p.Arg1250Glyfs,,Uncertain significance,VUS
+chr14:g.23896002del,132917,NP_000248.2:p.Asn676fs,,Pathogenic,P
+chr14:g.23895237_23895238dup,3704449,LRG_384p1:p.Glu700Glnfs,,Uncertain significance,VUS
+chr14:g.23882085_23882086dup,2990384,,,Likely benign,B
+chr14:g.23889442_23889443dup,3339695,,,Uncertain significance,VUS
+chr14:g.23897823_23897824insCCACTGCACC,922207,NP_000248.2:p.Phe488fs,,Uncertain significance,VUS
+chr14:g.23900037_23900059delinsATGATGGCGCCTGTCAGCTTATACATGGAGTTTTTCTCCTCTGAAGTGAAGCCCAGCACATCAAAAGCGTTCTGTAGGGAGGCCCCATATTGGCGGACCCCAGAAAAAGAAGTATGATGGGTAAGTGAGATCCCTTGTAAGTTGGA,1320366,,,Uncertain significance,VUS
+chr14:g.23900145T>C,155812,NP_000248.2:p.Tyr287Cys,287.0,Likely pathogenic,P
+chr14:g.23899256_23899286del,675664,,,Likely benign,B
+NM_000257.4:c.3112C>G,3362244,LRG_384p1:p.Leu1038Val,,Uncertain significance,VUS
+chr14:g.23883099del,181366,NP_000248.2:p.Glu1887fs,,Likely pathogenic,P
+chr14:g.23902918_23902930del,2627334,LRG_384p1:p.Glu5Leufs,,Uncertain significance,VUS
+chr14:g.23886692del,3015142,,,Likely benign,B
+chr14:g.23899128del,2032883,,,Likely benign,B
+chr14:g.23896276_23896277dup,1191561,,,Likely benign,B
+chr14:g.23877479C>G,312886,,,Benign,B
+chr14:g.23889446del,1233725,,,Benign,B
+chr14:g.23898477_23898478del,982426,NP_000248.2:p.Val406fs,,Uncertain significance,VUS
+chr14:g.23888395_23888397delinsTTT,263629,NP_000248.2:p.Glu1321Lys,,Uncertain significance,VUS
+chr14:g.23889356del,1426512,NP_000248.2:p.Glu1142fs,,Uncertain significance,VUS
+chr14:g.23891842_23891843del,1216854,,,Likely benign,B
+chr14:g.23892738_23892739del,3729265,,,Likely benign,B
+chr14:g.23893152del,263706,NP_000248.2:p.Val964fs,,Likely pathogenic,P
+chr14:g.23899880del,1539029,,,Benign,B
+chr14:g.23901932del,1332112,NP_000248.2:p.Ala140fs,,Uncertain significance,VUS
+chr14:g.23902766_23902767insCC,3069355,LRG_384p1:p.Val59Glyfs,,Uncertain significance,VUS
+chr14:g.23898496_23898497dup,1347882,NP_000248.2:p.Cys400fs,,Uncertain significance,VUS
+chr14:g.23889445_23889446dup,42956,,,Benign,B
+chr14:g.23901053_23901056del,3618621,LRG_384p1:p.Thr185Serfs,,Uncertain significance,VUS
+chr14:g.23898885_23898886del,1239429,,,Benign,B
+chr14:g.23895282del,578491,NP_000248.2:p.Asp685fs,,Uncertain significance,VUS
+chr14:g.23893092_23893101del,2082228,,,Likely benign,B
+chr14:g.23883259_23883260delinsCC,2580483,,,Uncertain significance,VUS
+chr14:g.23884294_23884295insAT,3387279,LRG_384p1:p.Asn1824Terfs,,Uncertain significance,VUS
+chr14:g.23894947_23894948delinsAT,2123150,LRG_384p1:p.Ser748Ile,,Uncertain significance,VUS
+chr14:g.23889116_23889117insCCCTTC,1515840,NP_000248.2:p.Lys1221_Ser1222insGlyLys,,Uncertain significance,VUS
+chr14:g.23888507del,3672451,,,Benign,B
+chr14:g.23888755del,1449265,NP_000248.2:p.Glu1264fs,,Uncertain significance,VUS
+chr14:g.23884383_23884385del,143218,,,Pathogenic,P
+chr14:g.23889064_23889075del,181364,NP_000248.2:p.Met1235_Ile1238del,,Likely pathogenic,P
+chr14:g.23889207_23889208insCCACT,2773911,LRG_384p1:p.Leu1192Valfs,,Uncertain significance,VUS
+chr14:g.23889223_23889224insG,2773915,LRG_384p1:p.Glu1186Alafs,,Uncertain significance,VUS
+chr14:g.23902445del,923277,,,Likely benign,B
+chr14:g.23886136_23886137delinsAT,922331,NP_000248.2:p.Val1529Phe,,Uncertain significance,VUS
+chr14:g.23891447del,1462580,NP_000248.2:p.Gln1063fs,,Uncertain significance,VUS
+chr14:g.23887602_23887603dup,634544,NP_000248.2:p.Leu1329fs,,Likely pathogenic,P
+chr14:g.23898199_23898200dup,1383257,NP_000248.2:p.Phe456_Ile457dup,,Uncertain significance,VUS
+chr14:g.23901096_23901097dup,3610677,,,Likely benign,B
+chr14:g.23899847del,1215955,,,Uncertain significance,VUS
+chr14:g.23900630T>A,180433,NP_000248.2:p.Thr265Ser,265.0,Uncertain significance,VUS
+chr14:g.23899005_23899010del,560619,NP_000248.2:p.Glu371_Gln372del,,Uncertain significance,VUS
+chr14:g.23896779_23896798del,1781939,,,Uncertain significance,VUS
+chr14:g.23892858del,1321389,NP_000248.2:p.Gln1000fs,,Uncertain significance,VUS
+chr14:g.23900706del,2741241,,,Likely benign,B
+chr14:g.23900833del,3727314,LRG_384p1:p.Asn232Metfs,,Uncertain significance,VUS
+chr14:g.23883010_23883015del,1331293,,,Uncertain significance,VUS
+chr14:g.23894982_23894986del,3723067,LRG_384p1:p.Phe735Terfs,,Uncertain significance,VUS
+chr14:g.23888476_23888478del,505287,NP_000248.2:p.Lys1294del,,Uncertain significance,VUS
+chr14:g.23888805del,951225,NP_000248.2:p.Lys1247fs,,Uncertain significance,VUS
+chr14:g.23896887del,181415,NP_000248.2:p.Asp599fs,,Uncertain significance,VUS
+chr14:g.23877490C>T,369066,,,Likely benign,B
+chr14:g.23884397_23884399del,234713,NP_000248.2:p.Gln1788_Thr1789delinsHis,,Likely pathogenic,P
+chr14:g.23891384_23891385del,3074899,,,Uncertain significance,VUS
+chr14:g.23889461_23889473del,2045140,,,Likely benign,B
+chr14:g.23898516del,2625318,LRG_384p1:p.Asp394Thrfs,,Uncertain significance,VUS
+chr14:g.23900166del,1525895,NP_000248.2:p.Glu280fs,,Uncertain significance,VUS
+chr14:g.23895035del,920464,,,Likely benign,B
+chr14:g.23899879_23899880dup,704685,,,Likely benign,B
+chr14:g.23889216_23889220del,2773913,LRG_384p1:p.Ala1187Glyfs,,Uncertain significance,VUS
+chr14:g.23889408_23889409dup,454365,NP_000248.2:p.Leu1122_Glu1125dup,,Uncertain significance,VUS
+chr14:g.23889188_23889189delinsGCTTCTT,228908,NP_000248.2:p.Asp1198fs,,Uncertain significance,VUS
+chr14:g.23889189_23889190insCTTCTT,2689493,LRG_384p1:p.Ala1197_Asp1198insArgSer,,Uncertain significance,VUS
+chr14:g.23900809_23900811del,2773968,LRG_384p1:p.Asp239del,,Uncertain significance,VUS
+chr14:g.23886387_23886388delinsAT,1054697,,,Uncertain significance,VUS
+chr14:g.23886065_23886066delinsCT,2140735,,,Uncertain significance,VUS
+chr14:g.23897885del,1331740,,,Uncertain significance,VUS
+chr14:g.23902406_23902407dup,3643176,LRG_384p1:p.Met77_Gln78insLysGluAspGlnValMet,,Uncertain significance,VUS
+chr14:g.23887574del,2022758,LRG_384p1:p.His1338Glnfs,,Uncertain significance,VUS
+chr14:g.23887627_23887627delinsGGG,2773900,,,Uncertain significance,VUS
+chr14:g.23888323_23888324insG,36640,,,Benign,B
+chr14:g.23889443_23889445delinsTCTG,925951,,,Uncertain significance,VUS
+chr14:g.23891394_23891405del,1729148,LRG_384p1:p.Asp1077_Leu1080del,,Uncertain significance,VUS
+chr14:g.23891532_23891566del,3633166,,,Uncertain significance,VUS
+chr14:g.23899132del,2104411,,,Likely benign,B
+chr14:g.23891464del,2743838,LRG_384p1:p.Gly1057Alafs,,Uncertain significance,VUS
+chr14:g.23886873_23886875del,181365,NP_000248.2:p.Leu1397del,,Uncertain significance,VUS
+chr14:g.23887626_23887627del,926087,,,Likely benign,B
+chr14:g.23883109_23883110dup,282079,,,Likely benign,B
+chr14:g.23889267_23889268dup,1356347,NP_000248.2:p.Gln1172fs,,Uncertain significance,VUS
+chr14:g.23896467_23896468dup,2864092,LRG_384p1:p.Val647Aspfs,,Uncertain significance,VUS
+chr14:g.23884292_23884293del,3387278,LRG_384p1:p.Asn1824Terfs,,Uncertain significance,VUS
+chr14:g.23897835del,2433930,,,Uncertain significance,VUS
+chr14:g.23898206del,3070362,LRG_384p1:p.Phe456Serfs,,Uncertain significance,VUS
+chr14:g.23896509_23896511del,3362402,LRG_384p1:p.Glu632del,,Uncertain significance,VUS
+chr14:g.23896823_23896824del,800742,,,Likely pathogenic,P
+chr14:g.23886076del,1228493,,,Benign,B
+chr14:g.23888729_23888731del,2852620,LRG_384p1:p.Asp1272del,,Uncertain significance,VUS
+chr14:g.23887577_23887578dup,1510641,NP_000248.2:p.His1338fs,,Uncertain significance,VUS
+chr14:g.23889218_23889219dup,3338332,LRG_384p1:p.Thr1188Alafs,,Uncertain significance,VUS
+chr14:g.23895228del,3387342,LRG_384p1:p.Arg703Alafs,,Uncertain significance,VUS

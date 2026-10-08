@@ -1,0 +1,10 @@
+check,v6_code_on_v5_data
+scoreable n (v5 audit: 458),458
+scoreable P/B (404/54),404/54
+exact 3D-PPS AUROC (v5 audit: 0.8415),0.8415
+covered >=3 (v5 audit: 245),245
+"coverage flag>=1 AUROC, valid positions only (audit: 0.662)",0.662
+"OR covered>=3, valid positions only (audit: 13.6)",13.6
+null1 mean/sd (v5: 0.497/0.0435),0.4965/0.0427
+null1 max (v5: 0.6746),0.6706
+null1 p (v5: 1e-4),9.999000099990002e-05

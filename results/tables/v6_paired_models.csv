@@ -1,0 +1,19 @@
+set,A,B,question,delta,ci_low,ci_high,ci90_low,ci90_high,p_tost,equivalent_tost_0p05,ci_inside_margin,n
+wider,lr/A_3d,lr/A_only,adding 3D-PPS (+indicator) to the full panel,0.042,-0.006,0.099,-0.0,0.088,0.354,False,False,422
+wider,lr/A_cov,lr/A_only,adding coverage count only (no score value),0.041,0.005,0.089,0.009,0.079,0.31,False,False,422
+wider,lr/A_3d,lr/A_cov,3D-PPS value beyond coverage count,0.001,-0.02,0.018,-0.016,0.016,0.0,True,True,422
+wider,lr/A_3d,lr/A_1d,3D vs 1D score added to the panel,0.016,-0.022,0.057,-0.015,0.051,0.057,False,False,422
+wider,lr/pop_3d,lr/A_3d,DROPPING ClinVar-trained predictors (both with 3D),-0.071,-0.133,-0.019,-0.122,-0.026,0.751,False,False,422
+wider,lr/pop_only,lr/A_only,DROPPING ClinVar-trained predictors (no 3D),-0.055,-0.131,0.016,-0.118,0.004,0.545,False,False,422
+wider,lr/pop_3d,lr/pop_only,adding 3D-PPS to ClinVar-free panel,0.026,-0.019,0.072,-0.012,0.065,0.156,False,False,422
+wider,gb/A_3d,gb/A_only,GB: adding 3D-PPS,0.031,0.001,0.067,0.005,0.06,0.123,False,False,422
+wider,gb/A_3d,lr/A_3d,"GB vs logistic, both with 3D",-0.006,-0.039,0.025,-0.033,0.02,0.005,True,True,422
+tighter,lr/A_3d,lr/A_only,adding 3D-PPS (+indicator) to the full panel,0.034,0.002,0.076,0.005,0.068,0.196,False,False,419
+tighter,lr/A_cov,lr/A_only,adding coverage count only (no score value),0.023,-0.003,0.056,0.001,0.05,0.052,False,False,419
+tighter,lr/A_3d,lr/A_cov,3D-PPS value beyond coverage count,0.01,-0.002,0.026,-0.001,0.024,0.0,True,True,419
+tighter,lr/A_3d,lr/A_1d,3D vs 1D score added to the panel,0.089,0.019,0.186,0.027,0.167,0.815,False,False,419
+tighter,lr/pop_3d,lr/A_3d,DROPPING ClinVar-trained predictors (both with 3D),-0.072,-0.148,-0.021,-0.134,-0.026,0.715,False,False,419
+tighter,lr/pop_only,lr/A_only,DROPPING ClinVar-trained predictors (no 3D),-0.058,-0.13,0.01,-0.117,-0.002,0.573,False,False,419
+tighter,lr/pop_3d,lr/pop_only,adding 3D-PPS to ClinVar-free panel,0.019,-0.023,0.062,-0.016,0.054,0.075,False,False,419
+tighter,gb/A_3d,gb/A_only,GB: adding 3D-PPS,0.013,-0.005,0.036,-0.003,0.032,0.003,True,True,419
+tighter,gb/A_3d,lr/A_3d,"GB vs logistic, both with 3D",-0.006,-0.025,0.013,-0.021,0.01,0.0,True,True,419

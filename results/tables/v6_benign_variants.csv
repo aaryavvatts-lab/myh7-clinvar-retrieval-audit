@@ -1,0 +1,31 @@
+hgvs_p,aapos,aaref,aaalt,source,gnomad_af,region,in_previously_missing,n_nb,n_path_nb,n_ben_nb,pps3d_norm,alphamissense,revel
+p.Tyr15Cys,15,Y,C,frequency stand-in,1.9707799033003994e-05,motor domain 1-780,False,0.0,0.0,0.0,,0.464,0.502
+p.Ala26Val,26,A,V,ClinVar benign/likely benign,0.0003084353795067659,motor domain 1-780,False,0.0,0.0,0.0,,0.2922,0.573
+p.Val52Leu,52,V,L,ClinVar benign/likely benign,,motor domain 1-780,False,0.0,0.0,0.0,,0.0808,0.186
+p.Asp74Glu,74,D,E,ClinVar benign/likely benign,,motor domain 1-780,False,0.0,0.0,0.0,,0.112,0.235
+p.Gly110Val,110,G,V,ClinVar benign/likely benign,,motor domain 1-780,False,1.0,1.0,0.0,1.0,0.1621,0.328
+p.Asp208Asn,208,D,N,ClinVar benign/likely benign,,motor domain 1-780,False,0.0,0.0,0.0,,0.1722,0.204
+p.Met330Leu,330,M,L,frequency stand-in,0.0005402485143165856,motor domain 1-780,False,0.0,0.0,0.0,,0.0675,0.24
+p.Met362Leu,362,M,L,ClinVar benign/likely benign,,motor domain 1-780,False,3.0,3.0,0.0,1.0,0.2325,0.406
+p.Thr441Met,441,T,M,ClinVar benign/likely benign,6.635227998746831e-05,motor domain 1-780,False,1.0,1.0,0.0,1.0,0.0758,0.554
+p.Met659Leu,659,M,L,frequency stand-in,0.0005396635571439935,motor domain 1-780,False,0.0,0.0,0.0,,0.7312,0.861
+p.Arg787His,787,R,H,ClinVar benign/likely benign,0.00017922005075621285,lever arm 781-843,True,1.0,1.0,0.0,1.0,0.1434,0.574
+p.Met982Thr,982,M,T,ClinVar benign/likely benign,0.0017409232570929796,S2 844-1200,False,0.0,0.0,0.0,,0.7052,0.956
+p.Gly984Ala,984,G,A,ClinVar benign/likely benign,,S2 844-1200,False,0.0,0.0,0.0,,0.0907,0.293
+p.Asp986Glu,986,D,E,frequency stand-in,0.0001311894279179345,S2 844-1200,False,0.0,0.0,0.0,,0.2548,0.552
+p.Asp1096Tyr,1096,D,Y,ClinVar benign/likely benign,0.00013141122514685204,S2 844-1200,False,0.0,0.0,0.0,,0.7969,0.849
+p.Lys1109Gln,1109,K,Q,frequency stand-in,9.734815401849066e-05,S2 844-1200,False,0.0,0.0,0.0,,0.8009,0.816
+p.Ala1128Thr,1128,A,T,ClinVar benign/likely benign,0.00011180826855030714,S2 844-1200,False,0.0,0.0,0.0,,0.1113,0.404
+p.Glu1180Val,1180,E,V,frequency stand-in,1.3178703215603585e-05,S2 844-1200,False,0.0,0.0,0.0,,0.6112,0.869
+p.Gly1204Ser,1204,G,S,ClinVar benign/likely benign,6.870500680866617e-07,light meromyosin 1201-1935,False,1.0,1.0,0.0,1.0,0.0656,0.182
+p.Glu1236Gln,1236,E,Q,frequency stand-in,1.0946113650761507e-05,light meromyosin 1201-1935,False,0.0,0.0,0.0,,0.4495,0.75
+p.Asn1257Ser,1257,N,S,ClinVar benign/likely benign,0.0001415975210173132,light meromyosin 1201-1935,False,0.0,0.0,0.0,,0.0686,0.293
+p.Asn1327Lys,1327,N,K,ClinVar benign/likely benign,9.856748587199369e-05,light meromyosin 1201-1935,False,0.0,0.0,0.0,,0.8678,0.504
+p.Lys1459Asn,1459,K,N,ClinVar benign/likely benign,0.00048159671200790255,light meromyosin 1201-1935,False,1.0,1.0,0.0,1.0,0.9574,0.705
+p.Ser1491Cys,1491,S,C,ClinVar benign/likely benign,0.01186270942039494,light meromyosin 1201-1935,False,1.0,1.0,0.0,1.0,0.1415,0.398
+p.Ile1572Met,1572,I,M,ClinVar benign/likely benign,6.5766974456107125e-06,light meromyosin 1201-1935,True,0.0,0.0,0.0,,0.0548,0.244
+p.Met1635Val,1635,M,V,ClinVar benign/likely benign,4.59818437405573e-05,light meromyosin 1201-1935,True,0.0,0.0,0.0,,0.0713,0.136
+p.Ala1637Thr,1637,A,T,ClinVar benign/likely benign,0.00030221404638328624,light meromyosin 1201-1935,True,0.0,0.0,0.0,,0.0749,0.577
+p.Val1691Leu,1691,V,L,ClinVar benign/likely benign,,light meromyosin 1201-1935,True,0.0,0.0,0.0,,0.1015,0.273
+p.Thr1851Pro,1851,T,P,frequency stand-in,6.810433308659845e-05,light meromyosin 1201-1935,False,0.0,0.0,0.0,,0.8362,0.784
+p.Glu1902Gln,1902,E,Q,ClinVar benign/likely benign,3.557029442627167e-05,light meromyosin 1201-1935,False,0.0,0.0,0.0,,0.3783,0.659

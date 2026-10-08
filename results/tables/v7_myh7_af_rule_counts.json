@@ -1,0 +1,10 @@
+{
+ "standins_T3_faf95_ge_2e-4": 2,
+ "clinvar_VUS_protein_changes_meeting_FAF_rule": 11,
+ "clinvar_P_protein_changes_meeting_FAF_rule": 0,
+ "standins_legacy_wide": 7,
+ "standins_legacy_tight": 4,
+ "clinvar_VUS_with_legacy_af_ge_1e-5": 257,
+ "clinvar_P_with_legacy_af_ge_1e-5": 23,
+ "clinvar_P_with_legacy_af_ge_5e-5": 2
+}

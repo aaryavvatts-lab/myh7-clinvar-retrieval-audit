@@ -1,0 +1,7 @@
+set,class,n,score_undefined_n,score_undefined_pct,no_labelled_neighbour_pct,covered_ge3_pct,covered_ge3_gated_pct
+wider,P,392,95,24.2,24.2,30.9,30.9
+wider,B,30,23,76.7,76.7,3.3,3.3
+wider,all,422,118,28.0,28.0,28.9,28.9
+tighter,P,392,95,24.2,24.2,30.9,30.9
+tighter,B,27,20,74.1,74.1,3.7,3.7
+tighter,all,419,115,27.4,27.4,29.1,29.1

@@ -1,0 +1,1157 @@
+== data_acquisition: archived v6 acquisition output reused (FORCE_DOWNLOAD=1 refetches live APIs)
+== build_labels ['--af', 'v4', '--rule', 'aggregate']
+{
+ "all_records": 6322,
+ "cohort_before_position_filter": 3904,
+ "clinvar_missense_before_filter": 3184,
+ "gnomad_only_before_filter": 720,
+ "dropped_invalid_aapos": 0,
+ "dropped_by_label": {},
+ "af_source": "v4",
+ "label_rule": "aggregate",
+ "cohort_final": 3904,
+ "P": 392,
+ "P_by_source": {
+  "clinvar": 392
+ },
+ "B_wide": 30,
+ "B_tight": 27,
+ "B_clinvar": 22,
+ "B_standins_wide": 8,
+ "B_standins_tight": 5,
+ "standins_wide_AF_1e-5_to_5e-5": 3,
+ "standins_wide_AF_ge_5e-5": 5,
+ "clinvar_B_with_gnomad_AF": 15,
+ "benign_wide_AF_1e-5_to_5e-5_all": 5,
+ "VUS": 2768,
+ "VUS_conflicting": 364,
+ "unlabelled_total": 714,
+ "unlabelled_gnomad_only": 712,
+ "unlabelled_clinvar_other": 2,
+ "P_2plus_stars": 191,
+ "B_clinvar_2plus_stars": 12,
+ "P_residues": 260,
+ "B_residues_wide": 30,
+ "B_residues_tight": 27,
+ "absent_from_gnomad": 1988
+}
+   done in 0s
+== build_labels ['--af', 'v4', '--rule', 'v5rcv']
+{
+ "all_records": 6322,
+ "cohort_before_position_filter": 3904,
+ "clinvar_missense_before_filter": 3184,
+ "gnomad_only_before_filter": 720,
+ "dropped_invalid_aapos": 0,
+ "dropped_by_label": {},
+ "af_source": "v4",
+ "label_rule": "v5rcv",
+ "cohort_final": 3904,
+ "P": 625,
+ "P_by_source": {
+  "clinvar": 625
+ },
+ "B_wide": 55,
+ "B_tight": 47,
+ "B_clinvar": 42,
+ "B_standins_wide": 13,
+ "B_standins_tight": 5,
+ "standins_wide_AF_1e-5_to_5e-5": 8,
+ "standins_wide_AF_ge_5e-5": 5,
+ "clinvar_B_with_gnomad_AF": 33,
+ "benign_wide_AF_1e-5_to_5e-5_all": 23,
+ "VUS": 2149,
+ "VUS_conflicting": 69,
+ "unlabelled_total": 1075,
+ "unlabelled_gnomad_only": 712,
+ "unlabelled_clinvar_other": 363,
+ "P_2plus_stars": 176,
+ "B_clinvar_2plus_stars": 23,
+ "P_residues": 405,
+ "B_residues_wide": 53,
+ "B_residues_tight": 45,
+ "absent_from_gnomad": 1988
+}
+   done in 0s
+== build_labels ['--af', 'v2', '--rule', 'aggregate']
+{
+ "all_records": 6322,
+ "cohort_before_position_filter": 3348,
+ "clinvar_missense_before_filter": 3211,
+ "gnomad_only_before_filter": 137,
+ "dropped_invalid_aapos": 12,
+ "dropped_by_label": {
+  "VUS": 11,
+  "P": 1
+ },
+ "af_source": "v2",
+ "label_rule": "aggregate",
+ "cohort_final": 3336,
+ "P": 392,
+ "P_by_source": {
+  "clinvar": 392
+ },
+ "B_wide": 34,
+ "B_tight": 24,
+ "B_clinvar": 22,
+ "B_standins_wide": 12,
+ "B_standins_tight": 2,
+ "standins_wide_AF_1e-5_to_5e-5": 10,
+ "standins_wide_AF_ge_5e-5": 2,
+ "clinvar_B_with_gnomad_AF": 14,
+ "benign_wide_AF_1e-5_to_5e-5_all": 10,
+ "VUS": 2783,
+ "VUS_conflicting": 366,
+ "unlabelled_total": 127,
+ "unlabelled_gnomad_only": 125,
+ "unlabelled_clinvar_other": 2,
+ "P_2plus_stars": 191,
+ "B_clinvar_2plus_stars": 12,
+ "P_residues": 260,
+ "B_residues_wide": 34,
+ "B_residues_tight": 24,
+ "absent_from_gnomad": 2534
+}
+   done in 0s
+== build_labels ['--af', 'v2', '--rule', 'v5rcv']
+{
+ "all_records": 6322,
+ "cohort_before_position_filter": 3348,
+ "clinvar_missense_before_filter": 3211,
+ "gnomad_only_before_filter": 137,
+ "dropped_invalid_aapos": 12,
+ "dropped_by_label": {
+  "VUS": 9,
+  "P": 3
+ },
+ "af_source": "v2",
+ "label_rule": "v5rcv",
+ "cohort_final": 3336,
+ "P": 626,
+ "P_by_source": {
+  "clinvar": 626
+ },
+ "B_wide": 58,
+ "B_tight": 45,
+ "B_clinvar": 42,
+ "B_standins_wide": 16,
+ "B_standins_tight": 3,
+ "standins_wide_AF_1e-5_to_5e-5": 13,
+ "standins_wide_AF_ge_5e-5": 3,
+ "clinvar_B_with_gnomad_AF": 30,
+ "benign_wide_AF_1e-5_to_5e-5_all": 20,
+ "VUS": 2163,
+ "VUS_conflicting": 71,
+ "unlabelled_total": 489,
+ "unlabelled_gnomad_only": 125,
+ "unlabelled_clinvar_other": 364,
+ "P_2plus_stars": 177,
+ "B_clinvar_2plus_stars": 23,
+ "P_residues": 406,
+ "B_residues_wide": 56,
+ "B_residues_tight": 43,
+ "absent_from_gnomad": 2534
+}
+   done in 0s
+== build_features 
+[features] v4/aggregate: rows=3904 labelled=422 scoreable(labelled)=304 abstain P=24.2% B=76.7%
+[features] v4/v5rcv: rows=3904 labelled=680 scoreable(labelled)=545 abstain P=18.4% B=36.4%
+[features] v2/aggregate: rows=3336 labelled=426 scoreable(labelled)=316 abstain P=23.2% B=55.9%
+[features] v2/v5rcv: rows=3336 labelled=684 scoreable(labelled)=549 abstain P=18.7% B=31.0%
+   done in 1s
+== diagnose_gap 
+{
+ "old_query_total_reported_by_myvariant_now": 4283,
+ "old_records_fetched": 4283,
+ "pagination_loss": false,
+ "clinvar_missense_total": 3184,
+ "clinvar_missense_found_by_symbol_query": 2278,
+ "clinvar_missense_missed_by_symbol_query": 906,
+ "missed_pct": 28.5,
+ "variant_summary_gene_symbol_for_missed": {
+  "MYH7": 886,
+  "LOC126861898;MYH7": 9,
+  "LOC126861897;MHRT;MYH7": 5,
+  "MHRT;MYH7": 3,
+  "LOC126861897;MYH7": 2,
+  "MIR208B;MYH7": 1
+ },
+ "myvariant_notfound_clinvar_missense": 0,
+ "lost_residue_range_p25_p75": [
+  820.0,
+  1640.0
+ ],
+ "old_missing_763_893": 0,
+ "old_missing_1549_1770": 0,
+ "v6_clinvar_missense_763_893": 267,
+ "v6_clinvar_missense_1549_1770": 349,
+ "v6_hg19_range_763_893": [
+  23893979,
+  23894627
+ ],
+ "v6_missed_share_763_893_pct": 100.0,
+ "v6_hg19_range_1549_1770": [
+  23884457,
+  23885521
+ ],
+ "v6_missed_share_1549_1770_pct": 100.0,
+ "old_records": 4283,
+ "v6_clinvar_snv_records": 5552,
+ "old_in_v6_clinvar": 4037,
+ "old_not_in_v6_clinvar": 246,
+ "old_fraction_of_v6_all_snv": 0.727,
+ "old_missense_n": 2355,
+ "v6_missense_n": 3184,
+ "old_missense_in_v6_missense": 2277,
+ "old_missense_not_in_v6_missense": 78,
+ "old_fraction_of_v6_missense": 0.715,
+ "old_not_in_v6_non_snv_id": 231,
+ "old_snv_not_in_v6": 15,
+ "old_snv_not_in_v6_VariationID_absent_from_whole_release": 14,
+ "old_missense_def_includes_stop_gain_aaalt_X": 66,
+ "old_aapos_sentinel_minus1": 66,
+ "v6_missense_not_in_v5": 907,
+ "of_which_in_myvariant_snapshot_under_other_or_no_symbol": 539,
+ "of_which_absent_from_myvariant_snapshot_new_since_2025_05_or_unmapped": 368,
+ "old_P_n": 494,
+ "v6_aggregate_P_n": 392,
+ "v6_v5rule_P_n": 625,
+ "old_B_n": 38,
+ "v6_aggregate_B_n": 22,
+ "v6_v5rule_B_n": 42,
+ "old_VUS_n": 1823,
+ "v6_aggregate_VUS_n": 2768,
+ "v6_v5rule_VUS_n": 2149,
+ "v5_rule_replica_agreement_with_old_labels_pct": 100.0,
+ "v5_P_now_conflicting_or_VUS_in_v6_aggregate": 219,
+ "v5_B_now_VUS_in_v6_aggregate": 31,
+ "v5_standins_n": 72,
+ "v5_standins_in_clinvar_now": 67,
+ "v5_standins_clinvar_class_now": {
+  "VUS": 58,
+  "P": 6,
+  "not_in_clinvar": 5,
+  "B": 3
+ },
+ "v5_standins_that_are_clinvar_P": 6,
+ "v5_standins_that_are_clinvar_VUS": 58
+}
+  myvariant_clinvar_gene_symbol  n_clinvar_missense
+0      MYH7 (found by v5 query)                2278
+1         no gene symbol stored                 368
+2    other symbol: LOC126861897                 299
+3    other symbol: LOC126861898                 238
+4         other symbol: MIR208B                   1
+              old_clinvar_missense  v6_clinvar_missense  lost_pct
+(0, 100]                       120                  125       4.0
+(100, 200]                     147                  155       5.2
+(200, 300]                     170                  184       7.6
+(300, 400]                     171                  186       8.1
+(400, 500]                     168                  183       8.2
+(500, 600]                     148                  165      10.3
+(600, 700]                     152                  170      10.6
+(700, 800]                     126                  205      38.5
+(800, 900]                      18                  217      91.7
+(900, 1000]                    155                  170       8.8
+(1000, 1100]                   126                  142      11.3
+(1100, 1200]                   156                  176      11.4
+(1200, 1300]                   125                  150      16.7
+(1300, 1400]                   138                  143       3.5
+(1400, 1500]                   144                  148       2.7
+(1500, 1600]                    67                  150      55.3
+(1600, 1700]                     0                  171     100.0
+(1700, 1800]                    42                  145      71.0
+(1800, 1900]                   134                  146       8.2
+(1900, 2000]                    48                   53       9.4
+   done in 12s
+== coverage_v6 
+[coverage] wider: P=392 B=30 done
+[coverage] tighter: P=392 B=27 done
+                                              cohort      set  n_P  n_B  n_VUS  n_scoreable  abstain_P_pct  abstain_B_pct  auroc_3d_scoreable  auroc_alphamissense_all  auroc_alphamissense_on_3d_scoreable  flag_ge1_auroc  flag_ge3_auroc  covered_ge3_P_pct  covered_ge3_B_pct  or_covered_fisher_naive
+0  PRIMARY: full ClinVar aggregate labels, gnomAD v4    wider  392   30   2768          304           24.2           76.7               0.481                    0.897                                0.913           0.762           0.638               30.9                3.3                    12.95
+1  PRIMARY: full ClinVar aggregate labels, gnomAD v4  tighter  392   27   2768          304           24.2           74.1               0.481                    0.902                                0.913           0.749           0.636               30.9                3.7                    11.61
+2        full data, v5 any-RCV label rule, gnomAD v4    wider  625   55   2149          545           18.4           36.4               0.712                    0.913                                0.911           0.590           0.642               41.1               12.7                     4.79
+3        full data, v5 any-RCV label rule, gnomAD v4  tighter  625   47   2149          538           18.7           36.2               0.723                    0.918                                0.905           0.587           0.630               41.0               14.9                     3.96
+4       full ClinVar aggregate labels, gnomAD v2.1.1    wider  392   34   2783          316           23.2           55.9               0.603                    0.906                                0.898           0.663           0.627               31.4                5.9                     7.32
+5       full ClinVar aggregate labels, gnomAD v2.1.1  tighter  392   24   2783          306           24.2           62.5               0.596                    0.913                                0.889           0.691           0.634               30.9                4.2                    10.27
+6  full data, v5 label rule + v2.1.1 (closest to v5)    wider  626   58   2163          549           18.7           31.0               0.705                    0.914                                0.898           0.562           0.621               41.5               17.2                     3.41
+7  full data, v5 label rule + v2.1.1 (closest to v5)  tighter  626   45   2163          535           19.2           35.6               0.733                    0.929                                0.912           0.582           0.605               41.1               20.0                     2.79
+       set class    n  score_undefined_n  score_undefined_pct  no_labelled_neighbour_pct  covered_ge3_pct  covered_ge3_gated_pct
+0    wider     P  392                 95                 24.2                       24.2             30.9                   30.9
+1    wider     B   30                 23                 76.7                       76.7              3.3                    3.3
+2    wider   all  422                118                 28.0                       28.0             28.9                   28.9
+3  tighter     P  392                 95                 24.2                       24.2             30.9                   30.9
+4  tighter     B   27                 20                 74.1                       74.1              3.7                    3.7
+5  tighter   all  419                115                 27.4                       27.4             29.1                   29.1
+                                                          0                      1
+set                                                   wider                tighter
+flag_ge1_auroc                                        0.762                  0.749
+flag_ge1_ci_low                                       0.676                  0.656
+flag_ge1_ci_high                                      0.841                  0.833
+flag_ge3_auroc                                        0.638                  0.636
+flag_ge3_ci_low                                       0.588                  0.584
+flag_ge3_ci_high                                      0.681                   0.68
+auroc_3d_scoreable                                    0.481                  0.481
+auroc_3d_ci_low                                       0.468                  0.468
+auroc_3d_ci_high                                      0.493                  0.493
+n_scoreable                                             304                    304
+share_of_gap_flag1                                     None                   None
+share_of_gap_flag3                                     None                   None
+fisher_table                          [[121, 271], [1, 29]]  [[121, 271], [1, 26]]
+or_fisher_naive                                       12.95                  11.61
+p_fisher_naive                                     0.000559               0.001559
+or_cluster_logit                                      12.95                  11.61
+p_cluster_logit                                    0.013086               0.017733
+or_cluster_ci_low                                      1.71                   1.53
+or_cluster_ci_high                                    97.88                  88.09
+or_boot_ci_low                                          3.0                   2.68
+or_boot_ci_high                                       36.71                  32.57
+relative_likelihood_covered_P_over_B                   9.26                   8.33
+   done in 15s
+== model_v6 
+        set              model  feature_set  auroc  ci_low  ci_high  auprc  auprc_baseline_prevalence  brier  brier_constant_prevalence
+0     wider           logistic       A_only  0.904   0.806    0.978  0.983                      0.929  0.061                      0.066
+1     wider           logistic        A_cov  0.944   0.887    0.985  0.994                      0.929  0.047                      0.066
+2     wider           logistic         A_1d  0.929   0.851    0.985  0.989                      0.929  0.050                      0.066
+3     wider           logistic         A_3d  0.945   0.894    0.984  0.995                      0.929  0.046                      0.066
+4     wider           logistic     pop_only  0.848   0.759    0.925  0.979                      0.929  0.124                      0.066
+5     wider           logistic       pop_3d  0.874   0.787    0.944  0.979                      0.929  0.103                      0.066
+6     wider           logistic  threeD_only  0.748   0.656    0.827  0.971                      0.929  0.186                      0.066
+7     wider           logistic     cov_only  0.791   0.713    0.860  0.979                      0.929  0.188                      0.066
+8     wider  gradient_boosting       A_only  0.908   0.838    0.964  0.990                      0.929  0.043                      0.066
+9     wider  gradient_boosting        A_cov  0.936   0.883    0.975  0.994                      0.929  0.039                      0.066
+10    wider  gradient_boosting         A_3d  0.939   0.887    0.977  0.994                      0.929  0.040                      0.066
+0   tighter           logistic       A_only  0.932   0.851    0.989  0.992                      0.936  0.043                      0.060
+1   tighter           logistic        A_cov  0.955   0.899    0.991  0.996                      0.936  0.036                      0.060
+2   tighter           logistic         A_1d  0.876   0.767    0.966  0.979                      0.936  0.045                      0.060
+3   tighter           logistic         A_3d  0.966   0.916    0.994  0.997                      0.936  0.032                      0.060
+4   tighter           logistic     pop_only  0.874   0.786    0.945  0.987                      0.936  0.110                      0.060
+5   tighter           logistic       pop_3d  0.893   0.806    0.959  0.988                      0.936  0.089                      0.060
+6   tighter           logistic  threeD_only  0.738   0.643    0.819  0.974                      0.936  0.188                      0.060
+7   tighter           logistic     cov_only  0.744   0.659    0.818  0.977                      0.936  0.193                      0.060
+8   tighter  gradient_boosting       A_only  0.947   0.891    0.984  0.995                      0.936  0.033                      0.060
+9   tighter  gradient_boosting        A_cov  0.959   0.917    0.987  0.997                      0.936  0.031                      0.060
+10  tighter  gradient_boosting         A_3d  0.960   0.920    0.988  0.997                      0.936  0.031                      0.060
+        set            A            B                                            question  delta  ci_low  ci_high  ci90_low  ci90_high  p_tost  equivalent_tost_0p05  ci_inside_margin    n
+0     wider      lr/A_3d    lr/A_only        adding 3D-PPS (+indicator) to the full panel  0.042  -0.006    0.099    -0.000      0.088   0.354                 False             False  422
+1     wider     lr/A_cov    lr/A_only         adding coverage count only (no score value)  0.041   0.005    0.089     0.009      0.079   0.310                 False             False  422
+2     wider      lr/A_3d     lr/A_cov                  3D-PPS value beyond coverage count  0.001  -0.020    0.018    -0.016      0.016   0.000                  True              True  422
+3     wider      lr/A_3d      lr/A_1d                   3D vs 1D score added to the panel  0.016  -0.022    0.057    -0.015      0.051   0.057                 False             False  422
+4     wider    lr/pop_3d      lr/A_3d  DROPPING ClinVar-trained predictors (both with 3D) -0.071  -0.133   -0.019    -0.122     -0.026   0.751                 False             False  422
+5     wider  lr/pop_only    lr/A_only         DROPPING ClinVar-trained predictors (no 3D) -0.055  -0.131    0.016    -0.118      0.004   0.545                 False             False  422
+6     wider    lr/pop_3d  lr/pop_only                 adding 3D-PPS to ClinVar-free panel  0.026  -0.019    0.072    -0.012      0.065   0.156                 False             False  422
+7     wider      gb/A_3d    gb/A_only                                   GB: adding 3D-PPS  0.031   0.001    0.067     0.005      0.060   0.123                 False             False  422
+8     wider      gb/A_3d      lr/A_3d                        GB vs logistic, both with 3D -0.006  -0.039    0.025    -0.033      0.020   0.005                  True              True  422
+9   tighter      lr/A_3d    lr/A_only        adding 3D-PPS (+indicator) to the full panel  0.034   0.002    0.076     0.005      0.068   0.196                 False             False  419
+10  tighter     lr/A_cov    lr/A_only         adding coverage count only (no score value)  0.023  -0.003    0.056     0.001      0.050   0.052                 False             False  419
+11  tighter      lr/A_3d     lr/A_cov                  3D-PPS value beyond coverage count  0.010  -0.002    0.026    -0.001      0.024   0.000                  True              True  419
+12  tighter      lr/A_3d      lr/A_1d                   3D vs 1D score added to the panel  0.089   0.019    0.186     0.027      0.167   0.815                 False             False  419
+13  tighter    lr/pop_3d      lr/A_3d  DROPPING ClinVar-trained predictors (both with 3D) -0.072  -0.148   -0.021    -0.134     -0.026   0.715                 False             False  419
+14  tighter  lr/pop_only    lr/A_only         DROPPING ClinVar-trained predictors (no 3D) -0.058  -0.130    0.010    -0.117     -0.002   0.573                 False             False  419
+15  tighter    lr/pop_3d  lr/pop_only                 adding 3D-PPS to ClinVar-free panel  0.019  -0.023    0.062    -0.016      0.054   0.075                 False             False  419
+16  tighter      gb/A_3d    gb/A_only                                   GB: adding 3D-PPS  0.013  -0.005    0.036    -0.003      0.032   0.003                  True              True  419
+17  tighter      gb/A_3d      lr/A_3d                        GB vs logistic, both with 3D -0.006  -0.025    0.013    -0.021      0.010   0.000                  True              True  419
+       set     weights  cal_slope  cal_slope_ci_low  cal_slope_ci_high  cal_intercept_free  cal_in_the_large  brier  brier_constant_prevalence  mean_pred  observed_prevalence
+0    wider    balanced      0.543             0.392              0.694               1.855             2.011  0.046                      0.066      0.873                0.929
+1    wider  unweighted      0.770             0.561              0.980               0.286            -0.159  0.031                      0.066      0.933                0.929
+2  tighter    balanced      0.621             0.442              0.800               1.895             2.043  0.032                      0.060      0.889                0.936
+3  tighter  unweighted      0.809             0.585              1.034               0.214            -0.163  0.025                      0.060      0.938                0.936
+   done in 18s
+== perm_v6 
+    cohort    set                          null  observed_auroc  n_scoreable  n_P_scoreable  n_B_scoreable  null_mean  null_sd  null_p95  null_max  n_perm  n_ge_observed   p_value  n_strata_cells
+0  primary  wider           null1_unconditional          0.4815          304            297              7     0.4955   0.0643    0.6064    0.7483   10000           5665  0.566543             NaN
+1  primary  wider  null2_coverage_burial_strata          0.4815          304            297              7     0.4931   0.0579    0.6198    0.8456   10000           1810  0.181082            11.0
+    cohort      set                          null  observed_auroc  n_scoreable  n_P_scoreable  n_B_scoreable  null_mean  null_sd  null_p95  null_max  n_perm  n_ge_observed   p_value  n_strata_cells
+2  primary  tighter           null1_unconditional          0.4815          304            297              7     0.4940   0.0645    0.6072    0.7407   10000           5537  0.553745             NaN
+3  primary  tighter  null2_coverage_burial_strata          0.4815          304            297              7     0.4926   0.0574    0.6195    0.8374   10000           1805  0.180582            11.0
+     cohort    set                          null  observed_auroc  n_scoreable  n_P_scoreable  n_B_scoreable  null_mean  null_sd  null_p95  null_max  n_perm  n_ge_observed  p_value  n_strata_cells
+4  v5rcv_v4  wider           null1_unconditional          0.7123          545            510             35     0.4964   0.0488    0.5774    0.6787   10000              0   0.0001             NaN
+5  v5rcv_v4  wider  null2_coverage_burial_strata          0.7123          545            510             35     0.4894   0.0462    0.5706    0.6900   10000              0   0.0001            12.0
+         cohort    set                          null  observed_auroc  n_scoreable  n_P_scoreable  n_B_scoreable  null_mean  null_sd  null_p95  null_max  n_perm  n_ge_observed   p_value  n_strata_cells
+6  aggregate_v2  wider           null1_unconditional          0.6029          316            301             15     0.4948   0.0612    0.6005     0.765   10000            469  0.046995             NaN
+7  aggregate_v2  wider  null2_coverage_burial_strata          0.6029          316            301             15     0.4877   0.0557    0.5900     0.744   10000            338  0.033897            11.0
+     cohort    set                          null  observed_auroc  n_scoreable  n_P_scoreable  n_B_scoreable  null_mean  null_sd  null_p95  null_max  n_perm  n_ge_observed  p_value  n_strata_cells
+8  v5rcv_v2  wider           null1_unconditional          0.7051          549            509             40     0.4964   0.0483    0.5777    0.6734   10000              0   0.0001             NaN
+9  v5rcv_v2  wider  null2_coverage_burial_strata          0.7051          549            509             40     0.4888   0.0482    0.5714    0.7006   10000              0   0.0001            12.0
+   done in 26s
+== vus_v6 
+n_vus                                                                                        2768
+classes_no_floor                                {'VUS': 2544, 'Likely pathogenic': 164, 'Likel...
+classes_with_floor                              {'VUS': 2594, 'Likely pathogenic': 90, 'Likely...
+n_LP_no_floor                                                                                 164
+n_LP_no_floor_with_lt3_neighbours                                                              74
+n_LP_no_floor_with_1_neighbour                                                                 41
+n_LP_no_floor_without_PM1                                                                       0
+n_LP_with_floor                                                                                90
+n_P_or_LP_no_floor                                                                            164
+n_P_or_LP_with_floor                                                                           90
+n_towards_benign_no_floor                                                                      60
+n_PM1_bearing_VUS                                                                            1238
+n_PM1_bearing_lt3_neighbours                                                                  804
+n_abstained_VUS                                                                              1316
+pct_abstained_VUS                                                                            47.5
+n_covered_ge3_VUS                                                                             454
+triage                                          {'discordant': 1298, 'concordant-damaging': 12...
+orphans_no_floor                                                                                6
+orphans_with_floor_ge3                                                                          5
+orphans_no_floor_resting_on_single_neighbour                                                    1
+orphans_floor_residues                                                         [90, 92, 120, 121]
+orphans_floor_AM_calls                                                                   {'P': 5}
+orphans_floor_variants                          [p.Phe121Leu, p.Leu120Phe, p.Met92Val, p.Met90...
+               thresholds  REVEL_cut  CADD_cut  PolyPhen2_cut  SIFT_cut AlphaMissense  n_evaluable  pct_discordant
+0                 nominal      0.500        20           0.50      0.05       class P         2768            46.9
+1  ClinGen PP3 supporting      0.644        20           0.50      0.05       class P         2768            49.9
+2               stringent      0.773        25           0.85      0.05       class P         2768            62.4
+3                 lenient      0.290        15           0.15      0.05       class P         2768            45.7
+   done in 1s
+== spatial_block_cv 
+      cohort     scheme    set                   subset                                  method    n  n_P  n_B  pct_of_heldout_scored  auroc  ci_low  ci_high                                 caveat
+64  v5rcv_v4  blocks100  wider    all held-out variants                 3D-PPS (scoreable only)  239  230    9                   35.1  0.925   0.798    0.993  fewer than 10 benign: CI not reliable
+65  v5rcv_v4  blocks100  wider    all held-out variants                 1D-PPS (scoreable only)  353  330   23                   51.9  0.541   0.435    0.656                                       
+66  v5rcv_v4  blocks100  wider    all held-out variants  coverage flag (>=1 training neighbour)  680  625   55                  100.0  0.603   0.545    0.656                                       
+67  v5rcv_v4  blocks100  wider    all held-out variants                           AlphaMissense  679  624   55                   99.9  0.913   0.872    0.948                                       
+68  v5rcv_v4  blocks100  wider    all held-out variants                                   REVEL  679  624   55                   99.9  0.899   0.849    0.938                                       
+69  v5rcv_v4  blocks100  wider    all held-out variants                            model A_only  680  625   55                  100.0  0.920   0.859    0.965                                       
+70  v5rcv_v4  blocks100  wider    all held-out variants                             model A_cov  680  625   55                  100.0  0.923   0.870    0.963                                       
+71  v5rcv_v4  blocks100  wider    all held-out variants                              model A_3d  680  625   55                  100.0  0.924   0.868    0.967                                       
+72  v5rcv_v4  blocks100  wider  3D-PPS scoreable subset                 3D-PPS (scoreable only)  239  230    9                   35.1  0.925   0.798    0.993  fewer than 10 benign: CI not reliable
+73  v5rcv_v4  blocks100  wider  3D-PPS scoreable subset                 1D-PPS (scoreable only)  138  133    5                   20.3  0.417   0.369    0.461  fewer than 10 benign: CI not reliable
+74  v5rcv_v4  blocks100  wider  3D-PPS scoreable subset  coverage flag (>=1 training neighbour)  239  230    9                   35.1  0.500   0.500    0.500  fewer than 10 benign: CI not reliable
+75  v5rcv_v4  blocks100  wider  3D-PPS scoreable subset                           AlphaMissense  239  230    9                   35.1  0.878   0.726    0.988  fewer than 10 benign: CI not reliable
+76  v5rcv_v4  blocks100  wider  3D-PPS scoreable subset                                   REVEL  239  230    9                   35.1  0.891   0.733    0.996  fewer than 10 benign: CI not reliable
+77  v5rcv_v4  blocks100  wider  3D-PPS scoreable subset                            model A_only  239  230    9                   35.1  0.801   0.527    0.992  fewer than 10 benign: CI not reliable
+78  v5rcv_v4  blocks100  wider  3D-PPS scoreable subset                             model A_cov  239  230    9                   35.1  0.845   0.618    0.992  fewer than 10 benign: CI not reliable
+79  v5rcv_v4  blocks100  wider  3D-PPS scoreable subset                              model A_3d  239  230    9                   35.1  0.882   0.699    0.997  fewer than 10 benign: CI not reliable
+80  v5rcv_v4    domains  wider    all held-out variants                 3D-PPS (scoreable only)   23   23    0                    3.4    NaN     NaN      NaN  fewer than 10 benign: CI not reliable
+81  v5rcv_v4    domains  wider    all held-out variants                 1D-PPS (scoreable only)  103   97    6                   15.1  0.486   0.330    0.731  fewer than 10 benign: CI not reliable
+82  v5rcv_v4    domains  wider    all held-out variants  coverage flag (>=1 training neighbour)  680  625   55                  100.0  0.518   0.507    0.533                                       
+83  v5rcv_v4    domains  wider    all held-out variants                           AlphaMissense  679  624   55                   99.9  0.913   0.872    0.948                                       
+84  v5rcv_v4    domains  wider    all held-out variants                                   REVEL  679  624   55                   99.9  0.899   0.849    0.938                                       
+85  v5rcv_v4    domains  wider    all held-out variants                            model A_only  680  625   55                  100.0  0.923   0.872    0.962                                       
+86  v5rcv_v4    domains  wider    all held-out variants                             model A_cov  680  625   55                  100.0  0.925   0.874    0.964                                       
+87  v5rcv_v4    domains  wider    all held-out variants                              model A_3d  680  625   55                  100.0  0.931   0.880    0.969                                       
+88  v5rcv_v4    domains  wider  3D-PPS scoreable subset                 3D-PPS (scoreable only)   23   23    0                    3.4    NaN     NaN      NaN  fewer than 10 benign: CI not reliable
+89  v5rcv_v4    domains  wider  3D-PPS scoreable subset                 1D-PPS (scoreable only)   17   17    0                    2.5    NaN     NaN      NaN  fewer than 10 benign: CI not reliable
+90  v5rcv_v4    domains  wider  3D-PPS scoreable subset  coverage flag (>=1 training neighbour)   23   23    0                    3.4    NaN     NaN      NaN  fewer than 10 benign: CI not reliable
+91  v5rcv_v4    domains  wider  3D-PPS scoreable subset                           AlphaMissense   23   23    0                    3.4    NaN     NaN      NaN  fewer than 10 benign: CI not reliable
+92  v5rcv_v4    domains  wider  3D-PPS scoreable subset                                   REVEL   23   23    0                    3.4    NaN     NaN      NaN  fewer than 10 benign: CI not reliable
+93  v5rcv_v4    domains  wider  3D-PPS scoreable subset                            model A_only   23   23    0                    3.4    NaN     NaN      NaN  fewer than 10 benign: CI not reliable
+94  v5rcv_v4    domains  wider  3D-PPS scoreable subset                             model A_cov   23   23    0                    3.4    NaN     NaN      NaN  fewer than 10 benign: CI not reliable
+95  v5rcv_v4    domains  wider  3D-PPS scoreable subset                              model A_3d   23   23    0                    3.4    NaN     NaN      NaN  fewer than 10 benign: CI not reliable
+      cohort     scheme    set                            subset      A       B  n_P  n_B  delta  ci_low  ci_high  ci90_low  ci90_high  p_tost equivalent_tost_0p05 ci_inside_margin    n                                 caveat
+40  v5rcv_v4  blocks100  wider  all held-out (pairwise complete)  pps3d      am  230    9  0.048  -0.134    0.242    -0.100      0.209   0.486                False            False  239  fewer than 10 benign: CI not reliable
+41  v5rcv_v4  blocks100  wider           3D-PPS scoreable subset  pps3d      am  230    9  0.048  -0.134    0.242    -0.100      0.209   0.486                False            False  239  fewer than 10 benign: CI not reliable
+42  v5rcv_v4  blocks100  wider  all held-out (pairwise complete)  pps3d   pps1d  133    5  0.563   0.513    0.616     0.520      0.606   1.000                False            False  138  fewer than 10 benign: CI not reliable
+43  v5rcv_v4  blocks100  wider           3D-PPS scoreable subset  pps3d   pps1d  133    5  0.563   0.513    0.616     0.520      0.606   1.000                False            False  138  fewer than 10 benign: CI not reliable
+44  v5rcv_v4  blocks100  wider  all held-out (pairwise complete)  pps3d   flag1  230    9  0.425   0.298    0.493     0.331      0.491   1.000                False            False  239  fewer than 10 benign: CI not reliable
+45  v5rcv_v4  blocks100  wider           3D-PPS scoreable subset  pps3d   flag1  230    9  0.425   0.298    0.493     0.331      0.491   1.000                False            False  239  fewer than 10 benign: CI not reliable
+46  v5rcv_v4  blocks100  wider  all held-out (pairwise complete)   A_3d  A_only  625   55  0.003  -0.013    0.022    -0.010      0.019   0.001                 True             True  680                                       
+47  v5rcv_v4  blocks100  wider           3D-PPS scoreable subset   A_3d  A_only  230    9  0.080   0.000    0.203     0.002      0.175   0.709                False            False  239  fewer than 10 benign: CI not reliable
+48  v5rcv_v4  blocks100  wider  all held-out (pairwise complete)   A_3d   A_cov  625   55  0.001  -0.019    0.020    -0.016      0.017   0.000                 True             True  680                                       
+49  v5rcv_v4  blocks100  wider           3D-PPS scoreable subset   A_3d   A_cov  230    9  0.037  -0.035    0.125    -0.023      0.109   0.348                False            False  239  fewer than 10 benign: CI not reliable
+50  v5rcv_v4    domains  wider  all held-out (pairwise complete)  pps3d      am   23    0    NaN     NaN      NaN       NaN        NaN     NaN                  NaN              NaN   23  fewer than 10 benign: CI not reliable
+51  v5rcv_v4    domains  wider           3D-PPS scoreable subset  pps3d      am   23    0    NaN     NaN      NaN       NaN        NaN     NaN                  NaN              NaN   23  fewer than 10 benign: CI not reliable
+52  v5rcv_v4    domains  wider  all held-out (pairwise complete)  pps3d   pps1d   17    0    NaN     NaN      NaN       NaN        NaN     NaN                  NaN              NaN   17  fewer than 10 benign: CI not reliable
+53  v5rcv_v4    domains  wider           3D-PPS scoreable subset  pps3d   pps1d   17    0    NaN     NaN      NaN       NaN        NaN     NaN                  NaN              NaN   17  fewer than 10 benign: CI not reliable
+54  v5rcv_v4    domains  wider  all held-out (pairwise complete)  pps3d   flag1   23    0    NaN     NaN      NaN       NaN        NaN     NaN                  NaN              NaN   23  fewer than 10 benign: CI not reliable
+55  v5rcv_v4    domains  wider           3D-PPS scoreable subset  pps3d   flag1   23    0    NaN     NaN      NaN       NaN        NaN     NaN                  NaN              NaN   23  fewer than 10 benign: CI not reliable
+56  v5rcv_v4    domains  wider  all held-out (pairwise complete)   A_3d  A_only  625   55  0.008  -0.003    0.020    -0.001      0.018   0.000                 True             True  680                                       
+57  v5rcv_v4    domains  wider           3D-PPS scoreable subset   A_3d  A_only   23    0    NaN     NaN      NaN       NaN        NaN     NaN                  NaN              NaN   23  fewer than 10 benign: CI not reliable
+58  v5rcv_v4    domains  wider  all held-out (pairwise complete)   A_3d   A_cov  625   55  0.006  -0.002    0.015    -0.001      0.013   0.000                 True             True  680                                       
+59  v5rcv_v4    domains  wider           3D-PPS scoreable subset   A_3d   A_cov   23    0    NaN     NaN      NaN       NaN        NaN     NaN                  NaN              NaN   23  fewer than 10 benign: CI not reliable
+   done in 40s
+== validate_on_v5 
+                                                             0              1
+0                                  scoreable n (v5 audit: 458)            458
+1                                       scoreable P/B (404/54)         404/54
+2                        exact 3D-PPS AUROC (v5 audit: 0.8415)         0.8415
+3                                  covered >=3 (v5 audit: 245)            245
+4  coverage flag>=1 AUROC, valid positions only (audit: 0.662)          0.662
+5            OR covered>=3, valid positions only (audit: 13.6)           13.6
+6                             null1 mean/sd (v5: 0.497/0.0435)  0.4965/0.0427
+7                                       null1 max (v5: 0.6746)         0.6706
+8                                           null1 p (v5: 1e-4)         0.0001
+   done in 4s
+== figures_v6 
+[figures_v6] saved to results/figures
+   done in 3s
+== numbers 
+[numbers] wrote results/NUMBERS.md (81 rows)
+   done in 1s
+== paper_extras 
+{'clinvar_missense': 3184, 'found_by_symbol_query': 2278, 'missed_total': 906, 'missed_other_symbol': 538, 'missed_other_symbol_LOC126861897': 299, 'missed_other_symbol_LOC126861898': 238, 'missed_other_symbol_MIR208B': 1, 'missed_no_myvariant_clinvar_record': 368, 'no_record_with_mv_clinvar_id': 0, 'variationid_ceiling_among_found_and_other': 3876493.0, 'no_record_above_ceiling': 366, 'lost_region_variants': 616, 'lost_region_symbol_cause': 537, 'lost_region_snapshot_cause': 79, 'anyrecord_P': 625, 'anyrecord_P_stay_P': 347, 'anyrecord_P_now_VUS': 277, 'anyrecord_P_now_conflicting': 227, 'anyrecord_P_now_uncertain': 50, 'anyrecord_B': 42, 'anyrecord_B_now_VUS': 34, 'anyrecord_B_now_conflicting': 34, 'aggregate_P': 392, 'aggregate_P_not_anyrecord_P': 45, 'aggregate_P_not_anyrecord_P_without_snapshot_label': 36}
+               cohort      set  residues_labelled_both_P_and_B  variants_n_nb_changes  labelled_variants_n_nb_changes  labelled_variants_ge3_flag_changes  labelled_variants_zero_vs_nonzero_flips
+0             primary    wider                               1                     11                               0                                   0                                        0
+1             primary  tighter                               1                     11                               0                                   0                                        0
+2      any-record, v4    wider                               3                     52                               4                                   1                                        0
+3      any-record, v4  tighter                               3                     52                               4                                   1                                        0
+4   aggregate, v2.1.1    wider                               0                      0                               0                                   0                                        0
+5   aggregate, v2.1.1  tighter                               0                      0                               0                                   0                                        0
+6  any-record, v2.1.1    wider                               3                     59                              12                                   2                                        0
+7  any-record, v2.1.1  tighter                               2                     34                               5                                   2                                        0
+                                       setting  n_P  n_B  min_detectable_auroc_80pct_power  power_at_auroc_0p6  power_at_auroc_0p7  power_at_auroc_0p8  hanley_mcneil_se_at_0p5  hanley_mcneil_95ci_halfwidth_at_0p9  hanley_mcneil_95ci_halfwidth_at_0p5
+0             primary 3D-PPS scoreable (wider)  297    7                              0.76                0.24                0.60                 0.9                    0.111                                0.072                                0.217
+1                    primary, tighter AM/REVEL  391   27                              0.64                0.56                0.98                 1.0                    0.058                                0.040                                0.113
+2                      primary, wider AM/REVEL  391   30                              0.64                0.58                0.98                 1.0                    0.055                                0.038                                0.107
+3  v5 label rule + gnomAD v4, 3D-PPS scoreable  510   35                              0.64                0.65                1.00                 1.0                    0.050                                0.035                                0.099
+4      v5 label rule + gnomAD v4, all labelled  625   55                              0.62                0.79                1.00                 1.0                    0.041                                0.029                                0.080
+                               quantity      value
+0                           scoreable P   297.0000
+1                           scoreable B     7.0000
+2    P(pathogenic score > benign score)     0.0000
+3                                P(tie)     0.9630
+4    P(pathogenic score < benign score)     0.0370
+5             AUROC = P(>) + 0.5 P(tie)     0.4815
+6         benign with score exactly 1.0     7.0000
+7     pathogenic with score exactly 1.0   286.0000
+8           pathogenic with score < 1.0    11.0000
+9                 mean score pathogenic     0.9690
+10                    mean score benign     1.0000
+11              median score pathogenic     1.0000
+12  bootstrap replicates used (of 3000)  2997.0000
+13                bootstrap SD of AUROC     0.0064
+            hgvs_p  aapos aaref aaalt                        source     gnomad_af                      region  in_previously_missing  n_nb  n_path_nb  n_ben_nb  pps3d_norm  alphamissense  revel
+3873    p.Tyr15Cys     15     Y     C            frequency stand-in  1.970780e-05          motor domain 1-780                  False   0.0        0.0       0.0         NaN         0.4640  0.502
+3855    p.Ala26Val     26     A     V  ClinVar benign/likely benign  3.084354e-04          motor domain 1-780                  False   0.0        0.0       0.0         NaN         0.2922  0.573
+3806    p.Val52Leu     52     V     L  ClinVar benign/likely benign           NaN          motor domain 1-780                  False   0.0        0.0       0.0         NaN         0.0808  0.186
+3762    p.Asp74Glu     74     D     E  ClinVar benign/likely benign           NaN          motor domain 1-780                  False   0.0        0.0       0.0         NaN         0.1120  0.235
+3707   p.Gly110Val    110     G     V  ClinVar benign/likely benign           NaN          motor domain 1-780                  False   1.0        1.0       0.0         1.0         0.1621  0.328
+3526   p.Asp208Asn    208     D     N  ClinVar benign/likely benign           NaN          motor domain 1-780                  False   0.0        0.0       0.0         NaN         0.1722  0.204
+3275   p.Met330Leu    330     M     L            frequency stand-in  5.402485e-04          motor domain 1-780                  False   0.0        0.0       0.0         NaN         0.0675  0.240
+3202   p.Met362Leu    362     M     L  ClinVar benign/likely benign           NaN          motor domain 1-780                  False   3.0        3.0       0.0         1.0         0.2325  0.406
+3036   p.Thr441Met    441     T     M  ClinVar benign/likely benign  6.635228e-05          motor domain 1-780                  False   1.0        1.0       0.0         1.0         0.0758  0.554
+2604   p.Met659Leu    659     M     L            frequency stand-in  5.396636e-04          motor domain 1-780                  False   0.0        0.0       0.0         NaN         0.7312  0.861
+2313   p.Arg787His    787     R     H  ClinVar benign/likely benign  1.792201e-04           lever arm 781-843                   True   1.0        1.0       0.0         1.0         0.1434  0.574
+1855   p.Met982Thr    982     M     T  ClinVar benign/likely benign  1.740923e-03                 S2 844-1200                  False   0.0        0.0       0.0         NaN         0.7052  0.956
+1850   p.Gly984Ala    984     G     A  ClinVar benign/likely benign           NaN                 S2 844-1200                  False   0.0        0.0       0.0         NaN         0.0907  0.293
+1844   p.Asp986Glu    986     D     E            frequency stand-in  1.311894e-04                 S2 844-1200                  False   0.0        0.0       0.0         NaN         0.2548  0.552
+1647  p.Asp1096Tyr   1096     D     Y  ClinVar benign/likely benign  1.314112e-04                 S2 844-1200                  False   0.0        0.0       0.0         NaN         0.7969  0.849
+1617  p.Lys1109Gln   1109     K     Q            frequency stand-in  9.734815e-05                 S2 844-1200                  False   0.0        0.0       0.0         NaN         0.8009  0.816
+1572  p.Ala1128Thr   1128     A     T  ClinVar benign/likely benign  1.118083e-04                 S2 844-1200                  False   0.0        0.0       0.0         NaN         0.1113  0.404
+1465  p.Glu1180Val   1180     E     V            frequency stand-in  1.317870e-05                 S2 844-1200                  False   0.0        0.0       0.0         NaN         0.6112  0.869
+1410  p.Gly1204Ser   1204     G     S  ClinVar benign/likely benign  6.870501e-07  light meromyosin 1201-1935                  False   1.0        1.0       0.0         1.0         0.0656  0.182
+1353  p.Glu1236Gln   1236     E     Q            frequency stand-in  1.094611e-05  light meromyosin 1201-1935                  False   0.0        0.0       0.0         NaN         0.4495  0.750
+1311  p.Asn1257Ser   1257     N     S  ClinVar benign/likely benign  1.415975e-04  light meromyosin 1201-1935                  False   0.0        0.0       0.0         NaN         0.0686  0.293
+1187  p.Asn1327Lys   1327     N     K  ClinVar benign/likely benign  9.856749e-05  light meromyosin 1201-1935                  False   0.0        0.0       0.0         NaN         0.8678  0.504
+931   p.Lys1459Asn   1459     K     N  ClinVar benign/likely benign  4.815967e-04  light meromyosin 1201-1935                  False   1.0        1.0       0.0         1.0         0.9574  0.705
+870   p.Ser1491Cys   1491     S     C  ClinVar benign/likely benign  1.186271e-02  light meromyosin 1201-1935                  False   1.0        1.0       0.0         1.0         0.1415  0.398
+714   p.Ile1572Met   1572     I     M  ClinVar benign/likely benign  6.576697e-06  light meromyosin 1201-1935                   True   0.0        0.0       0.0         NaN         0.0548  0.244
+588   p.Met1635Val   1635     M     V  ClinVar benign/likely benign  4.598184e-05  light meromyosin 1201-1935                   True   0.0        0.0       0.0         NaN         0.0713  0.136
+584   p.Ala1637Thr   1637     A     T  ClinVar benign/likely benign  3.022140e-04  light meromyosin 1201-1935                   True   0.0        0.0       0.0         NaN         0.0749  0.577
+470   p.Val1691Leu   1691     V     L  ClinVar benign/likely benign           NaN  light meromyosin 1201-1935                   True   0.0        0.0       0.0         NaN         0.1015  0.273
+152   p.Thr1851Pro   1851     T     P            frequency stand-in  6.810433e-05  light meromyosin 1201-1935                  False   0.0        0.0       0.0         NaN         0.8362  0.784
+59    p.Glu1902Gln   1902     E     Q  ClinVar benign/likely benign  3.557029e-05  light meromyosin 1201-1935                  False   0.0        0.0       0.0         NaN         0.3783  0.659
+                       region  residues  n_P  n_B  n_VUS  P_pct_no_labelled_neighbour  B_pct_no_labelled_neighbour
+0          motor domain 1-780       780  237   10   1088                         15.2                         70.0
+1           lever arm 781-843        63   21    1    103                         42.9                          0.0
+2                 S2 844-1200       357   80    7    536                         13.8                        100.0
+3  light meromyosin 1201-1935       735   54   12   1041                         72.2                         75.0
+{'friedman_distinct_substitutions': 75, 'friedman_residues': [848, 850, 852, 865, 866], 'friedman_in_v6_cohort': 12, 'friedman_in_v6_labelled_P': 5, 'friedman_in_v6_labelled_B': 0, 'friedman_in_v6_VUS': 7, 'v6_variants_at_those_5_residues': 16, 'v6_labelled_P_or_B_at_those_5_residues': 6}
+                                         cohort af_source label_rule      set      predictor    n  n_P  n_B  auroc  ci_low  ci_high
+0   full ClinVar aggregate, gnomAD v4 (primary)        v4  aggregate    wider         3D-PPS  304  297    7  0.481   0.468    0.493
+1   full ClinVar aggregate, gnomAD v4 (primary)        v4  aggregate    wider     1D control  420  392   28  0.585   0.474    0.709
+2   full ClinVar aggregate, gnomAD v4 (primary)        v4  aggregate    wider  AlphaMissense  421  391   30  0.897   0.839    0.947
+3   full ClinVar aggregate, gnomAD v4 (primary)        v4  aggregate    wider          REVEL  421  391   30  0.863   0.776    0.935
+4   full ClinVar aggregate, gnomAD v4 (primary)        v4  aggregate  tighter         3D-PPS  304  297    7  0.481   0.468    0.493
+5   full ClinVar aggregate, gnomAD v4 (primary)        v4  aggregate  tighter     1D control  416  392   24  0.509   0.395    0.632
+6   full ClinVar aggregate, gnomAD v4 (primary)        v4  aggregate  tighter  AlphaMissense  418  391   27  0.902   0.838    0.956
+7   full ClinVar aggregate, gnomAD v4 (primary)        v4  aggregate  tighter          REVEL  418  391   27  0.878   0.784    0.952
+8           full data, v5 label rule, gnomAD v4        v4      v5rcv    wider         3D-PPS  545  510   35  0.712   0.625    0.801
+9           full data, v5 label rule, gnomAD v4        v4      v5rcv    wider     1D control  680  625   55  0.710   0.626    0.793
+10          full data, v5 label rule, gnomAD v4        v4      v5rcv    wider  AlphaMissense  679  624   55  0.913   0.872    0.948
+11          full data, v5 label rule, gnomAD v4        v4      v5rcv    wider          REVEL  679  624   55  0.899   0.849    0.938
+12          full data, v5 label rule, gnomAD v4        v4      v5rcv  tighter         3D-PPS  538  508   30  0.723   0.628    0.820
+13          full data, v5 label rule, gnomAD v4        v4      v5rcv  tighter     1D control  670  624   46  0.719   0.621    0.811
+14          full data, v5 label rule, gnomAD v4        v4      v5rcv  tighter  AlphaMissense  671  624   47  0.918   0.873    0.956
+15          full data, v5 label rule, gnomAD v4        v4      v5rcv  tighter          REVEL  671  624   47  0.906   0.856    0.948
+16        full ClinVar aggregate, gnomAD v2.1.1        v2  aggregate    wider         3D-PPS  316  301   15  0.603   0.494    0.730
+17        full ClinVar aggregate, gnomAD v2.1.1        v2  aggregate    wider     1D control  422  392   30  0.628   0.518    0.741
+18        full ClinVar aggregate, gnomAD v2.1.1        v2  aggregate    wider  AlphaMissense  425  391   34  0.906   0.855    0.949
+19        full ClinVar aggregate, gnomAD v2.1.1        v2  aggregate    wider          REVEL  425  391   34  0.862   0.770    0.935
+20        full ClinVar aggregate, gnomAD v2.1.1        v2  aggregate  tighter         3D-PPS  306  297    9  0.596   0.476    0.770
+21        full ClinVar aggregate, gnomAD v2.1.1        v2  aggregate  tighter     1D control  412  392   20  0.536   0.418    0.667
+22        full ClinVar aggregate, gnomAD v2.1.1        v2  aggregate  tighter  AlphaMissense  415  391   24  0.913   0.850    0.968
+23        full ClinVar aggregate, gnomAD v2.1.1        v2  aggregate  tighter          REVEL  415  391   24  0.880   0.766    0.970
+24      full data, v5 label rule, gnomAD v2.1.1        v2      v5rcv    wider         3D-PPS  549  509   40  0.705   0.625    0.790
+25      full data, v5 label rule, gnomAD v2.1.1        v2      v5rcv    wider     1D control  684  626   58  0.714   0.629    0.795
+26      full data, v5 label rule, gnomAD v2.1.1        v2      v5rcv    wider  AlphaMissense  682  624   58  0.914   0.876    0.947
+27      full data, v5 label rule, gnomAD v2.1.1        v2      v5rcv    wider          REVEL  682  624   58  0.892   0.839    0.937
+28      full data, v5 label rule, gnomAD v2.1.1        v2      v5rcv  tighter         3D-PPS  535  506   29  0.733   0.638    0.830
+29      full data, v5 label rule, gnomAD v2.1.1        v2      v5rcv  tighter     1D control  671  626   45  0.719   0.619    0.819
+30      full data, v5 label rule, gnomAD v2.1.1        v2      v5rcv  tighter  AlphaMissense  669  624   45  0.929   0.886    0.964
+31      full data, v5 label rule, gnomAD v2.1.1        v2      v5rcv  tighter          REVEL  669  624   45  0.913   0.856    0.958
+   done in 24s
+== figures_paper 
+saved ['fig1_provenance_gap.png', 'fig2_coverage_asymmetry.png', 'fig3_auroc_grid.png', 'fig4_permutation.png', 'fig5_spatial_block_cv.png', 'fig6_calibration_support.png']
+   done in 2s
+== mg_clinvar 
+{
+ "server_last_modified_now": "Mon, 05 Oct 2026 13:02:37 GMT",
+ "server_content_length_now": "455128718",
+ "file_mtime_utc": "2026-10-07T01:56:47Z",
+ "sha256": "97a20416f4d49c197a16546c8cae978794a5672306aa7130cbbd143063d80d5b",
+ "bytes": 455128718,
+ "rows_scanned": 9290347,
+ "missense_snv_variation_ids": 2556256,
+ "n_genes": 18695,
+ "max_variation_id": 5010249
+}
+   done in 46s
+== mg_acquire 
+[acquire] MYH7: AF available=True len=1935 gnomAD variants=8212 missense=1987 (0s)
+[acquire] MYBPC3: AF available=True len=1274 gnomAD variants=10785 missense=2666 (0s)
+[acquire] TNNT2: AF available=True len=298 gnomAD variants=3019 missense=530 (0s)
+[acquire] TNNI3: AF available=True len=210 gnomAD variants=2181 missense=452 (0s)
+[acquire] TPM1: AF available=True len=284 gnomAD variants=3950 missense=681 (0s)
+[acquire] ACTC1: AF available=True len=377 gnomAD variants=1307 missense=165 (0s)
+[acquire] MYL2: AF available=True len=166 gnomAD variants=1559 missense=293 (0s)
+[acquire] MYL3: AF available=True len=195 gnomAD variants=1082 missense=233 (0s)
+[acquire] LDLR: AF available=True len=860 gnomAD variants=5497 missense=1656 (0s)
+[acquire] FBN1: AF available=False len=None gnomAD variants=12107 missense=2783 (0s)
+[acquire] SCN5A: AF available=True len=2016 gnomAD variants=9470 missense=2631 (0s)
+[acquire] KCNQ1: AF available=True len=676 gnomAD variants=6967 missense=1714 (0s)
+[acquire] KCNH2: AF available=True len=1159 gnomAD variants=8526 missense=2388 (0s)
+[acquire] PTEN: AF available=True len=403 gnomAD variants=3103 missense=928 (0s)
+[acquire] MLH1: AF available=True len=756 gnomAD variants=4365 missense=1036 (0s)
+[acquire] MSH2: AF available=True len=934 gnomAD variants=6097 missense=1795 (0s)
+[acquire] MSH6: AF available=True len=1360 gnomAD variants=6156 missense=2432 (0s)
+[acquire] BRCA1: AF available=True len=1863 gnomAD variants=7287 missense=2310 (0s)
+[acquire] TP53: AF available=True len=393 gnomAD variants=3340 missense=781 (0s)
+[acquire] TSC2: AF available=True len=1807 gnomAD variants=13480 missense=3281 (0s)
+[acquire] SCN1A: AF available=True len=2009 gnomAD variants=6960 missense=1835 (0s)
+[acquire] CACNA1A: AF available=True len=2506 gnomAD variants=18606 missense=4997 (0s)
+[acquire] ABCA4: AF available=True len=2273 gnomAD variants=11616 missense=3262 (0s)
+   done in 30s
+== mg_pool 
+       gene  in_panel19  clinvar_missense_nt  n_P_T2  n_B_T2     I1 uniprot     I2                       first_failed
+0       TTN       False                15142      41    1189  False    None   None                                 I1
+1     BRCA2       False                 9699     116     665   True  P51587  False           I2 no AlphaFold DB entry
+2       ATM       False                 8590      97     145  False    None   None                                 I1
+3       APC       False                 8215      21      68  False    None   None                                 I1
+4       NF1       False                 6582     418      81   True  P21359  False                 I2 no canonical F1
+5     BRCA1        True                 6341     215     424   True    None   None  pre-listed (see v7_inclusion.csv)
+6      POLE       False                 5411      13      61  False    None   None                                 I1
+7      TSC2       False                 5350     185     177   True  P49815   True                                   
+8      RYR1       False                 5108     267      59   True  P21817  False           I2 no AlphaFold DB entry
+9      MSH6        True                 5082      70      68  False    None   None  pre-listed (see v7_inclusion.csv)
+10     RYR2       False                 5029     241      57   True  Q92736  False           I2 no AlphaFold DB entry
+11     FBN1        True                 4569    1507      64   True    None   None  pre-listed (see v7_inclusion.csv)
+12      NEB       False                 4309       8     591  False    None   None                                 I1
+13    KMT2D       False                 4080     113    1004   True  O14686  False           I2 no AlphaFold DB entry
+14     PKD1       False                 3992     189     217   True  P98161  False           I2 no AlphaFold DB entry
+15    USH2A       False                 3909     309     115   True  O75445  False                 I2 no canonical F1
+16    OBSCN       False                 3850       2     708  False    None   None                                 I1
+17   DICER1       False                 3831      37      67  False    None   None                                 I1
+18     PLEC       False                 3765       3      93  False    None   None                                 I1
+19    ALMS1       False                 3622      19     203  False    None   None                                 I1
+20      DMD       False                 3618      29     353  False    None   None                                 I1
+21    SYNE1       False                 3566       5     103  False    None   None                                 I1
+22      ALK       False                 3492      17      76  False    None   None                                 I1
+23     MSH2        True                 3332     142     265   True    None   None  pre-listed (see v7_inclusion.csv)
+24   ADGRV1       False                 3305      21     508  False    None   None                                 I1
+25      DSP       False                 3283      21     113  False    None   None                                 I1
+26    PALB2       False                 3209      10      68  False    None   None                                 I1
+27     MYH7        True                 3184     379      20   True    None   None  pre-listed (see v7_inclusion.csv)
+28    BRIP1       False                 3109       9      47  False    None   None                                 I1
+29    PTCH1       False                 3106      48     121  False    None   None                                 I1
+30     APOB       False                 3093      13     358  False    None   None                                 I1
+31     FLNC       False                 3081      29      91  False    None   None                                 I1
+32     PMS2       False                 2992      33      42  False    None   None                                 I1
+33   ZNF469       False                 2928       6     272  False    None   None                                 I1
+34   RECQL4       False                 2896       6      56  False    None   None                                 I1
+35  SMARCA4       False                 2861      71      17  False    None   None                                 I1
+36    FANCA       False                 2857      83      87  False    None   None                                 I1
+37   DNAH11       False                 2826      23    1019  False    None   None                                 I1
+38    SCN1A       False                 2815    1023      59   True  P35498   True                                   
+39    SYNE2       False                 2789       1     165  False    None   None                                 I1
+40      BLM       False                 2780       9      37  False    None   None                                 I1
+41    PRKDC       False                 2769       2     116  False    None   None                                 I1
+42      MET       False                 2721      11     110  False    None   None                                 I1
+43    SCN5A        True                 2716     125      28   True    None   None  pre-listed (see v7_inclusion.csv)
+44     MSH3       False                 2713       2      20  False    None   None                                 I1
+45    FANCM       False                 2660       1      58  False    None   None                                 I1
+46     CFTR       False                 2643     275      15  False    None   None                                 I1
+47   VPS13B       False                 2634       7      38  False    None   None                                 I1
+48    RAD50       False                 2615       5      14  False    None   None                                 I1
+49     POLQ       False                 2582       0     133  False    None   None                                 I1
+50  DYNC1H1       False                 2559     154     227   True  Q14204  False           I2 no AlphaFold DB entry
+51     ANK2       False                 2546      12     148  False    None   None                                 I1
+52    POLD1       False                 2544       5      39  False    None   None                                 I1
+53     TSC1       False                 2517      21      81  False    None   None                                 I1
+54    MUTYH       False                 2414      57     124  False    None   None                                 I1
+55    LRRK2       False                 2413      10      71  False    None   None                                 I1
+56     CDH1       False                 2381      23     150  False    None   None                                 I1
+57    PKHD1       False                 2370     161      57   True  P08F94  False           I2 no AlphaFold DB entry
+58   NOTCH1       False                 2340      28     243  False    None   None                                 I1
+59     MLH1        True                 2328     186      35   True    None   None  pre-listed (see v7_inclusion.csv)
+60    AXIN2       False                 2316       2      28  False    None   None                                 I1
+61     TNXB       False                 2294       5     196  False    None   None                                 I1
+62     CHD7       False                 2293      93     290  False    None   None                                 I1
+63   COL6A3       False                 2273      35     189  False    None   None                                 I1
+64    CDH23       False                 2264      74      47  False    None   None                                 I1
+65      RET       False                 2260      66      44  False    None   None                                 I1
+66    BARD1       False                 2258       2      49  False    None   None                                 I1
+67    DNAH5       False                 2246      40     381  False    None   None                                 I1
+68    AKAP9       False                 2233       2     165  False    None   None                                 I1
+69  COL12A1       False                 2227      14     118  False    None   None                                 I1
+70      ATR       False                 2222       3      33  False    None   None                                 I1
+71    HMCN1       False                 2218       0      92  False    None   None                                 I1
+72  CACNA1A       False                 2214     164     103   True  O00555   True                                   
+73      DST       False                 2198       4      90  False    None   None                                 I1
+74    ALPK2       False                 2193       0     156  False    None   None                                 I1
+75   COL7A1       False                 2174     305     200   True  Q02388  False           I2 no AlphaFold DB entry
+76     MLH3       False                 2168       1      83  False    None   None                                 I1
+77    LZTR1       False                 2167      35      16  False    None   None                                 I1
+78    RTEL1       False                 2158      15      58  False    None   None                                 I1
+79    KIF1B       False                 2151       1      39  False    None   None                                 I1
+80     RELN       False                 2149      10     200  False    None   None                                 I1
+81     FLNA       False                 2146      48     203  False    None   None                                 I1
+82     WNK2       False                 2139       0      95  False    None   None                                 I1
+83     FAT4       False                 2136       4      79  False    None   None                                 I1
+84     FBN2       False                 2133      90     197  False    None   None                                 I1
+85  CACNA1H       False                 2130       6     306  False    None   None                                 I1
+86     LRP2       False                 2109       8      76  False    None   None                                 I1
+87    KMT2A       False                 2093      63     127  False    None   None                                 I1
+88    ABCA4       False                 2069     631      26   True  P78363   True                                   
+89   PDGFRA       False                 2001       2      30  False    None   None                                 I1
+90    MYH11       False                 1992       6      20  False    None   None                                 I1
+91     SACS       False                 1959      53     446  False    None   None                                 I1
+92     PCLO       False                 1954       0      83  False    None   None                                 I1
+93     EGFR       False                 1951      16      42  False    None   None                                 I1
+94  ANKRD26       False                 1942       0      75  False    None   None                                 I1
+95   AHNAK2       False                 1935       0     357  False    None   None                                 I1
+96      EYS       False                 1931      34      50  False    None   None                                 I1
+97   MYBPC3        True                 1928      33      35  False    None   None  pre-listed (see v7_inclusion.csv)
+98    CHEK2       False                 1924       8      10  False    None   None                                 I1
+99   COL3A1       False                 1917     582      18  False    None   None                                 I1
+pass I1+I2: [('TSC2', 'P49815'), ('SCN1A', 'P35498'), ('CACNA1A', 'O00555'), ('ABCA4', 'P78363')]
+   done in 55s
+== mg_acquire 
+[acquire] MYH7: AF available=True len=1935 gnomAD variants=8212 missense=1987 (0s)
+[acquire] MYBPC3: AF available=True len=1274 gnomAD variants=10785 missense=2666 (0s)
+[acquire] TNNT2: AF available=True len=298 gnomAD variants=3019 missense=530 (0s)
+[acquire] TNNI3: AF available=True len=210 gnomAD variants=2181 missense=452 (0s)
+[acquire] TPM1: AF available=True len=284 gnomAD variants=3950 missense=681 (0s)
+[acquire] ACTC1: AF available=True len=377 gnomAD variants=1307 missense=165 (0s)
+[acquire] MYL2: AF available=True len=166 gnomAD variants=1559 missense=293 (0s)
+[acquire] MYL3: AF available=True len=195 gnomAD variants=1082 missense=233 (0s)
+[acquire] LDLR: AF available=True len=860 gnomAD variants=5497 missense=1656 (0s)
+[acquire] FBN1: AF available=False len=None gnomAD variants=12107 missense=2783 (0s)
+[acquire] SCN5A: AF available=True len=2016 gnomAD variants=9470 missense=2631 (0s)
+[acquire] KCNQ1: AF available=True len=676 gnomAD variants=6967 missense=1714 (0s)
+[acquire] KCNH2: AF available=True len=1159 gnomAD variants=8526 missense=2388 (0s)
+[acquire] PTEN: AF available=True len=403 gnomAD variants=3103 missense=928 (0s)
+[acquire] MLH1: AF available=True len=756 gnomAD variants=4365 missense=1036 (0s)
+[acquire] MSH2: AF available=True len=934 gnomAD variants=6097 missense=1795 (0s)
+[acquire] MSH6: AF available=True len=1360 gnomAD variants=6156 missense=2432 (0s)
+[acquire] BRCA1: AF available=True len=1863 gnomAD variants=7287 missense=2310 (0s)
+[acquire] TP53: AF available=True len=393 gnomAD variants=3340 missense=781 (0s)
+[acquire] TSC2: AF available=True len=1807 gnomAD variants=13480 missense=3281 (0s)
+[acquire] SCN1A: AF available=True len=2009 gnomAD variants=6960 missense=1835 (0s)
+[acquire] CACNA1A: AF available=True len=2506 gnomAD variants=18606 missense=4997 (0s)
+[acquire] ABCA4: AF available=True len=2273 gnomAD variants=11616 missense=3262 (0s)
+   done in 30s
+== mg_labels 
+[labels] MYH7: P=379 B=20 included=True  (2s)
+[labels] MYBPC3: P=33 B=35 included=False I1 (2s)
+[labels] TNNT2: P=50 B=4 included=False I1 (2s)
+[labels] TNNI3: P=55 B=2 included=False I1 (2s)
+[labels] TPM1: P=51 B=3 included=False I1 (2s)
+[labels] ACTC1: P=26 B=1 included=False I1 (3s)
+[labels] MYL2: P=12 B=0 included=False I1 (3s)
+[labels] MYL3: P=4 B=0 included=False I1 (3s)
+[labels] LDLR: P=699 B=37 included=True  (3s)
+[labels] FBN1: no AF model; P=1507 B=64
+[labels] SCN5A: P=125 B=28 included=False I3 (4s)
+[labels] KCNQ1: P=235 B=12 included=False I1 (4s)
+[labels] KCNH2: P=184 B=13 included=False I1 (4s)
+[labels] PTEN: P=254 B=9 included=False I1 (5s)
+[labels] MLH1: P=186 B=35 included=True  (5s)
+[labels] MSH2: P=142 B=265 included=True  (5s)
+[labels] MSH6: P=70 B=68 included=False I1 (5s)
+[labels] BRCA1: P=215 B=424 included=True  (5s)
+[labels] TP53: P=232 B=144 included=True  (6s)
+[labels] TSC2: P=185 B=177 included=True  (6s)
+[labels] SCN1A: P=1023 B=59 included=True  (6s)
+[labels] CACNA1A: P=164 B=103 included=True  (7s)
+[labels] ABCA4: P=631 B=26 included=True  (7s)
+   done in 8s
+== a5_retrieval_audit 
+[audit 1/111] MYH7: n=3184 lost=28.4% (symbol 538, snapshot 366, nohg19 0, other 1) 0s
+[audit 2/111] MYBPC3: n=1928 lost=11.3% (symbol 0, snapshot 217, nohg19 0, other 0) 0s
+[audit 3/111] TNNT2: n=478 lost=10.0% (symbol 0, snapshot 48, nohg19 0, other 0) 0s
+[audit 4/111] TNNI3: n=413 lost=11.4% (symbol 0, snapshot 47, nohg19 0, other 0) 0s
+[audit 5/111] TPM1: n=461 lost=14.3% (symbol 0, snapshot 66, nohg19 0, other 0) 0s
+[audit 6/111] ACTC1: n=370 lost=100.0% (symbol 317, snapshot 53, nohg19 0, other 0) 0s
+[audit 7/111] MYL2: n=281 lost=28.8% (symbol 52, snapshot 29, nohg19 0, other 0) 0s
+[audit 8/111] MYL3: n=268 lost=12.3% (symbol 0, snapshot 33, nohg19 0, other 0) 0s
+[audit 9/111] LDLR: n=1869 lost=10.9% (symbol 32, snapshot 170, nohg19 0, other 2) 0s
+[audit 10/111] FBN1: n=4569 lost=15.8% (symbol 154, snapshot 570, nohg19 0, other 0) 0s
+[audit 11/111] SCN5A: n=2716 lost=22.0% (symbol 240, snapshot 352, nohg19 0, other 6) 0s
+[audit 12/111] KCNQ1: n=1091 lost=23.9% (symbol 147, snapshot 113, nohg19 0, other 1) 0s
+[audit 13/111] KCNH2: n=1819 lost=10.3% (symbol 0, snapshot 187, nohg19 0, other 0) 0s
+[audit 14/111] PTEN: n=1201 lost=11.9% (symbol 1, snapshot 142, nohg19 0, other 0) 0s
+[audit 15/111] MLH1: n=2328 lost=6.7% (symbol 0, snapshot 156, nohg19 0, other 0) 0s
+[audit 16/111] MSH2: n=3332 lost=6.3% (symbol 0, snapshot 210, nohg19 0, other 0) 0s
+[audit 17/111] MSH6: n=5082 lost=6.8% (symbol 20, snapshot 324, nohg19 0, other 0) 0s
+[audit 18/111] BRCA1: n=6341 lost=5.7% (symbol 0, snapshot 361, nohg19 0, other 0) 0s
+[audit 19/111] TP53: n=1443 lost=6.0% (symbol 0, snapshot 87, nohg19 0, other 0) 0s
+[audit 20/111] TTN: n=15142 lost=70.4% (symbol 8474, snapshot 2180, nohg19 0, other 1) 0s
+[audit 21/111] BRCA2: n=9699 lost=8.1% (symbol 0, snapshot 782, nohg19 0, other 0) 0s
+[audit 22/111] ATM: n=8590 lost=7.0% (symbol 0, snapshot 602, nohg19 0, other 0) 0s
+[audit 23/111] APC: n=8215 lost=8.7% (symbol 0, snapshot 715, nohg19 0, other 0) 0s
+[audit 24/111] NF1: n=6582 lost=10.2% (symbol 65, snapshot 606, nohg19 0, other 1) 0s
+[audit 25/111] POLE: n=5411 lost=11.1% (symbol 77, snapshot 526, nohg19 0, other 0) 0s
+[audit 26/111] TSC2: n=5350 lost=9.0% (symbol 5, snapshot 477, nohg19 0, other 0) 0s
+[audit 27/111] RYR1: n=5108 lost=17.4% (symbol 140, snapshot 746, nohg19 0, other 3) 0s
+[audit 28/111] RYR2: n=5029 lost=23.1% (symbol 383, snapshot 777, nohg19 0, other 0) 0s
+[audit 29/111] NEB: n=4309 lost=15.8% (symbol 36, snapshot 644, nohg19 0, other 0) 0s
+[audit 30/111] KMT2D: n=4080 lost=20.1% (symbol 138, snapshot 681, nohg19 0, other 0) 0s
+[audit 31/111] PKD1: n=3992 lost=30.4% (symbol 279, snapshot 933, nohg19 0, other 0) 0s
+[audit 32/111] USH2A: n=3909 lost=34.6% (symbol 535, snapshot 815, nohg19 0, other 1) 0s
+[audit 33/111] OBSCN: n=3850 lost=27.8% (symbol 185, snapshot 887, nohg19 0, other 0) 0s
+[audit 34/111] DICER1: n=3831 lost=9.7% (symbol 0, snapshot 373, nohg19 0, other 0) 0s
+[audit 35/111] PLEC: n=3765 lost=11.2% (symbol 14, snapshot 407, nohg19 0, other 0) 0s
+[audit 36/111] ALMS1: n=3622 lost=15.8% (symbol 0, snapshot 572, nohg19 0, other 1) 0s
+[audit 37/111] DMD: n=3618 lost=21.4% (symbol 0, snapshot 775, nohg19 0, other 0) 0s
+[audit 38/111] SYNE1: n=3566 lost=14.5% (symbol 200, snapshot 316, nohg19 0, other 2) 0s
+[audit 39/111] ALK: n=3492 lost=13.1% (symbol 0, snapshot 458, nohg19 0, other 0) 0s
+[audit 40/111] ADGRV1: n=3305 lost=13.4% (symbol 0, snapshot 442, nohg19 0, other 0) 0s
+[audit 41/111] DSP: n=3283 lost=16.4% (symbol 94, snapshot 446, nohg19 0, other 0) 0s
+[audit 42/111] PALB2: n=3209 lost=7.1% (symbol 0, snapshot 229, nohg19 0, other 0) 0s
+[audit 43/111] BRIP1: n=3109 lost=7.6% (symbol 0, snapshot 235, nohg19 0, other 0) 0s
+[audit 44/111] PTCH1: n=3106 lost=17.9% (symbol 174, snapshot 382, nohg19 0, other 0) 0s
+[audit 45/111] APOB: n=3093 lost=24.0% (symbol 74, snapshot 668, nohg19 0, other 1) 0s
+[audit 46/111] FLNC: n=3081 lost=44.3% (symbol 923, snapshot 443, nohg19 0, other 0) 0s
+[audit 47/111] PMS2: n=2992 lost=7.9% (symbol 0, snapshot 235, nohg19 0, other 0) 0s
+[audit 48/111] ZNF469: n=2928 lost=14.0% (symbol 61, snapshot 348, nohg19 0, other 2) 0s
+[audit 49/111] RECQL4: n=2896 lost=16.5% (symbol 142, snapshot 336, nohg19 0, other 1) 0s
+[audit 50/111] SMARCA4: n=2861 lost=12.1% (symbol 0, snapshot 346, nohg19 0, other 0) 0s
+[audit 51/111] FANCA: n=2857 lost=31.7% (symbol 55, snapshot 851, nohg19 0, other 0) 0s
+[audit 52/111] DNAH11: n=2826 lost=15.5% (symbol 131, snapshot 308, nohg19 0, other 0) 0s
+[audit 53/111] SCN1A: n=2815 lost=11.4% (symbol 3, snapshot 318, nohg19 0, other 0) 0s
+[audit 54/111] SYNE2: n=2789 lost=14.7% (symbol 0, snapshot 410, nohg19 0, other 0) 0s
+[audit 55/111] BLM: n=2780 lost=11.8% (symbol 0, snapshot 328, nohg19 0, other 1) 0s
+[audit 56/111] PRKDC: n=2769 lost=8.5% (symbol 107, snapshot 127, nohg19 0, other 0) 0s
+[audit 57/111] MET: n=2721 lost=13.3% (symbol 0, snapshot 363, nohg19 0, other 0) 0s
+[audit 58/111] MSH3: n=2713 lost=19.7% (symbol 325, snapshot 209, nohg19 0, other 0) 0s
+[audit 59/111] FANCM: n=2660 lost=31.3% (symbol 15, snapshot 817, nohg19 0, other 0) 0s
+[audit 60/111] CFTR: n=2643 lost=16.8% (symbol 0, snapshot 440, nohg19 0, other 5) 0s
+[audit 61/111] VPS13B: n=2634 lost=20.3% (symbol 0, snapshot 534, nohg19 0, other 0) 0s
+[audit 62/111] RAD50: n=2615 lost=7.8% (symbol 0, snapshot 203, nohg19 0, other 0) 0s
+[audit 63/111] POLQ: n=2582 lost=2.1% (symbol 0, snapshot 55, nohg19 0, other 0) 0s
+[audit 64/111] DYNC1H1: n=2559 lost=16.5% (symbol 86, snapshot 335, nohg19 0, other 0) 0s
+[audit 65/111] ANK2: n=2546 lost=35.1% (symbol 452, snapshot 442, nohg19 0, other 0) 0s
+[audit 66/111] POLD1: n=2544 lost=9.0% (symbol 0, snapshot 228, nohg19 0, other 1) 0s
+[audit 67/111] TSC1: n=2517 lost=10.3% (symbol 0, snapshot 259, nohg19 0, other 0) 0s
+[audit 68/111] MUTYH: n=2414 lost=45.7% (symbol 0, snapshot 1102, nohg19 0, other 0) 0s
+[audit 69/111] LRRK2: n=2413 lost=2.9% (symbol 0, snapshot 69, nohg19 0, other 0) 0s
+[audit 70/111] CDH1: n=2381 lost=7.4% (symbol 0, snapshot 177, nohg19 0, other 0) 0s
+[audit 71/111] PKHD1: n=2370 lost=32.8% (symbol 90, snapshot 687, nohg19 0, other 1) 0s
+[audit 72/111] NOTCH1: n=2340 lost=17.7% (symbol 70, snapshot 345, nohg19 0, other 0) 0s
+[audit 73/111] AXIN2: n=2316 lost=8.5% (symbol 0, snapshot 196, nohg19 0, other 0) 0s
+[audit 74/111] TNXB: n=2294 lost=27.4% (symbol 121, snapshot 508, nohg19 0, other 0) 0s
+[audit 75/111] CHD7: n=2293 lost=20.1% (symbol 101, snapshot 359, nohg19 0, other 0) 0s
+[audit 76/111] COL6A3: n=2273 lost=13.2% (symbol 42, snapshot 258, nohg19 0, other 0) 0s
+[audit 77/111] CDH23: n=2264 lost=21.2% (symbol 89, snapshot 390, nohg19 0, other 1) 0s
+[audit 78/111] RET: n=2260 lost=11.1% (symbol 27, snapshot 219, nohg19 0, other 5) 0s
+[audit 79/111] BARD1: n=2258 lost=6.7% (symbol 0, snapshot 151, nohg19 0, other 0) 0s
+[audit 80/111] DNAH5: n=2246 lost=20.2% (symbol 18, snapshot 435, nohg19 0, other 0) 0s
+[audit 81/111] AKAP9: n=2233 lost=16.2% (symbol 1, snapshot 361, nohg19 0, other 0) 0s
+[audit 82/111] COL12A1: n=2227 lost=16.6% (symbol 47, snapshot 323, nohg19 0, other 0) 0s
+[audit 83/111] ATR: n=2222 lost=4.4% (symbol 8, snapshot 90, nohg19 0, other 0) 0s
+[audit 84/111] HMCN1: n=2218 lost=15.1% (symbol 27, snapshot 307, nohg19 0, other 0) 0s
+[audit 85/111] CACNA1A: n=2214 lost=18.7% (symbol 121, snapshot 294, nohg19 0, other 0) 0s
+[audit 86/111] DST: n=2198 lost=7.4% (symbol 57, snapshot 106, nohg19 0, other 0) 0s
+[audit 87/111] ALPK2: n=2193 lost=35.1% (symbol 708, snapshot 61, nohg19 0, other 0) 0s
+[audit 88/111] COL7A1: n=2174 lost=17.5% (symbol 0, snapshot 381, nohg19 0, other 0) 0s
+[audit 89/111] MLH3: n=2168 lost=15.7% (symbol 1, snapshot 339, nohg19 0, other 0) 0s
+[audit 90/111] LZTR1: n=2167 lost=18.2% (symbol 64, snapshot 331, nohg19 0, other 0) 0s
+[audit 91/111] RTEL1: n=2158 lost=99.9% (symbol 1444, snapshot 711, nohg19 0, other 0) 0s
+[audit 92/111] KIF1B: n=2151 lost=25.7% (symbol 147, snapshot 405, nohg19 0, other 0) 0s
+[audit 93/111] RELN: n=2149 lost=29.5% (symbol 389, snapshot 245, nohg19 0, other 0) 0s
+[audit 94/111] FLNA: n=2146 lost=25.1% (symbol 88, snapshot 451, nohg19 0, other 0) 0s
+[audit 95/111] WNK2: n=2139 lost=52.5% (symbol 0, snapshot 1123, nohg19 0, other 0) 0s
+[audit 96/111] FAT4: n=2136 lost=12.3% (symbol 0, snapshot 263, nohg19 0, other 0) 0s
+[audit 97/111] FBN2: n=2133 lost=18.6% (symbol 57, snapshot 340, nohg19 0, other 0) 0s
+[audit 98/111] CACNA1H: n=2130 lost=8.7% (symbol 0, snapshot 183, nohg19 0, other 2) 0s
+[audit 99/111] LRP2: n=2109 lost=11.5% (symbol 0, snapshot 243, nohg19 0, other 0) 0s
+[audit 100/111] KMT2A: n=2093 lost=22.8% (symbol 78, snapshot 399, nohg19 0, other 0) 0s
+[audit 101/111] ABCA4: n=2069 lost=15.0% (symbol 0, snapshot 309, nohg19 0, other 1) 0s
+[audit 102/111] PDGFRA: n=2001 lost=11.2% (symbol 0, snapshot 225, nohg19 0, other 0) 0s
+[audit 103/111] MYH11: n=1992 lost=14.2% (symbol 1, snapshot 279, nohg19 0, other 3) 0s
+[audit 104/111] SACS: n=1959 lost=19.5% (symbol 18, snapshot 362, nohg19 0, other 2) 0s
+[audit 105/111] PCLO: n=1954 lost=11.5% (symbol 22, snapshot 202, nohg19 0, other 0) 0s
+[audit 106/111] EGFR: n=1951 lost=28.8% (symbol 137, snapshot 425, nohg19 0, other 0) 0s
+[audit 107/111] ANKRD26: n=1942 lost=47.2% (symbol 64, snapshot 852, nohg19 0, other 0) 0s
+[audit 108/111] AHNAK2: n=1935 lost=32.6% (symbol 0, snapshot 631, nohg19 0, other 0) 0s
+[audit 109/111] EYS: n=1931 lost=30.8% (symbol 207, snapshot 386, nohg19 0, other 1) 0s
+[audit 110/111] CHEK2: n=1924 lost=5.2% (symbol 0, snapshot 101, nohg19 0, other 0) 0s
+[audit 111/111] COL3A1: n=1917 lost=16.1% (symbol 38, snapshot 271, nohg19 0, other 0) 0s
+{
+ "myvariant_build": "2025-06-24T16:27:25.889841-07:00",
+ "audit_run_utc": "2026-10-07T05:51:58.356646Z",
+ "A_panel19": {
+  "n_genes": 19,
+  "n_loss_gt5pct": 19,
+  "n_loss_gt20pct": 5,
+  "prop_gt5pct": 1.0,
+  "prop_gt5pct_exact_ci": [
+   0.823533088192828,
+   1.0
+  ],
+  "median_loss_pct": 11.380145278450364,
+  "max_loss_pct": 100.0,
+  "total_missense": 39174,
+  "total_missed": 5042,
+  "pooled_loss_pct": 12.87078164088426,
+  "causes_of_missed": {
+   "n_symbol_field": 1501,
+   "n_snapshot_missing": 3531,
+   "n_snapshot_missing_newer": 3520,
+   "n_no_hg19": 0,
+   "n_other": 10
+  },
+  "genes_with_90pct_loss_run": [
+   "MYH7",
+   "ACTC1",
+   "MYL2",
+   "KCNQ1"
+  ]
+ },
+ "A2_top100": {
+  "n_genes": 100,
+  "n_loss_gt5pct": 97,
+  "n_loss_gt20pct": 32,
+  "prop_gt5pct": 0.97,
+  "prop_gt5pct_exact_ci": [
+   0.9148239470257197,
+   0.9937700284616938
+  ],
+  "median_loss_pct": 15.800456302277961,
+  "max_loss_pct": 99.86098239110288,
+  "total_missense": 315128,
+  "total_missed": 61510,
+  "pooled_loss_pct": 19.519052575461398,
+  "causes_of_missed": {
+   "n_symbol_field": 18407,
+   "n_snapshot_missing": 43060,
+   "n_snapshot_missing_newer": 43012,
+   "n_no_hg19": 0,
+   "n_other": 43
+  },
+  "genes_with_90pct_loss_run": [
+   "MYH7",
+   "TTN",
+   "FLNC",
+   "TNXB",
+   "ALPK2",
+   "RTEL1",
+   "RELN",
+   "EYS"
+  ]
+ }
+}
+audit done 11s
+   done in 12s
+== a2_erepo_myh7 
+{
+ "erepo_total_rows_all_genes": 6343,
+ "erepo_myh7_rows_all_variant_types": 171,
+ "erepo_myh7_missense_rows": 120,
+ "erepo_myh7_missense_by_class": {
+  "VUS": 56,
+  "P": 52,
+  "B": 12
+ },
+ "erepo_myh7_B_in_cohort_as_clinvar_B": 12,
+ "erepo_myh7_B_in_T1": 12,
+ "erepo_myh7_B_clinvar_other_label": {},
+ "erepo_myh7_P_in_cohort_as_clinvar_P": 51,
+ "erepo_myh7_P_clinvar_other_label": {
+  "VUS": 1
+ },
+ "access": "GET https://erepo.clinicalgenome.org/evrepo/api/classifications/all (TSV, public, no authentication); the matchType/matchValue filter parameters are ignored by this endpoint, so the whole table is downloaded and filtered locally."
+}
+   done in 1s
+== a1_myh7 
+[grid] T1: n=391 B=12 (6s)
+[grid] T2: n=399 B=20 (11s)
+[grid] T3: n=401 B=22 (16s)
+[grid] T3legacy_wide: n=406 B=27 (20s)
+[grid] T3legacy_tight: n=403 B=24 (23s)
+[grid] T1both: n=196 B=12 (25s)
+[grid] T3_BA1: n=399 B=20 (29s)
+[grid] v6_agg_v4_wider: n=422 B=30 (32s)
+[grid] v6_agg_v4_tighter: n=419 B=27 (35s)
+[grid] v6_agg_v2: n=426 B=34 (39s)
+[grid] v6_v5rcv_v4: n=680 B=55 (43s)
+[grid] v6_v5rcv_v2: n=684 B=58 (47s)
+[grid] v5_truncated: n=602 B=109 (51s)
+[perm] T1 (74s)
+[perm] T2 (81s)
+[perm] T3 (88s)
+[perm] T3legacy_wide (95s)
+[perm] T3legacy_tight (99s)
+[perm] T1both (102s)
+[perm] T3_BA1 (106s)
+a1_myh7 done 112s
+   done in 113s
+== a3_inference_myh7 
+[cv] T1 residue (22s)
+[cv] T1 block100 (44s)
+[power/cov] T1 (75s)
+[cv] T2 residue (97s)
+[cv] T2 block100 (119s)
+[power/cov] T2 (164s)
+[cv] T3 residue (186s)
+[cv] T3 block100 (208s)
+[power/cov] T3 (254s)
+a3 done 254s
+   done in 255s
+== a4_multigene 
+included genes: ['MYH7', 'LDLR', 'MLH1', 'MSH2', 'BRCA1', 'TP53', 'TSC2', 'SCN1A', 'CACNA1A', 'ABCA4']
+[gene] MYH7 T2 n_B=20 S1=0.76 AM=0.914 count=0.775 (47s)
+[gene] MYH7 T1 n_B=12 S1=0.783 AM=0.864 count=0.798 (62s)
+[gene] LDLR T2 n_B=37 S1=0.884 AM=0.976 count=0.856 (132s)
+[gene] LDLR T1 n_B=13 S1=0.924 AM=0.978 count=0.92 (156s)
+[gene] MLH1 T2 n_B=35 S1=0.813 AM=0.925 count=0.858 (212s)
+[gene] MLH1 T1 n_B=30 S1=0.795 AM=0.914 count=0.84 (248s)
+[gene] MSH2 T2 n_B=265 S1=0.78 AM=0.93 count=0.79 (311s)
+[gene] MSH2 T1 n_B=52 S1=0.873 AM=0.923 count=0.875 (349s)
+[gene] BRCA1 T2 n_B=424 S1=0.771 AM=0.945 count=0.889 (415s)
+[gene] BRCA1 T1 n_B=178 S1=0.882 AM=0.953 count=0.892 (447s)
+[gene] TP53 T2 n_B=144 S1=0.876 AM=0.98 count=0.925 (503s)
+[gene] TP53 T1 n_B=72 S1=0.869 AM=0.977 count=0.926 (537s)
+[gene] TSC2 T2 n_B=177 S1=0.706 AM=0.943 count=0.805 (590s)
+[gene] TSC2 T1 n_B=98 S1=0.81 AM=0.965 count=0.825 (618s)
+[gene] SCN1A T2 n_B=59 S1=0.916 AM=0.968 count=0.923 (731s)
+[gene] SCN1A T1 n_B=23 S1=0.912 AM=0.966 count=0.905 (758s)
+[gene] CACNA1A T2 n_B=102 S1=0.854 AM=0.968 count=0.891 (807s)
+[gene] CACNA1A T1 n_B=33 S1=0.92 AM=0.986 count=0.92 (825s)
+[gene] ABCA4 T2 n_B=26 S1=0.721 AM=0.966 count=0.774 (914s)
+[gene] ABCA4 T1 n_B=16 S1=0.75 AM=0.973 count=0.791 (952s)
+                            set           A                B   k    pooled  ci_low_hk  ci_high_hk       tau     I2_pct
+0                  amended_pool          S1  o_alphamissense  10 -0.134097  -0.180228   -0.087966  0.058808  81.486515
+1                  amended_pool          S1             n_nb  10 -0.032114  -0.059456   -0.004772  0.024495  66.615586
+2                  amended_pool          S2  o_alphamissense  10 -0.140983  -0.185170   -0.096795  0.045152  71.817323
+3                  amended_pool          S2             n_nb  10 -0.048411  -0.072513   -0.024308  0.020146  46.646775
+4                  amended_pool          S1            S1_1d  10  0.022171  -0.038389    0.082731  0.065785  76.015037
+5                  amended_pool  S0_neutral             n_nb  10 -0.107109  -0.145709   -0.068509  0.040365  58.105488
+6       prelisted_panel_passing          S1  o_alphamissense   6 -0.113855  -0.146756   -0.080954  0.000000   0.000000
+7       prelisted_panel_passing          S1             n_nb   6 -0.029651  -0.076840    0.017538  0.030764  64.335739
+8       prelisted_panel_passing          S2  o_alphamissense   6 -0.119691  -0.160553   -0.078828  0.022986  35.812426
+9       prelisted_panel_passing          S2             n_nb   6 -0.036101  -0.074262    0.002061  0.020258  41.348850
+10      prelisted_panel_passing          S1            S1_1d   6  0.022381  -0.079873    0.124635  0.083129  80.865502
+11      prelisted_panel_passing  S0_neutral             n_nb   6 -0.093499  -0.137649   -0.049349  0.017741  18.647964
+12  amended_pool_excluding_MYH7          S1  o_alphamissense   9 -0.132810  -0.184265   -0.081355  0.059776  83.221691
+13  amended_pool_excluding_MYH7          S1             n_nb   9 -0.036809  -0.069095   -0.004524  0.030450  70.313169
+14  amended_pool_excluding_MYH7          S2  o_alphamissense   9 -0.139350  -0.188204   -0.090496  0.046120  74.385702
+15  amended_pool_excluding_MYH7          S2             n_nb   9 -0.051002  -0.079222   -0.022781  0.022675  49.012555
+16  amended_pool_excluding_MYH7          S1            S1_1d   9  0.028666  -0.038572    0.095905  0.068408  77.819070
+17  amended_pool_excluding_MYH7  S0_neutral             n_nb   9 -0.110879  -0.154538   -0.067220  0.044443  62.053209
+a4 done 952s
+   done in 953s
+== figures_v7 
+ok fig_retrieval
+ok fig_estimand
+ok fig_gene_forest
+ok fig_meta
+ok fig_scarcity
+ok fig_power
+ok fig_cv
+   done in 1s
+== mk_data_availability 
+written DATA_AVAILABILITY.md
+   done in 1s
+== verdicts 
+verdict                         not supported  ...  unfavourable
+family                                         ...              
+F1                                          6  ...             0
+F1-extra (outside Holm family)              3  ...             0
+F2                                         10  ...             0
+F3                                          0  ...             1
+F4                                          3  ...             0
+F5                                          0  ...             1
+F6                                          8  ...             2
+exploratory                                 0  ...             0
+retrieval audit                             0  ...             0
+
+[9 rows x 4 columns]
+   done in 1s
+== figures_paper_v7 
+['f1_retrieval_audit.png', 'f2_myh7_estimands.png', 'f3_gene_forest.png', 'f4_meta_forest.png', 'f5_nested.png', 'fig1_provenance_gap.png', 'fig2_coverage_asymmetry.png', 'fig3_auroc_grid.png', 'fig4_permutation.png', 'fig5_spatial_block_cv.png', 'fig6_calibration_support.png', 's1_scarcity.png', 's2_power.png']
+   done in 1s
+== make_references_v7 
+49 references written
+   done in 0s
+== build_paper_v7 
+paper_v7 references: 49 | tectonic issues: []
+supplement_v7 references: 8 | tectonic issues: []
+   done in 3s
+== make_response_v7 
+94 {'addressed': 58, 'partly': 33, 'declined': 3}
+   done in 0s
+== check_paper_v7 
+===== paper/paper_v7.md
+em/en dashes: 0 | curly quotes: 0 | minus sign U+2212: 0 | straight double quotes in body: 0
+  banned 'robust': 1 in refs
+  banned 'comprehensive': 2 in refs
+  banned 'foster': 1 in refs
+  sentences 381, mean length 19.3, share over 30 words 10.0%; body words 7364
+  abstract numeric tokens: 12
+  internal or over-claiming strings in main text: ['fixed in advance']
+  abstract words: 258 | citation-like parentheses in abstract: False
+  Figure: first-mention order ['1', '2', '3', '4', '5'] | captions ['1', '2', '3', '4', '5']
+  Table: first-mention order ['1', '2', 'S14', '3'] | captions ['1', '2', '3']
+  cited but not in references (false positives possible): [('June', '2025'), ('May', '2025'), ('October', '2026'), ('Rooij', '2009'), ('UniProt', '2026')]
+  references never cited: [] | n references: 49
+===== paper/supplement_v7.md
+em/en dashes: 0 | curly quotes: 0 | minus sign U+2212: 0 | straight double quotes in body: 0
+  sentences 92, mean length 18.9, share over 30 words 9.8%; body words 1740
+  Figure: first-mention order ['S1', 'S2'] | captions ['S1', 'S2']
+  Table: first-mention order ['S1', 'S2', '1', 'S5', 'S6', 'S7', 'S8', 'S9', 'S10', 'S11', 'S12', 'S13', 'S14', 'S15', 'S16', 'S17', 'S18', 'S23', 'S24', 'S26'] | captions ['S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S7', 'S8', 'S9', 'S10', 'S11', 'S12', 'S13', 'S14', 'S15', 'S16', 'S17', 'S18', 'S19', 'S20', 'S21', 'S22', 'S23', 'S24', 'S25', 'S26']
+  cited but not in references (false positives possible): [('August', '2026'), ('ClinVar', '2025'), ('December', '2024'), ('June', '2025'), ('May', '2025'), ('Oct', '2026'), ('October', '2026'), ('Pages', '2031'), ('Rooij', '2009')]
+  references never cited: [] | n references: 8
+   done in 0s
+== numbers_v7 
+NUMBERS_v7.md: 593 quantities
+   done in 0s
+{
+ "data_acquisition": 0.0,
+ "build_labels --af v4 --rule aggregate": 0.3,
+ "build_labels --af v4 --rule v5rcv": 0.3,
+ "build_labels --af v2 --rule aggregate": 0.3,
+ "build_labels --af v2 --rule v5rcv": 0.3,
+ "build_features": 1.2,
+ "diagnose_gap": 11.5,
+ "coverage_v6": 15.0,
+ "model_v6": 18.4,
+ "perm_v6": 25.6,
+ "vus_v6": 1.5,
+ "spatial_block_cv": 39.5,
+ "validate_on_v5": 4.2,
+ "figures_v6": 2.6,
+ "numbers": 0.9,
+ "paper_extras": 24.3,
+ "figures_paper": 1.9,
+ "mg_clinvar": 46.1,
+ "mg_acquire": 30.4,
+ "mg_pool": 54.7,
+ "mg_labels": 7.9,
+ "a5_retrieval_audit": 11.6,
+ "a2_erepo_myh7": 1.0,
+ "a1_myh7": 112.6,
+ "a3_inference_myh7": 254.6,
+ "a4_multigene": 953.4,
+ "figures_v7": 1.2,
+ "mk_data_availability": 1.2,
+ "verdicts": 0.8,
+ "figures_paper_v7": 1.4,
+ "make_references_v7": 0.1,
+ "build_paper_v7": 2.7,
+ "make_response_v7": 0.2,
+ "check_paper_v7": 0.1,
+ "TOTAL_seconds": 1657.8
+}
+finished (UTC): 20261007T061408Z; wall clock 1659 s

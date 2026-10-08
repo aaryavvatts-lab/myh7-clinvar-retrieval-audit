@@ -1,0 +1,52 @@
+predictor,group,n,non_missing,pct_non_missing
+gnomad_af,all missense cohort,3904,1916,49.1
+gnomad_af,labelled P/B,422,118,28.0
+gnomad_af,VUS,2768,1086,39.2
+cadd_phred,all missense cohort,3904,3903,100.0
+cadd_phred,labelled P/B,422,421,99.8
+cadd_phred,VUS,2768,2768,100.0
+vest4,all missense cohort,3904,3903,100.0
+vest4,labelled P/B,422,421,99.8
+vest4,VUS,2768,2768,100.0
+revel,all missense cohort,3904,3903,100.0
+revel,labelled P/B,422,421,99.8
+revel,VUS,2768,2768,100.0
+sift,all missense cohort,3904,3903,100.0
+sift,labelled P/B,422,421,99.8
+sift,VUS,2768,2768,100.0
+sift4g,all missense cohort,3904,3903,100.0
+sift4g,labelled P/B,422,421,99.8
+sift4g,VUS,2768,2768,100.0
+polyphen2_hdiv,all missense cohort,3904,3903,100.0
+polyphen2_hdiv,labelled P/B,422,421,99.8
+polyphen2_hdiv,VUS,2768,2768,100.0
+polyphen2_hvar,all missense cohort,3904,3903,100.0
+polyphen2_hvar,labelled P/B,422,421,99.8
+polyphen2_hvar,VUS,2768,2768,100.0
+esm1b,all missense cohort,3904,3903,100.0
+esm1b,labelled P/B,422,421,99.8
+esm1b,VUS,2768,2768,100.0
+clinpred,all missense cohort,3904,3903,100.0
+clinpred,labelled P/B,422,421,99.8
+clinpred,VUS,2768,2768,100.0
+metalr,all missense cohort,3904,3903,100.0
+metalr,labelled P/B,422,421,99.8
+metalr,VUS,2768,2768,100.0
+alphamissense,all missense cohort,3904,3901,99.9
+alphamissense,labelled P/B,422,421,99.8
+alphamissense,VUS,2768,2766,99.9
+primateai,all missense cohort,3904,3901,99.9
+primateai,labelled P/B,422,421,99.8
+primateai,VUS,2768,2766,99.9
+mpc,all missense cohort,3904,3901,99.9
+mpc,labelled P/B,422,421,99.8
+mpc,VUS,2768,2766,99.9
+provean,all missense cohort,3904,3903,100.0
+provean,labelled P/B,422,421,99.8
+provean,VUS,2768,2768,100.0
+phylop100,all missense cohort,3904,3903,100.0
+phylop100,labelled P/B,422,421,99.8
+phylop100,VUS,2768,2768,100.0
+gerp,all missense cohort,3904,0,0.0
+gerp,labelled P/B,422,0,0.0
+gerp,VUS,2768,0,0.0

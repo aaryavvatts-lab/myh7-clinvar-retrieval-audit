@@ -1,0 +1,121 @@
+gene,aaref,aapos,aaalt,erepo_class,Assertion,Applied Evidence Codes (Met),Expert Panel,clinvar_protein_label,stars_B_max,stars_P_max,lab_T1,lab_T2,lab_T3,gn_af_legacy_max,faf95_popmax
+MYH7,R,870,C,P,Likely Pathogenic,"PM2, PM5, PP3, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,1.915336647777799e-05,7.318591427700316e-05
+MYH7,R,1909,P,VUS,Uncertain Significance,"PM2, PM6, PP3",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,,
+MYH7,K,1459,N,B,Likely Benign,"PP3, BS1",Cardiomyopathy VCEP,B,3.0,,B,B,B,0.00048159671200790255,0.0005436734173930582
+MYH7,R,1193,H,P,Likely Pathogenic,"PP3, PS4_Moderate, PP1_Moderate, PM2_Supporting",Cardiomyopathy VCEP,P,,3.0,P,P,P,4.837080227812659e-06,1.683520159742424e-06
+MYH7,A,1128,T,B,Likely Benign,BS1,Cardiomyopathy VCEP,B,3.0,,B,B,B,0.00011180826855030714,0.000333277043399411
+MYH7,E,1426,K,VUS,Uncertain Significance,"PM2, PP3, PS4_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,,
+MYH7,R,1420,W,P,Likely Pathogenic,"PM2, PP3, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,1.3138705311978557e-05,9.859145621927582e-06
+MYH7,T,1377,M,P,Pathogenic,"PM2, PP3, PP1_Strong, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,6.569784248285286e-06,1.1428477872543677e-06
+MYH7,E,1356,K,P,Pathogenic,"PM2, PP3, PP1_Strong, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,6.569007422978388e-06,1.1578498474213176e-06
+MYH7,E,1914,K,P,Likely Pathogenic,"PM2, PP3, PS4_Moderate, PS2",Cardiomyopathy VCEP,P,,3.0,P,P,P,,
+MYH7,D,1096,Y,B,Likely Benign,"PP3, BS1",Cardiomyopathy VCEP,B,3.0,,B,B,B,0.00013141122514685204,0.00014069967751910944
+MYH7,G,1057,S,P,Likely Pathogenic,"PM2, PP3, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,9.577141825156962e-06,7.835780330552631e-06
+MYH7,R,1053,Q,P,Pathogenic,"PP1_Strong, PM2, PP3, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,7.229612492770387e-05,6.929494576039252e-07
+MYH7,R,1045,C,VUS,Uncertain Significance,"PM2, PP3, PS4_Moderate",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,3.8990781758333765e-05,3.526980286749698e-05
+MYH7,L,908,V,P,Pathogenic,"PM2, PM1, PP3, PP1_Strong, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,1.3138705311978557e-05,2.2143292003344948e-06
+MYH7,D,906,G,P,Pathogenic,"PM2, PM1, PP1_Strong, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,1.9153392681488655e-05,1.686431930967458e-05
+MYH7,E,894,G,P,Pathogenic,"PP3, PM2, PM1, PP1_Moderate, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,6.5686622262510016e-06,1.1578459226795352e-06
+MYH7,E,1902,Q,B,Likely Benign,BS1,Cardiomyopathy VCEP,B,3.0,,B,B,B,3.557029442627167e-05,0.0009073751086498016
+MYH7,R,870,H,P,Pathogenic,"PM1, PM2, PP1_Strong, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,1.3139741147099402e-05,7.172512331838976e-06
+MYH7,K,847,E,P,Pathogenic,"PM2, PM1, PP1_Strong, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,1.3680938621836967e-06,3.011431039731314e-07
+MYH7,P,838,L,P,Pathogenic,"PP3, PM2, PM1, PS2, PS4_Supporting",Cardiomyopathy VCEP,P,,3.0,P,P,P,,
+MYH7,R,787,H,B,Benign,"PM1, BA1, BS4, BP2",Cardiomyopathy VCEP,B,3.0,,B,B,B,0.00017922005075621285,0.0019469080022951892
+MYH7,G,741,W,P,Pathogenic,"PM2, PM5, PM1, PP3, PS4, PP1_Moderate",Cardiomyopathy VCEP,P,,3.0,P,P,P,6.5696979252893955e-06,3.0118291995892987e-07
+MYH7,G,741,R,P,Pathogenic,"PM2, PM1, PM5, PM6, PP3, PP1, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,1.3139395850578791e-05,1.1580088218267112e-06
+MYH7,I,736,T,P,Pathogenic,"PM2, PM1, PP1_Moderate, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,,
+MYH7,R,723,C,P,Pathogenic,"PP1_Strong, PP3, PM2, PM5, PM1, PM6, PS4, BP2",Cardiomyopathy VCEP,P,,3.0,P,P,P,2.2577193476969896e-05,2.1197133804180952e-05
+MYH7,R,723,G,P,Pathogenic,"PP3, PP1_Strong, PM2, PM5, PM1, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,,
+MYH7,R,1863,Q,VUS,Uncertain Significance,"PM2, PP3, PS4_Moderate",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,6.572893387669252e-06,2.2143704835286e-06
+MYH7,N,1257,S,B,Benign,BA1,Cardiomyopathy VCEP,B,3.0,,B,B,B,0.0001415975210173132,0.0020608405581251776
+MYH7,S,1491,C,B,Benign,BA1,Cardiomyopathy VCEP,B,3.0,,B,B,B,0.01186270942039494,0.013757910619293705
+MYH7,E,1801,K,P,Likely Pathogenic,"PP3, PM2, PM6, PS4_Supporting",Cardiomyopathy VCEP,P,,3.0,P,P,P,,
+MYH7,M,982,T,B,Benign,BA1,Cardiomyopathy VCEP,B,3.0,,B,B,B,0.0017409232570929796,0.0020444343975391044
+MYH7,A,26,V,B,Benign,BA1,Cardiomyopathy VCEP,B,3.0,,B,B,B,0.0003084353795067659,0.005531621372384206
+MYH7,A,1777,T,VUS,Uncertain Significance,,Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,0.00010534293915008769,0.00012082741745341667
+MYH7,S,1776,G,VUS,Uncertain Significance,PP3,Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,5.2557583402315164e-05,8.869135518646457e-05
+MYH7,E,1768,K,VUS,Uncertain Significance,"PM2, PP3, PS4_Moderate",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,,
+MYH7,R,719,Q,P,Pathogenic,"PP1_Strong, PM2, PM5, PM1, PP3, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,,
+MYH7,R,719,W,P,Pathogenic,"PM2, PM5, PM1, PS3, PP3, PP1_Strong, PS4, PS2",Cardiomyopathy VCEP,P,,3.0,P,P,P,6.57030223390276e-06,1.1578616218063101e-06
+MYH7,G,716,R,P,Pathogenic,"PM2, PM1, PM6, PP3, PP1_Strong, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,,
+MYH7,R,663,H,P,Pathogenic,"PM2, PM1, PP1_Strong, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,3.953663068833274e-05,5.868066219302588e-06
+MYH7,G,584,R,P,Pathogenic,"PM2, PM1, PP3, PP1_Moderate, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,4.7883088650750325e-06,2.784057309541045e-06
+MYH7,S,532,P,P,Pathogenic,"PM2, PM1, PP3, PS3, PP1_Strong, PS4_Supporting",Cardiomyopathy VCEP,P,,3.0,P,P,P,6.840534820374396e-07,8.548027595165571e-07
+MYH7,R,1712,Q,P,Pathogenic,"PP1_Strong, PM2, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,1.97046923440702e-05,1.4024014842373751e-05
+MYH7,R,403,Q,P,Pathogenic,"PP1_Strong, PP3, PM2, PM5, PM1, PS3, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,6.840450594161539e-07,4.3467272735212014e-08
+MYH7,R,403,W,P,Pathogenic,"PM2, PM5, PM1, PP3, PP1_Strong, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,3.4202252970807693e-06,1.6695560233851706e-06
+MYH7,R,453,H,P,Pathogenic,"PM2, PM1, PM5, PM6, PP3, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,6.569784248285286e-06,4.3466757047154066e-08
+MYH7,Y,386,C,P,Likely Pathogenic,"PM2, PM1, PM6, PP3, PS4_Supporting",Cardiomyopathy VCEP,P,,3.0,P,P,P,,
+MYH7,R,369,Q,P,Likely Pathogenic,"PM2, PM6, PP1, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,6.844673817069247e-07,4.346764109131646e-08
+MYH7,I,263,T,P,Pathogenic,"PP1_Strong, PP3, PM2, PM1, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,4.1044612757760165e-06,5.921902258009965e-06
+MYH7,R,143,Q,P,Likely Pathogenic,"PM2, PP1, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,6.575573061192283e-06,1.6695758311733857e-06
+MYH7,A,1637,T,B,Likely Benign,"BS1, BP4",Cardiomyopathy VCEP,B,3.0,,B,B,B,0.00030221404638328624,0.0008066155791628006
+MYH7,A,893,V,VUS,Uncertain Significance,"PM2, PS4_Supporting, PP1_Moderate",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,6.840871745968332e-07,4.346734640593346e-08
+MYH7,N,1327,K,B,Likely Benign,"BA1, BS4",Cardiomyopathy VCEP,B,3.0,,B,B,B,9.856748587199369e-05,5.894567198970531e-06
+MYH7,E,935,V,VUS,Uncertain Significance,"PP3, PM2, PM1",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,4.104270356496923e-06,2.2143329532885326e-06
+MYH7,R,1820,W,VUS,Uncertain Significance,"PP3, PM2",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,2.628086358917754e-05,2.6292499440286262e-05
+MYH7,V,1404,M,VUS,Uncertain Significance,,Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,6.298358729867501e-05,9.298577872002162e-05
+MYH7,E,1844,K,VUS,Uncertain Significance,"PM2, PP3, PS4_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,1.3139395850578791e-05,1.8234597581073413e-05
+MYH7,M,349,T,VUS,Uncertain Significance,PM1,Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,1.972749750118365e-05,4.746126969290568e-06
+MYH7,S,642,L,VUS,Uncertain Significance,"PM2, PS4_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,2.736281311609084e-06,1.1426950273469641e-06
+MYH7,R,1712,W,P,Likely Pathogenic,"PM2, PP3, PS4_Moderate, PP1_Moderate",Cardiomyopathy VCEP,P,,3.0,P,P,P,6.570993008463439e-06,3.3734699951944564e-06
+MYH7,T,441,M,B,Benign,"PM1, BA1",Cardiomyopathy VCEP,B,3.0,,B,B,B,6.635227998746831e-05,0.0010461868662762339
+MYH7,R,243,H,VUS,Uncertain Significance,"PM2, PP3, PS4_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,1.3680919905054415e-06,3.011431039731314e-07
+MYH7,R,453,S,P,Pathogenic,"PP3, PP1_Strong, PM2, PM5, PS4_Supporting",Cardiomyopathy VCEP,P,,3.0,P,P,P,,
+MYH7,E,1883,K,VUS,Uncertain Significance,"PP3, PM2, PS4_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,6.570043230884459e-06,6.844946939728639e-07
+MYH7,S,738,T,VUS,Uncertain Significance,"PM2, PM1",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,,
+MYH7,K,383,R,VUS,Uncertain Significance,"PM2, PM1",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,,
+MYH7,D,239,N,P,Likely Pathogenic,"PM2, PM1, PS4_Moderate, PP1_Moderate",Cardiomyopathy VCEP,P,,3.0,P,P,P,4.788321966769046e-06,5.921902258009965e-06
+MYH7,K,865,E,P,Likely Pathogenic,"PM2, PM1, PP1_Moderate, PS4_Supporting",Cardiomyopathy VCEP,P,,3.0,P,P,P,,
+MYH7,G,1808,S,VUS,Uncertain Significance,,Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,1.97046923440702e-05,2.1629554136305583e-05
+MYH7,L,1428,S,VUS,Uncertain Significance,PP3,Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,7.327803466941334e-05,8.222154141430084e-05
+MYH7,E,949,K,P,Likely Pathogenic,"PM2, PM6, PP3, PS4_Moderate",Cardiomyopathy VCEP,P,,3.0,P,P,P,6.840450594161539e-07,4.34671990647403e-08
+MYH7,A,1113,T,VUS,Uncertain Significance,"PM2, PS4_Moderate",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,1.165683378452137e-05,9.188890981970248e-06
+MYH7,V,338,A,VUS,Uncertain Significance,"PM2, PM1, PS4_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,,
+MYH7,V,440,M,P,Likely Pathogenic,"PM2, PM1, PP3, PP1, PS4_Supporting",Cardiomyopathy VCEP,P,,3.0,P,P,P,,
+MYH7,I,457,T,P,Likely Pathogenic,"PM2, PM1, PP3, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,1.3140086461768918e-05,2.784052590991783e-06
+MYH7,R,567,H,VUS,Uncertain Significance,"PM2, PP1, PS4_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,1.314474998685525e-05,6.5163046133821816e-06
+MYH7,M,690,T,VUS,Uncertain Significance,"PM2, PM1, PP3, PS4_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,,
+MYH7,R,1045,L,P,Likely Pathogenic,"PM2, PP3, PS4_Moderate, PP1_Moderate",Cardiomyopathy VCEP,P,,3.0,P,P,P,1.5733079415112514e-05,1.1232279647766243e-05
+MYH7,Y,115,H,VUS,Uncertain Significance,"PM2, PP3, PS4_Moderate",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,7.524536830555639e-06,5.867847414874847e-06
+MYH7,R,1781,H,VUS,Uncertain Significance,"PM2, PP3, PS4_Moderate",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,2.625533311453889e-05,1.1924898986267843e-05
+MYH7,L,1769,M,VUS,Uncertain Significance,"PM2, PP3, PS4_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,4.597701149425287e-05,1.829902092177774e-05
+MYH7,R,904,C,P,Pathogenic,"PM2, PM6, PM5, PP3, PP1_Strong, PS4_Moderate",Cardiomyopathy VCEP,P,,3.0,P,P,P,1.3681050923607748e-06,4.3467272735212014e-08
+MYH7,R,904,H,P,Pathogenic,"PM2, PP3, PP1_Strong, PM6_Strong, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,6.840516103258959e-07,4.34671990647403e-08
+MYH7,A,893,E,VUS,Uncertain Significance,"PM1, PM2, PS4_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,,
+MYH7,C,905,S,VUS,Uncertain Significance,"PM2, PM1, PP3",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,,
+MYH7,V,338,M,P,Likely Pathogenic,"PM2, PM1, PS4_Moderate, PP1_Moderate",Cardiomyopathy VCEP,P,,3.0,P,P,P,,
+MYH7,R,869,H,P,Likely Pathogenic,"PM1, PS4, PP1_Moderate, PM2_Supporting",Cardiomyopathy VCEP,P,,3.0,P,P,P,8.534663865546218e-05,7.229825560474525e-05
+MYH7,P,710,H,P,Likely Pathogenic,"PM2, PM1, PP3, PS4_Moderate",Cardiomyopathy VCEP,P,,3.0,P,P,P,,
+MYH7,A,868,P,P,Likely Pathogenic,"PM2, PM1, PP3, PS4_Moderate",Cardiomyopathy VCEP,P,,3.0,P,P,P,6.840459952527208e-07,4.34671990647403e-08
+MYH7,A,381,T,VUS,Uncertain Significance,"PM1, PM2",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,,
+MYH7,R,1500,Q,VUS,Uncertain Significance,"PM2, PP3",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,6.1564139572744875e-06,3.373452842596781e-06
+MYH7,V,236,A,VUS,Uncertain Significance,"PM2, PM1, PS4_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,2.052132370746443e-06,6.929318409315852e-07
+MYH7,G,398,E,VUS,Uncertain Significance,PM1,Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,1.9713238096489728e-05,3.9012988615257985e-06
+MYH7,L,1007,P,VUS,Uncertain Significance,"PM2, PP3",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,,
+MYH7,E,1295,K,VUS,Uncertain Significance,"PM2, PP3",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,3.420229976263604e-06,3.283144860784446e-05
+MYH7,E,1799,K,VUS,Uncertain Significance,"PM2, PP3, PS4_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,,
+MYH7,R,1845,Q,VUS,Uncertain Significance,"PM2, PP3",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,3.4303811016188653e-06,1.157887133795333e-06
+MYH7,G,10,A,VUS,Uncertain Significance,PM2,Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,1.970262176220249e-05,1.4729966002981964e-05
+MYH7,R,108,H,VUS,Uncertain Significance,"PM2, PP3",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,1.3680901188323077e-06,3.011425935801224e-07
+MYH7,I,114,T,VUS,Uncertain Significance,"PM2, PP3, PS4_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,6.840488027777854e-07,4.3467272735212014e-08
+MYH7,N,171,H,VUS,Uncertain Significance,"PM2, PP3",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,6.840450594161539e-07,4.3467272735212014e-08
+MYH7,K,184,Q,VUS,Uncertain Significance,"PM2, PP3",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,1.3136979282983671e-05,3.0114004164102823e-07
+MYH7,R,204,C,VUS,Uncertain Significance,"PM2, PM1, PS4_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,1.3138877939823939e-05,1.499998239888713e-05
+MYH7,S,322,T,VUS,Uncertain Significance,"PM2, PM1, PS4_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,3.4205013907758655e-06,1.669663557028267e-06
+MYH7,A,1800,V,VUS,Uncertain Significance,"PM2, PS4_Supporting, PP1_Moderate",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,,
+MYH7,E,1490,D,VUS,Uncertain Significance,"PM2, PS4_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,,
+MYH7,R,204,H,P,Likely Pathogenic,"PM2, PM1, PP1, PS4",Cardiomyopathy VCEP,P,,2.0,P,P,P,1.9705727798213347e-05,1.1232184463795532e-05
+MYH7,R,143,W,P,Pathogenic,"PP3, PP1_Strong, PM5_Supporting, PM2_Supporting, PS4",Cardiomyopathy VCEP,P,,3.0,P,P,P,1.2996909471737194e-05,7.915568020195615e-06
+MYH7,R,237,W,P,Likely Pathogenic,"PM2, PP3, PP1, PM6_Supporting, PS4_Moderate",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,6.569180034948038e-06,1.3625919799432652e-05
+MYH7,R,694,C,P,Likely Pathogenic,"PM2, PM1, PP3, PP1, PS4_Moderate",Cardiomyopathy VCEP,P,,2.0,P,P,P,1.314043179458877e-05,7.91415773681934e-06
+MYH7,E,1610,Q,VUS,Uncertain Significance,"PP3, PP1_Moderate, PS4_Supporting, PM2_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,6.840488027777854e-06,4.597630001162069e-06
+MYH7,G,425,R,VUS,Uncertain Significance,"PM1, PP3, PS4_Supporting, PM2_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,,
+MYH7,A,226,V,VUS,Uncertain Significance,"PM1, PS4_Moderate, PM2_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,,
+MYH7,M,493,V,VUS,Uncertain Significance,"PM1, PS4_Moderate, PM2_Supporting",Cardiomyopathy VCEP,P,,2.0,P,P,P,,
+MYH7,S,842,N,VUS,Uncertain Significance,"PP1, PM1, PS4_Supporting, PM2_Supporting",Cardiomyopathy VCEP,P,,2.0,P,P,P,6.840459952527208e-07,0.0
+MYH7,E,903,K,VUS,Uncertain Significance,"PP3, PM1, PS4_Supporting, PM2_Supporting",Cardiomyopathy VCEP,P,,2.0,P,P,P,,
+MYH7,K,657,Q,VUS,Uncertain Significance,"PM1, PP3, PP1, PM2_Supporting",Cardiomyopathy VCEP,P,,2.0,P,P,P,,
+MYH7,S,291,F,VUS,Uncertain Significance,"PM1, PP3, PS4_Supporting, PM2_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,6.842238506749869e-07,4.3479947772781664e-08
+MYH7,G,253,V,VUS,Uncertain Significance,"PM1, PP3, PS4_Supporting, PM2_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,,
+MYH7,D,545,N,VUS,Uncertain Significance,"PP1, PP3, PS4_Moderate, PM2_Supporting",Cardiomyopathy VCEP,VUS,,,VUS,VUS,VUS,1.3146132407845612e-05,5.227777345078083e-06

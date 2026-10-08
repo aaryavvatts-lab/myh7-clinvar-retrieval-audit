@@ -1,0 +1,453 @@
+{
+ "MYH7": {
+  "gene": "MYH7",
+  "uniprot": "P12883",
+  "available": true,
+  "entryId": "AF-P12883-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 1935,
+  "seq_len": 1935,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P12883-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-P12883-F1-model.pdb",
+  "pdb_sha256": "bd8144df189a3db91305b41c6c06967aa977ad300f9ddeed918230458706f986",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 8212,
+  "gnomad_n_missense": 1987
+ },
+ "MYBPC3": {
+  "gene": "MYBPC3",
+  "uniprot": "Q14896",
+  "available": true,
+  "entryId": "AF-Q14896-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 1274,
+  "seq_len": 1274,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-Q14896-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-Q14896-F1-model.pdb",
+  "pdb_sha256": "f3a2b8bdceb8866ec7dcc2c48f4d8437a07f94bcb4cee3575ba0450ec9e5c731",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 10785,
+  "gnomad_n_missense": 2666
+ },
+ "TNNT2": {
+  "gene": "TNNT2",
+  "uniprot": "P45379",
+  "available": true,
+  "entryId": "AF-P45379-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 298,
+  "seq_len": 298,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P45379-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-P45379-F1-model.pdb",
+  "pdb_sha256": "4f1d1e142485fa6448ee6ae6314446e236f22073e5664bdcdbb27151c990675b",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 3019,
+  "gnomad_n_missense": 530
+ },
+ "TNNI3": {
+  "gene": "TNNI3",
+  "uniprot": "P19429",
+  "available": true,
+  "entryId": "AF-P19429-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 210,
+  "seq_len": 210,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P19429-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-P19429-F1-model.pdb",
+  "pdb_sha256": "21fe3557a4b19a3fdc3bb5efe36817c82deb6ffb71ac54f0a3bb60692e5ac512",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 2181,
+  "gnomad_n_missense": 452
+ },
+ "TPM1": {
+  "gene": "TPM1",
+  "uniprot": "P09493",
+  "available": true,
+  "entryId": "AF-P09493-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 284,
+  "seq_len": 284,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P09493-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-P09493-F1-model.pdb",
+  "pdb_sha256": "0aa6aaa4c3ed74b1e6227aeb0ee9cf1ab970664041721d2d22614c6fc889a823",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 3950,
+  "gnomad_n_missense": 681
+ },
+ "ACTC1": {
+  "gene": "ACTC1",
+  "uniprot": "P68032",
+  "available": true,
+  "entryId": "AF-P68032-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 377,
+  "seq_len": 377,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P68032-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-P68032-F1-model.pdb",
+  "pdb_sha256": "b6750a6acf39ff83c4b4ecac8cb60ec04a1d2b194b08fd53aaaf32516a290649",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 1307,
+  "gnomad_n_missense": 165
+ },
+ "MYL2": {
+  "gene": "MYL2",
+  "uniprot": "P10916",
+  "available": true,
+  "entryId": "AF-P10916-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 166,
+  "seq_len": 166,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P10916-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-P10916-F1-model.pdb",
+  "pdb_sha256": "9cd77ed3535ffa5c13d9d5d5bb301831e6d3fb1a5d337c7f5922eefeae80de10",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 1559,
+  "gnomad_n_missense": 293
+ },
+ "MYL3": {
+  "gene": "MYL3",
+  "uniprot": "P08590",
+  "available": true,
+  "entryId": "AF-P08590-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 195,
+  "seq_len": 195,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P08590-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-P08590-F1-model.pdb",
+  "pdb_sha256": "65996f3bbb268c1f6041215d9995fba987af77102da36e01e21fc7494c07ff12",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 1082,
+  "gnomad_n_missense": 233
+ },
+ "LDLR": {
+  "gene": "LDLR",
+  "uniprot": "P01130",
+  "available": true,
+  "entryId": "AF-P01130-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 860,
+  "seq_len": 860,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P01130-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-P01130-F1-model.pdb",
+  "pdb_sha256": "5f6638efcb2cdf0ae493aa879f0f81441de285c226c59eaa33652ea078974c9e",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 5497,
+  "gnomad_n_missense": 1656
+ },
+ "FBN1": {
+  "gene": "FBN1",
+  "uniprot": "P35555",
+  "available": false,
+  "reason": "AlphaFold DB API returned HTTP 404 / empty for P35555",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 12107,
+  "gnomad_n_missense": 2783
+ },
+ "SCN5A": {
+  "gene": "SCN5A",
+  "uniprot": "Q14524",
+  "available": true,
+  "entryId": "AF-Q14524-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 2016,
+  "seq_len": 2016,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-Q14524-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-Q14524-F1-model.pdb",
+  "pdb_sha256": "a0a3b4090d83680e7d55fda3c4538d4df66de03c58c714975f2e42bb016e6970",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 9470,
+  "gnomad_n_missense": 2631
+ },
+ "KCNQ1": {
+  "gene": "KCNQ1",
+  "uniprot": "P51787",
+  "available": true,
+  "entryId": "AF-P51787-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 676,
+  "seq_len": 676,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P51787-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-P51787-F1-model.pdb",
+  "pdb_sha256": "68f48f9a1a13681275231bbeab876d9e6d171f8bfb96165855e8ec1d42354d5f",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 6967,
+  "gnomad_n_missense": 1714
+ },
+ "KCNH2": {
+  "gene": "KCNH2",
+  "uniprot": "Q12809",
+  "available": true,
+  "entryId": "AF-Q12809-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 1159,
+  "seq_len": 1159,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-Q12809-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-Q12809-F1-model.pdb",
+  "pdb_sha256": "d5644b21edad1c1ff2a46e92d18d6fe8ebcf4961d991ba95913e56104eb85254",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 8526,
+  "gnomad_n_missense": 2388
+ },
+ "PTEN": {
+  "gene": "PTEN",
+  "uniprot": "P60484",
+  "available": true,
+  "entryId": "AF-P60484-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 403,
+  "seq_len": 403,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P60484-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-P60484-F1-model.pdb",
+  "pdb_sha256": "58f527376b98af06d772564ef154ac1206d9e90ea53d28e9886e50521aa67d2c",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 3103,
+  "gnomad_n_missense": 928
+ },
+ "MLH1": {
+  "gene": "MLH1",
+  "uniprot": "P40692",
+  "available": true,
+  "entryId": "AF-P40692-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 756,
+  "seq_len": 756,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P40692-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-P40692-F1-model.pdb",
+  "pdb_sha256": "b7c131559fcdbdd70c4b93c34085e0ea3a14b934be732a7f6d6e73af68bf58fe",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 4365,
+  "gnomad_n_missense": 1036
+ },
+ "MSH2": {
+  "gene": "MSH2",
+  "uniprot": "P43246",
+  "available": true,
+  "entryId": "AF-P43246-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 934,
+  "seq_len": 934,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P43246-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-P43246-F1-model.pdb",
+  "pdb_sha256": "3c8f3e5f7655a35578bfd2c53ae80d7611b89a353b7e8927951221b3e73783f1",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 6097,
+  "gnomad_n_missense": 1795
+ },
+ "MSH6": {
+  "gene": "MSH6",
+  "uniprot": "P52701",
+  "available": true,
+  "entryId": "AF-P52701-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 1360,
+  "seq_len": 1360,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P52701-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-P52701-F1-model.pdb",
+  "pdb_sha256": "33e9b7f3d23b71166d9ddc142af56e3b3e9b45463404363234b34b18aeed3280",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 6156,
+  "gnomad_n_missense": 2432
+ },
+ "BRCA1": {
+  "gene": "BRCA1",
+  "uniprot": "P38398",
+  "available": true,
+  "entryId": "AF-P38398-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 1863,
+  "seq_len": 1863,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P38398-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-P38398-F1-model.pdb",
+  "pdb_sha256": "b2af213e2ef20f95c349a2159d628321205ad55b64511dd9e891b8a652d8a1a4",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 7287,
+  "gnomad_n_missense": 2310
+ },
+ "TP53": {
+  "gene": "TP53",
+  "uniprot": "P04637",
+  "available": true,
+  "entryId": "AF-P04637-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 393,
+  "seq_len": 393,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P04637-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-P04637-F1-model.pdb",
+  "pdb_sha256": "5a7051e8f97848d43b3747268825b29cafb5fa99d2e3fff6f58efcdb74e74cc3",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 3340,
+  "gnomad_n_missense": 781
+ },
+ "TSC2": {
+  "gene": "TSC2",
+  "uniprot": "P49815",
+  "available": true,
+  "entryId": "AF-P49815-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 1807,
+  "seq_len": 1807,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P49815-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-P49815-F1-model.pdb",
+  "pdb_sha256": "370f295a7a74ddc4231f8e7ea9c15abf396d096616f8295cf8e6c3ece4184503",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 13480,
+  "gnomad_n_missense": 3281
+ },
+ "SCN1A": {
+  "gene": "SCN1A",
+  "uniprot": "P35498",
+  "available": true,
+  "entryId": "AF-P35498-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 2009,
+  "seq_len": 2009,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P35498-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-P35498-F1-model.pdb",
+  "pdb_sha256": "690fecdbccaf472b469b8c18bfea5f9d41c8571f80c8f57e35092e79bf77bf57",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 6960,
+  "gnomad_n_missense": 1835
+ },
+ "CACNA1A": {
+  "gene": "CACNA1A",
+  "uniprot": "O00555",
+  "available": true,
+  "entryId": "AF-O00555-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 2506,
+  "seq_len": 2506,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-O00555-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-O00555-F1-model.pdb",
+  "pdb_sha256": "c539ae8bdccb2cfe0d9c52286bb4dfb790d60425283f8dd2a9f3354a0f66cd21",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 18606,
+  "gnomad_n_missense": 4997
+ },
+ "ABCA4": {
+  "gene": "ABCA4",
+  "uniprot": "P78363",
+  "available": true,
+  "entryId": "AF-P78363-F1",
+  "model_version": 6,
+  "uniprotStart": 1,
+  "uniprotEnd": 2273,
+  "seq_len": 2273,
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P78363-F1-model_v6.pdb",
+  "model_created": "2025-08-01T00:00:00Z",
+  "full_length_single_fragment": true,
+  "pdb_path": "data/external/alphafold/AF-P78363-F1-model.pdb",
+  "pdb_sha256": "9a868da84b732581609f0465a888fd7cdc69ce7112f2e8854462f7a9d1039e4a",
+  "gnomad": {
+   "cached": true
+  },
+  "gnomad_n_variants": 11616,
+  "gnomad_n_missense": 3262
+ }
+}

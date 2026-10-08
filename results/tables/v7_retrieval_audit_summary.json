@@ -1,0 +1,64 @@
+{
+ "myvariant_build": "2025-06-24T16:27:25.889841-07:00",
+ "audit_run_utc": "2026-10-07T04:12:29.754944Z",
+ "A_panel19": {
+  "n_genes": 19,
+  "n_loss_gt5pct": 19,
+  "n_loss_gt20pct": 5,
+  "prop_gt5pct": 1.0,
+  "prop_gt5pct_exact_ci": [
+   0.823533088192828,
+   1.0
+  ],
+  "median_loss_pct": 11.380145278450364,
+  "max_loss_pct": 100.0,
+  "total_missense": 39174,
+  "total_missed": 5042,
+  "pooled_loss_pct": 12.87078164088426,
+  "causes_of_missed": {
+   "n_symbol_field": 1501,
+   "n_snapshot_missing": 3531,
+   "n_snapshot_missing_newer": 3520,
+   "n_no_hg19": 0,
+   "n_other": 10
+  },
+  "genes_with_90pct_loss_run": [
+   "MYH7",
+   "ACTC1",
+   "MYL2",
+   "KCNQ1"
+  ]
+ },
+ "A2_top100": {
+  "n_genes": 100,
+  "n_loss_gt5pct": 97,
+  "n_loss_gt20pct": 32,
+  "prop_gt5pct": 0.97,
+  "prop_gt5pct_exact_ci": [
+   0.9148239470257197,
+   0.9937700284616938
+  ],
+  "median_loss_pct": 15.800456302277961,
+  "max_loss_pct": 99.86098239110288,
+  "total_missense": 315128,
+  "total_missed": 61510,
+  "pooled_loss_pct": 19.519052575461398,
+  "causes_of_missed": {
+   "n_symbol_field": 18407,
+   "n_snapshot_missing": 43060,
+   "n_snapshot_missing_newer": 43012,
+   "n_no_hg19": 0,
+   "n_other": 43
+  },
+  "genes_with_90pct_loss_run": [
+   "MYH7",
+   "TTN",
+   "FLNC",
+   "TNXB",
+   "ALPK2",
+   "RTEL1",
+   "RELN",
+   "EYS"
+  ]
+ }
+}

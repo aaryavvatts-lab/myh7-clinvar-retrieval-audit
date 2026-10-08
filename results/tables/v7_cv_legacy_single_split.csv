@@ -1,0 +1,13 @@
+tier,design,A,B,question,auroc_A,auroc_B,delta,ci_low,ci_high
+T1,"legacy v6-style single ungrouped StratifiedKFold(5, seed 42)",M1_count,M0_panel,count over panel,0.992,0.989,0.003,-0.001,0.009
+T1,"legacy v6-style single ungrouped StratifiedKFold(5, seed 42)",M2_S1,M0_panel,S1 over panel,0.992,0.989,0.003,-0.001,0.009
+T1,"legacy v6-style single ungrouped StratifiedKFold(5, seed 42)",M3_count_S1,M1_count,S1 beyond count (primary nested),0.992,0.992,0.0,-0.002,0.002
+T1,"legacy v6-style single ungrouped StratifiedKFold(5, seed 42)",M3_count_S1,M2_S1,count beyond S1,0.992,0.992,-0.0,-0.002,0.001
+T2,"legacy v6-style single ungrouped StratifiedKFold(5, seed 42)",M1_count,M0_panel,count over panel,0.925,0.93,-0.005,-0.032,0.013
+T2,"legacy v6-style single ungrouped StratifiedKFold(5, seed 42)",M2_S1,M0_panel,S1 over panel,0.93,0.93,0.0,-0.01,0.01
+T2,"legacy v6-style single ungrouped StratifiedKFold(5, seed 42)",M3_count_S1,M1_count,S1 beyond count (primary nested),0.926,0.925,0.001,-0.003,0.004
+T2,"legacy v6-style single ungrouped StratifiedKFold(5, seed 42)",M3_count_S1,M2_S1,count beyond S1,0.926,0.93,-0.004,-0.024,0.007
+T3,"legacy v6-style single ungrouped StratifiedKFold(5, seed 42)",M1_count,M0_panel,count over panel,0.893,0.872,0.022,0.002,0.045
+T3,"legacy v6-style single ungrouped StratifiedKFold(5, seed 42)",M2_S1,M0_panel,S1 over panel,0.891,0.872,0.019,-0.001,0.043
+T3,"legacy v6-style single ungrouped StratifiedKFold(5, seed 42)",M3_count_S1,M1_count,S1 beyond count (primary nested),0.897,0.893,0.003,-0.009,0.015
+T3,"legacy v6-style single ungrouped StratifiedKFold(5, seed 42)",M3_count_S1,M2_S1,count beyond S1,0.897,0.891,0.006,-0.006,0.019

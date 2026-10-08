@@ -1,0 +1,101 @@
+gene,in_panel19,clinvar_missense_nt,n_P_T2,n_B_T2,I1,uniprot,I2,first_failed
+TTN,False,15142,41,1189,False,,,I1
+BRCA2,False,9699,116,665,True,P51587,False,I2 no AlphaFold DB entry
+ATM,False,8590,97,145,False,,,I1
+APC,False,8215,21,68,False,,,I1
+NF1,False,6582,418,81,True,P21359,False,I2 no canonical F1
+BRCA1,True,6341,215,424,True,,,pre-listed (see v7_inclusion.csv)
+POLE,False,5411,13,61,False,,,I1
+TSC2,False,5350,185,177,True,P49815,True,
+RYR1,False,5108,267,59,True,P21817,False,I2 no AlphaFold DB entry
+MSH6,True,5082,70,68,False,,,pre-listed (see v7_inclusion.csv)
+RYR2,False,5029,241,57,True,Q92736,False,I2 no AlphaFold DB entry
+FBN1,True,4569,1507,64,True,,,pre-listed (see v7_inclusion.csv)
+NEB,False,4309,8,591,False,,,I1
+KMT2D,False,4080,113,1004,True,O14686,False,I2 no AlphaFold DB entry
+PKD1,False,3992,189,217,True,P98161,False,I2 no AlphaFold DB entry
+USH2A,False,3909,309,115,True,O75445,False,I2 no canonical F1
+OBSCN,False,3850,2,708,False,,,I1
+DICER1,False,3831,37,67,False,,,I1
+PLEC,False,3765,3,93,False,,,I1
+ALMS1,False,3622,19,203,False,,,I1
+DMD,False,3618,29,353,False,,,I1
+SYNE1,False,3566,5,103,False,,,I1
+ALK,False,3492,17,76,False,,,I1
+MSH2,True,3332,142,265,True,,,pre-listed (see v7_inclusion.csv)
+ADGRV1,False,3305,21,508,False,,,I1
+DSP,False,3283,21,113,False,,,I1
+PALB2,False,3209,10,68,False,,,I1
+MYH7,True,3184,379,20,True,,,pre-listed (see v7_inclusion.csv)
+BRIP1,False,3109,9,47,False,,,I1
+PTCH1,False,3106,48,121,False,,,I1
+APOB,False,3093,13,358,False,,,I1
+FLNC,False,3081,29,91,False,,,I1
+PMS2,False,2992,33,42,False,,,I1
+ZNF469,False,2928,6,272,False,,,I1
+RECQL4,False,2896,6,56,False,,,I1
+SMARCA4,False,2861,71,17,False,,,I1
+FANCA,False,2857,83,87,False,,,I1
+DNAH11,False,2826,23,1019,False,,,I1
+SCN1A,False,2815,1023,59,True,P35498,True,
+SYNE2,False,2789,1,165,False,,,I1
+BLM,False,2780,9,37,False,,,I1
+PRKDC,False,2769,2,116,False,,,I1
+MET,False,2721,11,110,False,,,I1
+SCN5A,True,2716,125,28,True,,,pre-listed (see v7_inclusion.csv)
+MSH3,False,2713,2,20,False,,,I1
+FANCM,False,2660,1,58,False,,,I1
+CFTR,False,2643,275,15,False,,,I1
+VPS13B,False,2634,7,38,False,,,I1
+RAD50,False,2615,5,14,False,,,I1
+POLQ,False,2582,0,133,False,,,I1
+DYNC1H1,False,2559,154,227,True,Q14204,False,I2 no AlphaFold DB entry
+ANK2,False,2546,12,148,False,,,I1
+POLD1,False,2544,5,39,False,,,I1
+TSC1,False,2517,21,81,False,,,I1
+MUTYH,False,2414,57,124,False,,,I1
+LRRK2,False,2413,10,71,False,,,I1
+CDH1,False,2381,23,150,False,,,I1
+PKHD1,False,2370,161,57,True,P08F94,False,I2 no AlphaFold DB entry
+NOTCH1,False,2340,28,243,False,,,I1
+MLH1,True,2328,186,35,True,,,pre-listed (see v7_inclusion.csv)
+AXIN2,False,2316,2,28,False,,,I1
+TNXB,False,2294,5,196,False,,,I1
+CHD7,False,2293,93,290,False,,,I1
+COL6A3,False,2273,35,189,False,,,I1
+CDH23,False,2264,74,47,False,,,I1
+RET,False,2260,66,44,False,,,I1
+BARD1,False,2258,2,49,False,,,I1
+DNAH5,False,2246,40,381,False,,,I1
+AKAP9,False,2233,2,165,False,,,I1
+COL12A1,False,2227,14,118,False,,,I1
+ATR,False,2222,3,33,False,,,I1
+HMCN1,False,2218,0,92,False,,,I1
+CACNA1A,False,2214,164,103,True,O00555,True,
+DST,False,2198,4,90,False,,,I1
+ALPK2,False,2193,0,156,False,,,I1
+COL7A1,False,2174,305,200,True,Q02388,False,I2 no AlphaFold DB entry
+MLH3,False,2168,1,83,False,,,I1
+LZTR1,False,2167,35,16,False,,,I1
+RTEL1,False,2158,15,58,False,,,I1
+KIF1B,False,2151,1,39,False,,,I1
+RELN,False,2149,10,200,False,,,I1
+FLNA,False,2146,48,203,False,,,I1
+WNK2,False,2139,0,95,False,,,I1
+FAT4,False,2136,4,79,False,,,I1
+FBN2,False,2133,90,197,False,,,I1
+CACNA1H,False,2130,6,306,False,,,I1
+LRP2,False,2109,8,76,False,,,I1
+KMT2A,False,2093,63,127,False,,,I1
+ABCA4,False,2069,631,26,True,P78363,True,
+PDGFRA,False,2001,2,30,False,,,I1
+MYH11,False,1992,6,20,False,,,I1
+SACS,False,1959,53,446,False,,,I1
+PCLO,False,1954,0,83,False,,,I1
+EGFR,False,1951,16,42,False,,,I1
+ANKRD26,False,1942,0,75,False,,,I1
+AHNAK2,False,1935,0,357,False,,,I1
+EYS,False,1931,34,50,False,,,I1
+MYBPC3,True,1928,33,35,False,,,pre-listed (see v7_inclusion.csv)
+CHEK2,False,1924,8,10,False,,,I1
+COL3A1,False,1917,582,18,False,,,I1

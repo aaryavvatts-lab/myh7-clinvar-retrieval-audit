@@ -1,0 +1,176 @@
+[audit 1/111] MYH7: n=3184 lost=28.4% (symbol 538, snapshot 366, nohg19 0, other 1) 18s
+[audit 2/111] MYBPC3: n=1928 lost=11.3% (symbol 0, snapshot 217, nohg19 0, other 0) 14s
+[audit 3/111] TNNT2: n=478 lost=10.0% (symbol 0, snapshot 48, nohg19 0, other 0) 6s
+[audit 4/111] TNNI3: n=413 lost=11.4% (symbol 0, snapshot 47, nohg19 0, other 0) 2s
+[audit 5/111] TPM1: n=461 lost=14.3% (symbol 0, snapshot 66, nohg19 0, other 0) 9s
+[audit 6/111] ACTC1: n=370 lost=100.0% (symbol 317, snapshot 53, nohg19 0, other 0) 7s
+[audit 7/111] MYL2: n=281 lost=28.8% (symbol 52, snapshot 29, nohg19 0, other 0) 2s
+[audit 8/111] MYL3: n=268 lost=12.3% (symbol 0, snapshot 33, nohg19 0, other 0) 2s
+[audit 9/111] LDLR: n=1869 lost=10.9% (symbol 32, snapshot 170, nohg19 0, other 2) 6s
+[audit 10/111] FBN1: n=4569 lost=15.8% (symbol 154, snapshot 570, nohg19 0, other 0) 19s
+[audit 11/111] SCN5A: n=2716 lost=22.0% (symbol 240, snapshot 352, nohg19 0, other 6) 12s
+[audit 12/111] KCNQ1: n=1091 lost=23.9% (symbol 147, snapshot 113, nohg19 0, other 1) 6s
+[audit 13/111] KCNH2: n=1819 lost=10.3% (symbol 0, snapshot 187, nohg19 0, other 0) 5s
+[audit 14/111] PTEN: n=1201 lost=11.9% (symbol 1, snapshot 142, nohg19 0, other 0) 13s
+[audit 15/111] MLH1: n=2328 lost=6.7% (symbol 0, snapshot 156, nohg19 0, other 0) 6s
+[audit 16/111] MSH2: n=3332 lost=6.3% (symbol 0, snapshot 210, nohg19 0, other 0) 15s
+[audit 17/111] MSH6: n=5082 lost=6.8% (symbol 20, snapshot 324, nohg19 0, other 0) 18s
+[audit 18/111] BRCA1: n=6341 lost=5.7% (symbol 0, snapshot 361, nohg19 0, other 0) 21s
+[audit 19/111] TP53: n=1443 lost=6.0% (symbol 0, snapshot 87, nohg19 0, other 0) 7s
+[audit 20/111] TTN: n=15142 lost=70.4% (symbol 8474, snapshot 2180, nohg19 0, other 1) 187s
+[audit 21/111] BRCA2: n=9699 lost=8.1% (symbol 0, snapshot 782, nohg19 0, other 0) 33s
+[audit 22/111] ATM: n=8590 lost=7.0% (symbol 0, snapshot 602, nohg19 0, other 0) 27s
+[audit 23/111] APC: n=8215 lost=8.7% (symbol 0, snapshot 715, nohg19 0, other 0) 24s
+[audit 24/111] NF1: n=6582 lost=10.2% (symbol 65, snapshot 606, nohg19 0, other 1) 28s
+[audit 25/111] POLE: n=5411 lost=11.1% (symbol 77, snapshot 526, nohg19 0, other 0) 19s
+[audit 26/111] TSC2: n=5350 lost=9.0% (symbol 5, snapshot 477, nohg19 0, other 0) 24s
+[audit 27/111] RYR1: n=5108 lost=17.4% (symbol 140, snapshot 746, nohg19 0, other 3) 26s
+[audit 28/111] RYR2: n=5029 lost=23.1% (symbol 383, snapshot 777, nohg19 0, other 0) 26s
+[audit 29/111] NEB: n=4309 lost=15.8% (symbol 36, snapshot 644, nohg19 0, other 0) 19s
+[audit 30/111] KMT2D: n=4080 lost=20.1% (symbol 138, snapshot 681, nohg19 0, other 0) 22s
+[audit 31/111] PKD1: n=3992 lost=30.4% (symbol 279, snapshot 933, nohg19 0, other 0) 28s
+[audit 32/111] USH2A: n=3909 lost=34.6% (symbol 535, snapshot 815, nohg19 0, other 1) 27s
+[audit 33/111] OBSCN: n=3850 lost=27.8% (symbol 185, snapshot 887, nohg19 0, other 0) 26s
+[audit 34/111] DICER1: n=3831 lost=9.7% (symbol 0, snapshot 373, nohg19 0, other 0) 10s
+[audit 35/111] PLEC: n=3765 lost=11.2% (symbol 14, snapshot 407, nohg19 0, other 0) 11s
+[audit 36/111] ALMS1: n=3622 lost=15.8% (symbol 0, snapshot 572, nohg19 0, other 1) 13s
+[audit 37/111] DMD: n=3618 lost=21.4% (symbol 0, snapshot 775, nohg19 0, other 0) 18s
+[audit 38/111] SYNE1: n=3566 lost=14.5% (symbol 200, snapshot 316, nohg19 0, other 2) 13s
+[audit 39/111] ALK: n=3492 lost=13.1% (symbol 0, snapshot 458, nohg19 0, other 0) 10s
+[audit 40/111] ADGRV1: n=3305 lost=13.4% (symbol 0, snapshot 442, nohg19 0, other 0) 12s
+[audit 41/111] DSP: n=3283 lost=16.4% (symbol 94, snapshot 446, nohg19 0, other 0) 15s
+[audit 42/111] PALB2: n=3209 lost=7.1% (symbol 0, snapshot 229, nohg19 0, other 0) 7s
+[audit 43/111] BRIP1: n=3109 lost=7.6% (symbol 0, snapshot 235, nohg19 0, other 0) 7s
+[audit 44/111] PTCH1: n=3106 lost=17.9% (symbol 174, snapshot 382, nohg19 0, other 0) 12s
+[audit 45/111] APOB: n=3093 lost=24.0% (symbol 74, snapshot 668, nohg19 0, other 1) 22s
+[audit 46/111] FLNC: n=3081 lost=44.3% (symbol 923, snapshot 443, nohg19 0, other 0) 28s
+[audit 47/111] PMS2: n=2992 lost=7.9% (symbol 0, snapshot 235, nohg19 0, other 0) 8s
+[audit 48/111] ZNF469: n=2928 lost=14.0% (symbol 61, snapshot 348, nohg19 0, other 2) 9s
+[audit 49/111] RECQL4: n=2896 lost=16.5% (symbol 142, snapshot 336, nohg19 0, other 1) 11s
+[audit 50/111] SMARCA4: n=2861 lost=12.1% (symbol 0, snapshot 346, nohg19 0, other 0) 12s
+[audit 51/111] FANCA: n=2857 lost=31.7% (symbol 55, snapshot 851, nohg19 0, other 0) 21s
+[audit 52/111] DNAH11: n=2826 lost=15.5% (symbol 131, snapshot 308, nohg19 0, other 0) 14s
+[audit 53/111] SCN1A: n=2815 lost=11.4% (symbol 3, snapshot 318, nohg19 0, other 0) 9s
+[audit 54/111] SYNE2: n=2789 lost=14.7% (symbol 0, snapshot 410, nohg19 0, other 0) 16s
+[audit 55/111] BLM: n=2780 lost=11.8% (symbol 0, snapshot 328, nohg19 0, other 1) 8s
+[audit 56/111] PRKDC: n=2769 lost=8.5% (symbol 107, snapshot 127, nohg19 0, other 0) 8s
+[audit 57/111] MET: n=2721 lost=13.3% (symbol 0, snapshot 363, nohg19 0, other 0) 8s
+[audit 58/111] MSH3: n=2713 lost=19.7% (symbol 325, snapshot 209, nohg19 0, other 0) 12s
+[audit 59/111] FANCM: n=2660 lost=31.3% (symbol 15, snapshot 817, nohg19 0, other 0) 15s
+[audit 60/111] CFTR: n=2643 lost=16.8% (symbol 0, snapshot 440, nohg19 0, other 5) 15s
+[audit 61/111] VPS13B: n=2634 lost=20.3% (symbol 0, snapshot 534, nohg19 0, other 0) 12s
+[audit 62/111] RAD50: n=2615 lost=7.8% (symbol 0, snapshot 203, nohg19 0, other 0) 6s
+[audit 63/111] POLQ: n=2582 lost=2.1% (symbol 0, snapshot 55, nohg19 0, other 0) 7s
+[audit 64/111] DYNC1H1: n=2559 lost=16.5% (symbol 86, snapshot 335, nohg19 0, other 0) 9s
+[audit 65/111] ANK2: n=2546 lost=35.1% (symbol 452, snapshot 442, nohg19 0, other 0) 17s
+[audit 66/111] POLD1: n=2544 lost=9.0% (symbol 0, snapshot 228, nohg19 0, other 1) 11s
+[audit 67/111] TSC1: n=2517 lost=10.3% (symbol 0, snapshot 259, nohg19 0, other 0) 13s
+[audit 68/111] MUTYH: n=2414 lost=45.7% (symbol 0, snapshot 1102, nohg19 0, other 0) 26s
+[audit 69/111] LRRK2: n=2413 lost=2.9% (symbol 0, snapshot 69, nohg19 0, other 0) 3s
+[audit 70/111] CDH1: n=2381 lost=7.4% (symbol 0, snapshot 177, nohg19 0, other 0) 13s
+[audit 71/111] PKHD1: n=2370 lost=32.8% (symbol 90, snapshot 687, nohg19 0, other 1) 17s
+[audit 72/111] NOTCH1: n=2340 lost=17.7% (symbol 70, snapshot 345, nohg19 0, other 0) 10s
+[audit 73/111] AXIN2: n=2316 lost=8.5% (symbol 0, snapshot 196, nohg19 0, other 0) 5s
+[audit 74/111] TNXB: n=2294 lost=27.4% (symbol 121, snapshot 508, nohg19 0, other 0) 14s
+[audit 75/111] CHD7: n=2293 lost=20.1% (symbol 101, snapshot 359, nohg19 0, other 0) 9s
+[audit 76/111] COL6A3: n=2273 lost=13.2% (symbol 42, snapshot 258, nohg19 0, other 0) 7s
+[audit 77/111] CDH23: n=2264 lost=21.2% (symbol 89, snapshot 390, nohg19 0, other 1) 11s
+[audit 78/111] RET: n=2260 lost=11.1% (symbol 27, snapshot 219, nohg19 0, other 5) 7s
+[audit 79/111] BARD1: n=2258 lost=6.7% (symbol 0, snapshot 151, nohg19 0, other 0) 5s
+[audit 80/111] DNAH5: n=2246 lost=20.2% (symbol 18, snapshot 435, nohg19 0, other 0) 11s
+[audit 81/111] AKAP9: n=2233 lost=16.2% (symbol 1, snapshot 361, nohg19 0, other 0) 8s
+[audit 82/111] COL12A1: n=2227 lost=16.6% (symbol 47, snapshot 323, nohg19 0, other 0) 8s
+[audit 83/111] ATR: n=2222 lost=4.4% (symbol 8, snapshot 90, nohg19 0, other 0) 4s
+[audit 84/111] HMCN1: n=2218 lost=15.1% (symbol 27, snapshot 307, nohg19 0, other 0) 8s
+[audit 85/111] CACNA1A: n=2214 lost=18.7% (symbol 121, snapshot 294, nohg19 0, other 0) 9s
+[audit 86/111] DST: n=2198 lost=7.4% (symbol 57, snapshot 106, nohg19 0, other 0) 5s
+[audit 87/111] ALPK2: n=2193 lost=35.1% (symbol 708, snapshot 61, nohg19 0, other 0) 15s
+[audit 88/111] COL7A1: n=2174 lost=17.5% (symbol 0, snapshot 381, nohg19 0, other 0) 11s
+[audit 89/111] MLH3: n=2168 lost=15.7% (symbol 1, snapshot 339, nohg19 0, other 0) 7s
+[audit 90/111] LZTR1: n=2167 lost=18.2% (symbol 64, snapshot 331, nohg19 0, other 0) 9s
+[audit 91/111] RTEL1: n=2158 lost=99.9% (symbol 1444, snapshot 711, nohg19 0, other 0) 37s
+[audit 92/111] KIF1B: n=2151 lost=25.7% (symbol 147, snapshot 405, nohg19 0, other 0) 11s
+[audit 93/111] RELN: n=2149 lost=29.5% (symbol 389, snapshot 245, nohg19 0, other 0) 12s
+[audit 94/111] FLNA: n=2146 lost=25.1% (symbol 88, snapshot 451, nohg19 0, other 0) 10s
+[audit 95/111] WNK2: n=2139 lost=52.5% (symbol 0, snapshot 1123, nohg19 0, other 0) 19s
+[audit 96/111] FAT4: n=2136 lost=12.3% (symbol 0, snapshot 263, nohg19 0, other 0) 6s
+[audit 97/111] FBN2: n=2133 lost=18.6% (symbol 57, snapshot 340, nohg19 0, other 0) 9s
+[audit 98/111] CACNA1H: n=2130 lost=8.7% (symbol 0, snapshot 183, nohg19 0, other 2) 5s
+[audit 99/111] LRP2: n=2109 lost=11.5% (symbol 0, snapshot 243, nohg19 0, other 0) 7s
+[audit 100/111] KMT2A: n=2093 lost=22.8% (symbol 78, snapshot 399, nohg19 0, other 0) 9s
+[audit 101/111] ABCA4: n=2069 lost=15.0% (symbol 0, snapshot 309, nohg19 0, other 1) 8s
+[audit 102/111] PDGFRA: n=2001 lost=11.2% (symbol 0, snapshot 225, nohg19 0, other 0) 6s
+[audit 103/111] MYH11: n=1992 lost=14.2% (symbol 1, snapshot 279, nohg19 0, other 3) 7s
+[audit 104/111] SACS: n=1959 lost=19.5% (symbol 18, snapshot 362, nohg19 0, other 2) 9s
+[audit 105/111] PCLO: n=1954 lost=11.5% (symbol 22, snapshot 202, nohg19 0, other 0) 6s
+[audit 106/111] EGFR: n=1951 lost=28.8% (symbol 137, snapshot 425, nohg19 0, other 0) 11s
+[audit 107/111] ANKRD26: n=1942 lost=47.2% (symbol 64, snapshot 852, nohg19 0, other 0) 16s
+[audit 108/111] AHNAK2: n=1935 lost=32.6% (symbol 0, snapshot 631, nohg19 0, other 0) 11s
+[audit 109/111] EYS: n=1931 lost=30.8% (symbol 207, snapshot 386, nohg19 0, other 1) 13s
+[audit 110/111] CHEK2: n=1924 lost=5.2% (symbol 0, snapshot 101, nohg19 0, other 0) 5s
+[audit 111/111] COL3A1: n=1917 lost=16.1% (symbol 38, snapshot 271, nohg19 0, other 0) 7s
+{
+ "myvariant_build": "2025-06-24T16:27:25.889841-07:00",
+ "audit_run_utc": "2026-10-07T04:00:19.367744Z",
+ "A_panel19": {
+  "n_genes": 19,
+  "n_loss_gt5pct": 19,
+  "n_loss_gt20pct": 5,
+  "prop_gt5pct": 1.0,
+  "prop_gt5pct_exact_ci": [
+   0.823533088192828,
+   1.0
+  ],
+  "median_loss_pct": 11.380145278450364,
+  "max_loss_pct": 100.0,
+  "total_missense": 39174,
+  "total_missed": 5042,
+  "pooled_loss_pct": 12.87078164088426,
+  "causes_of_missed": {
+   "n_symbol_field": 1501,
+   "n_snapshot_missing": 3531,
+   "n_snapshot_missing_newer": 3520,
+   "n_no_hg19": 0,
+   "n_other": 10
+  },
+  "genes_with_90pct_loss_run": [
+   "MYH7",
+   "ACTC1",
+   "MYL2",
+   "KCNQ1"
+  ]
+ },
+ "A2_top100": {
+  "n_genes": 100,
+  "n_loss_gt5pct": 97,
+  "n_loss_gt20pct": 32,
+  "prop_gt5pct": 0.97,
+  "prop_gt5pct_exact_ci": [
+   0.9148239470257197,
+   0.9937700284616938
+  ],
+  "median_loss_pct": 15.800456302277961,
+  "max_loss_pct": 99.86098239110288,
+  "total_missense": 315128,
+  "total_missed": 61510,
+  "pooled_loss_pct": 19.519052575461398,
+  "causes_of_missed": {
+   "n_symbol_field": 18407,
+   "n_snapshot_missing": 43060,
+   "n_snapshot_missing_newer": 43012,
+   "n_no_hg19": 0,
+   "n_other": 43
+  },
+  "genes_with_90pct_loss_run": [
+   "MYH7",
+   "TTN",
+   "FLNC",
+   "TNXB",
+   "ALPK2",
+   "RTEL1",
+   "RELN",
+   "EYS"
+  ]
+ }
+}
+audit done 1569s

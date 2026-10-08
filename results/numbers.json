@@ -1,0 +1,126 @@
+{
+ "diag_old_query_total_reported_by_myvariant_now": 4283,
+ "diag_old_records_fetched": 4283,
+ "diag_pagination_loss": false,
+ "diag_clinvar_missense_total": 3184,
+ "diag_clinvar_missense_found_by_symbol_query": 2278,
+ "diag_clinvar_missense_missed_by_symbol_query": 906,
+ "diag_missed_pct": 28.5,
+ "diag_variant_summary_gene_symbol_for_missed": {
+  "MYH7": 886,
+  "LOC126861898;MYH7": 9,
+  "LOC126861897;MHRT;MYH7": 5,
+  "MHRT;MYH7": 3,
+  "LOC126861897;MYH7": 2,
+  "MIR208B;MYH7": 1
+ },
+ "diag_myvariant_notfound_clinvar_missense": 0,
+ "diag_lost_residue_range_p25_p75": [
+  820.0,
+  1640.0
+ ],
+ "diag_old_missing_763_893": 0,
+ "diag_old_missing_1549_1770": 0,
+ "diag_v6_clinvar_missense_763_893": 267,
+ "diag_v6_clinvar_missense_1549_1770": 349,
+ "diag_v6_hg19_range_763_893": [
+  23893979,
+  23894627
+ ],
+ "diag_v6_missed_share_763_893_pct": 100.0,
+ "diag_v6_hg19_range_1549_1770": [
+  23884457,
+  23885521
+ ],
+ "diag_v6_missed_share_1549_1770_pct": 100.0,
+ "diag_old_records": 4283,
+ "diag_v6_clinvar_snv_records": 5552,
+ "diag_old_in_v6_clinvar": 4037,
+ "diag_old_not_in_v6_clinvar": 246,
+ "diag_old_fraction_of_v6_all_snv": 0.727,
+ "diag_old_missense_n": 2355,
+ "diag_v6_missense_n": 3184,
+ "diag_old_missense_in_v6_missense": 2277,
+ "diag_old_missense_not_in_v6_missense": 78,
+ "diag_old_fraction_of_v6_missense": 0.715,
+ "diag_old_not_in_v6_non_snv_id": 231,
+ "diag_old_snv_not_in_v6": 15,
+ "diag_old_snv_not_in_v6_VariationID_absent_from_whole_release": 14,
+ "diag_old_missense_def_includes_stop_gain_aaalt_X": 66,
+ "diag_old_aapos_sentinel_minus1": 66,
+ "diag_v6_missense_not_in_v5": 907,
+ "diag_of_which_in_myvariant_snapshot_under_other_or_no_symbol": 539,
+ "diag_of_which_absent_from_myvariant_snapshot_new_since_2025_05_or_unmapped": 368,
+ "diag_old_P_n": 494,
+ "diag_v6_aggregate_P_n": 392,
+ "diag_v6_v5rule_P_n": 625,
+ "diag_old_B_n": 38,
+ "diag_v6_aggregate_B_n": 22,
+ "diag_v6_v5rule_B_n": 42,
+ "diag_old_VUS_n": 1823,
+ "diag_v6_aggregate_VUS_n": 2768,
+ "diag_v6_v5rule_VUS_n": 2149,
+ "diag_v5_rule_replica_agreement_with_old_labels_pct": 100.0,
+ "diag_v5_P_now_conflicting_or_VUS_in_v6_aggregate": 219,
+ "diag_v5_B_now_VUS_in_v6_aggregate": 31,
+ "diag_v5_standins_n": 72,
+ "diag_v5_standins_in_clinvar_now": 67,
+ "diag_v5_standins_clinvar_class_now": {
+  "VUS": 58,
+  "P": 6,
+  "not_in_clinvar": 5,
+  "B": 3
+ },
+ "diag_v5_standins_that_are_clinvar_P": 6,
+ "diag_v5_standins_that_are_clinvar_VUS": 58,
+ "vus_n_vus": 2768,
+ "vus_classes_no_floor": {
+  "VUS": 2544,
+  "Likely pathogenic": 164,
+  "Likely benign": 59,
+  "Benign": 1
+ },
+ "vus_classes_with_floor": {
+  "VUS": 2594,
+  "Likely pathogenic": 90,
+  "Likely benign": 83,
+  "Benign": 1
+ },
+ "vus_n_LP_no_floor": 164,
+ "vus_n_LP_no_floor_with_lt3_neighbours": 74,
+ "vus_n_LP_no_floor_with_1_neighbour": 41,
+ "vus_n_LP_no_floor_without_PM1": 0,
+ "vus_n_LP_with_floor": 90,
+ "vus_n_P_or_LP_no_floor": 164,
+ "vus_n_P_or_LP_with_floor": 90,
+ "vus_n_towards_benign_no_floor": 60,
+ "vus_n_PM1_bearing_VUS": 1238,
+ "vus_n_PM1_bearing_lt3_neighbours": 804,
+ "vus_n_abstained_VUS": 1316,
+ "vus_pct_abstained_VUS": 47.5,
+ "vus_n_covered_ge3_VUS": 454,
+ "vus_triage": {
+  "discordant": 1298,
+  "concordant-damaging": 1261,
+  "concordant-tolerated": 209
+ },
+ "vus_orphans_no_floor": 6,
+ "vus_orphans_with_floor_ge3": 5,
+ "vus_orphans_no_floor_resting_on_single_neighbour": 1,
+ "vus_orphans_floor_residues": [
+  90,
+  92,
+  120,
+  121
+ ],
+ "vus_orphans_floor_AM_calls": {
+  "P": 5
+ },
+ "vus_orphans_floor_variants": [
+  "p.Phe121Leu",
+  "p.Leu120Phe",
+  "p.Met92Val",
+  "p.Met90Arg",
+  "p.Met90Val"
+ ]
+}

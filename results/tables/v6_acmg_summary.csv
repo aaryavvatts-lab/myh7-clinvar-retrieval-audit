@@ -1,0 +1,18 @@
+,value
+n_vus,2768
+classes_no_floor,"{'VUS': 2544, 'Likely pathogenic': 164, 'Likely benign': 59, 'Benign': 1}"
+classes_with_floor,"{'VUS': 2594, 'Likely pathogenic': 90, 'Likely benign': 83, 'Benign': 1}"
+n_LP_no_floor,164
+n_LP_no_floor_with_lt3_neighbours,74
+n_LP_no_floor_with_1_neighbour,41
+n_LP_no_floor_without_PM1,0
+n_LP_with_floor,90
+n_P_or_LP_no_floor,164
+n_P_or_LP_with_floor,90
+n_towards_benign_no_floor,60
+n_PM1_bearing_VUS,1238
+n_PM1_bearing_lt3_neighbours,804
+n_abstained_VUS,1316
+pct_abstained_VUS,47.5
+n_covered_ge3_VUS,454
+triage,"{'discordant': 1298, 'concordant-damaging': 1261, 'concordant-tolerated': 209}"

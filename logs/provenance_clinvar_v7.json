@@ -1,0 +1,11 @@
+{
+  "server_last_modified_now": "Mon, 05 Oct 2026 13:02:37 GMT",
+  "server_content_length_now": "455128718",
+  "file_mtime_utc": "2026-10-07T01:56:47Z",
+  "sha256": "97a20416f4d49c197a16546c8cae978794a5672306aa7130cbbd143063d80d5b",
+  "bytes": 455128718,
+  "rows_scanned": 9290347,
+  "missense_snv_variation_ids": 2556256,
+  "n_genes": 18695,
+  "max_variation_id": 5010249
+}

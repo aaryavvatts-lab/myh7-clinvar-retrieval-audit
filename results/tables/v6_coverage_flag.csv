@@ -1,0 +1,3 @@
+set,flag_ge1_auroc,flag_ge1_ci_low,flag_ge1_ci_high,flag_ge3_auroc,flag_ge3_ci_low,flag_ge3_ci_high,auroc_3d_scoreable,auroc_3d_ci_low,auroc_3d_ci_high,n_scoreable,share_of_gap_flag1,share_of_gap_flag3,fisher_table,or_fisher_naive,p_fisher_naive,or_cluster_logit,p_cluster_logit,or_cluster_ci_low,or_cluster_ci_high,or_boot_ci_low,or_boot_ci_high,relative_likelihood_covered_P_over_B
+wider,0.762,0.676,0.841,0.638,0.588,0.681,0.481,0.468,0.493,304,,,"[[121, 271], [1, 29]]",12.95,0.0005591437704626431,12.95,0.013085735954532463,1.71,97.88,3.0,36.71,9.26
+tighter,0.749,0.656,0.833,0.636,0.584,0.68,0.481,0.468,0.493,304,,,"[[121, 271], [1, 26]]",11.61,0.0015587185365076245,11.61,0.01773338369324297,1.53,88.09,2.68,32.57,8.33
